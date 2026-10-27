@@ -8,6 +8,7 @@ export type EventCategory =
   | 'Dans'
   | 'Sport'
   | 'Marknad'
+  | 'Övrigt'
 
 export type EventRecord = {
   id: string

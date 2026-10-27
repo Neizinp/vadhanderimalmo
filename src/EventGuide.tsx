@@ -9,7 +9,8 @@ import {
   SlidersHorizontal,
   X,
 } from 'lucide-react'
-import { eventRecords, type EventCategory, type EventRecord } from './data/events'
+import eventRecords from './data/events.json'
+import type { EventCategory, EventRecord } from './data/events'
 import './EventGuide.css'
 
 type DateFilter = 'all' | 'today' | 'weekend'
@@ -25,9 +26,10 @@ const categories: Array<'Alla' | EventCategory> = [
   'Dans',
   'Sport',
   'Marknad',
+  'Övrigt',
 ]
 
-const events = [...eventRecords].sort((first, second) => Date.parse(first.startsAt) - Date.parse(second.startsAt))
+const events = [...eventRecords as EventRecord[]].sort((first, second) => Date.parse(first.startsAt) - Date.parse(second.startsAt))
 
 const malmoDateFormatter = new Intl.DateTimeFormat('sv-SE', {
   timeZone: 'Europe/Stockholm',
@@ -44,6 +46,12 @@ function addDaysToDateKey(key: string, days: number) {
   const [year, month, day] = key.split('-').map(Number)
   const date = new Date(Date.UTC(year, month - 1, day + days))
   return date.toISOString().slice(0, 10)
+}
+
+function eventDateKey(dateTime: string) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(dateTime)
+    ? dateTime
+    : dateKey(new Date(dateTime))
 }
 
 function getWeekendRange(now: Date): [string, string] {
@@ -63,15 +71,19 @@ function getWeekendRange(now: Date): [string, string] {
 }
 
 function formatDate(dateTime: string) {
+  const date = /^\d{4}-\d{2}-\d{2}$/.test(dateTime)
+    ? new Date(`${dateTime}T12:00:00Z`)
+    : new Date(dateTime)
   return new Intl.DateTimeFormat('sv-SE', {
     weekday: 'short',
     day: 'numeric',
     month: 'short',
     timeZone: 'Europe/Stockholm',
-  }).format(new Date(dateTime)).replaceAll('.', '')
+  }).format(date).replaceAll('.', '')
 }
 
 function formatTime(dateTime: string) {
+  if (!dateTime.includes('T')) return ''
   return new Intl.DateTimeFormat('sv-SE', {
     hour: '2-digit',
     minute: '2-digit',
@@ -81,7 +93,7 @@ function formatTime(dateTime: string) {
 
 function formatEventDate(event: EventRecord) {
   const start = formatDate(event.startsAt)
-  if (!event.endsAt || dateKey(new Date(event.startsAt)) === dateKey(new Date(event.endsAt))) {
+  if (!event.endsAt || eventDateKey(event.startsAt) === eventDateKey(event.endsAt)) {
     return start
   }
   return `${start}–${formatDate(event.endsAt)}`
@@ -108,10 +120,11 @@ function App() {
 
   const visibleEvents = events.filter((event) => {
     const searchText = `${event.title} ${event.venue} ${event.district ?? ''} ${event.category} ${event.sourceName}`.toLocaleLowerCase('sv-SE')
-    const eventStart = new Date(event.startsAt)
+    const startsOn = eventDateKey(event.startsAt)
+    const endsOn = event.endsAt ? eventDateKey(event.endsAt) : startsOn
     const matchesDate = dateFilter === 'all'
-      || (dateFilter === 'today' && dateKey(eventStart) === todayKey)
-      || (dateFilter === 'weekend' && dateKey(eventStart) >= weekendRange[0] && dateKey(eventStart) <= weekendRange[1])
+      || (dateFilter === 'today' && startsOn <= todayKey && endsOn >= todayKey)
+      || (dateFilter === 'weekend' && startsOn <= weekendRange[1] && endsOn >= weekendRange[0])
 
     return searchText.includes(query.toLocaleLowerCase('sv-SE'))
       && (category === 'Alla' || event.category === category)
@@ -228,7 +241,7 @@ function App() {
                       </button>
                     </div>
                     <div className="event-content">
-                      <div className="event-meta"><Clock3 size={14} /> <span>{formatTime(event.startsAt)}</span>{event.price && <><span className="meta-divider">·</span><span>{event.price}</span></>}</div>
+                      <div className="event-meta">{formatTime(event.startsAt) && <><Clock3 size={14} /><span>{formatTime(event.startsAt)}</span></>}{event.price && <><span className="meta-divider">·</span><span>{event.price}</span></>}</div>
                       <h3><a href={event.sourceUrl} target="_blank" rel="noreferrer">{event.title}</a></h3>
                       <p className="event-location"><MapPin size={15} strokeWidth={1.8} /><span>{event.venue}</span>{event.district && <span className="location-district">· {event.district}</span>}</p>
                       <a className="event-source" href={event.sourceUrl} target="_blank" rel="noreferrer">
