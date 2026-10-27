@@ -9,6 +9,11 @@ export type EventCategory =
   | 'Sport'
   | 'Marknad'
   | 'Festival'
+  | 'Litteratur'
+  | 'Workshop'
+  | 'Natur'
+  | 'Fritid'
+  | 'Quiz'
   | 'Övrigt'
 
 export type EventRecord = {

@@ -288,6 +288,11 @@ main {
 .category-sport { color: #3e654b; background: #e8f2e8; }
 .category-marknad { color: #805052; background: #f7e9e9; }
 .category-festival { color: #67502f; background: #f5efdf; }
+.category-litteratur { color: #505c75; background: #e9edf5; }
+.category-workshop { color: #4a655b; background: #e7f0eb; }
+.category-natur { color: #45694a; background: #eaf2e5; }
+.category-fritid { color: #58664a; background: #eef1e3; }
+.category-quiz { color: #67527c; background: #f0eafa; }
 .category-övrigt { color: #53636b; background: #e9f0f2; }
 
 .event-date {

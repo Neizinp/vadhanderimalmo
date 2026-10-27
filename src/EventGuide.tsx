@@ -26,6 +26,11 @@ const categories: Array<'Alla' | EventCategory> = [
   'Sport',
   'Marknad',
   'Festival',
+  'Litteratur',
+  'Workshop',
+  'Natur',
+  'Fritid',
+  'Quiz',
   'Övrigt',
 ]
 
