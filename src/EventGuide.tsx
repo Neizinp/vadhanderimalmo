@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
+  ArrowUpRight,
   Bookmark,
   Clock3,
   Heart,
@@ -8,127 +9,90 @@ import {
   SlidersHorizontal,
   X,
 } from 'lucide-react'
+import { eventRecords, type EventCategory, type EventRecord } from './data/events'
 import './EventGuide.css'
 
-type Category = 'Musik' | 'Scen' | 'Mat & dryck' | 'Konst' | 'Familj'
 type DateFilter = 'all' | 'today' | 'weekend'
 
-type EventItem = {
-  id: string
-  title: string
-  venue: string
-  district: string
-  category: Category
-  daysAhead: number
-  time: string
-  price: string
-  image: string
-  imageAlt: string
-}
-
-const categories: Array<'Alla' | Category> = [
+const categories: Array<'Alla' | EventCategory> = [
   'Alla',
   'Musik',
   'Scen',
   'Mat & dryck',
   'Konst',
   'Familj',
+  'Humor',
+  'Dans',
+  'Sport',
+  'Marknad',
 ]
 
-const events: EventItem[] = [
-  {
-    id: 'jazz-i-parken',
-    title: 'Jazz i vinterträdgården',
-    venue: 'Moriska Paviljongen',
-    district: 'Folkets Park',
-    category: 'Musik',
-    daysAhead: 0,
-    time: '19:00',
-    price: 'Från 180 kr',
-    image: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Sångare uppträder på en intim scen',
-  },
-  {
-    id: 'matmarknad',
-    title: 'Smaka på Möllan',
-    venue: 'Möllevångstorget',
-    district: 'Möllevången',
-    category: 'Mat & dryck',
-    daysAhead: 1,
-    time: '11:00',
-    price: 'Fri entré',
-    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Mat dukad för en gemensam middag',
-  },
-  {
-    id: 'blackbox',
-    title: 'Allt det där vi inte sa',
-    venue: 'Inkonst',
-    district: 'Möllevången',
-    category: 'Scen',
-    daysAhead: 2,
-    time: '20:00',
-    price: '120 kr',
-    image: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Teaterscen i varmt scenljus',
-  },
-  {
-    id: 'form-design',
-    title: 'Form/Design Center: öppet hus',
-    venue: 'Form/Design Center',
-    district: 'Lilla Torg',
-    category: 'Konst',
-    daysAhead: 3,
-    time: '12:00',
-    price: 'Fri entré',
-    image: 'https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Färgstarka verk på ett konstgalleri',
-  },
-  {
-    id: 'klubb-kb',
-    title: 'Klubb: hela huset dansar',
-    venue: 'Plan B',
-    district: 'Norra Grängesbergsgatan',
-    category: 'Musik',
-    daysAhead: 4,
-    time: '22:00',
-    price: 'Från 100 kr',
-    image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Publik dansar framför ett färgstarkt ljusspel',
-  },
-  {
-    id: 'familjesondag',
-    title: 'Skapa tillsammans: färg & form',
-    venue: 'Malmö Konsthall',
-    district: 'Triangeln',
-    category: 'Familj',
-    daysAhead: 5,
-    time: '13:00',
-    price: 'Fri entré',
-    image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=85',
-    imageAlt: 'Målarfärger och penslar i en kreativ verkstad',
-  },
-]
+const events = [...eventRecords].sort((first, second) => Date.parse(first.startsAt) - Date.parse(second.startsAt))
 
-function dateFor(daysAhead: number) {
-  const date = new Date()
-  date.setHours(0, 0, 0, 0)
-  date.setDate(date.getDate() + daysAhead)
-  return date
+const malmoDateFormatter = new Intl.DateTimeFormat('sv-SE', {
+  timeZone: 'Europe/Stockholm',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+})
+
+function dateKey(date: Date) {
+  return malmoDateFormatter.format(date)
 }
 
-function formatDate(date: Date) {
+function addDaysToDateKey(key: string, days: number) {
+  const [year, month, day] = key.split('-').map(Number)
+  const date = new Date(Date.UTC(year, month - 1, day + days))
+  return date.toISOString().slice(0, 10)
+}
+
+function getWeekendRange(now: Date): [string, string] {
+  const today = dateKey(now)
+  const weekday = new Intl.DateTimeFormat('en-US', {
+    weekday: 'short',
+    timeZone: 'Europe/Stockholm',
+  }).format(now)
+
+  if (weekday === 'Sun') return [today, today]
+  if (weekday === 'Sat') return [today, addDaysToDateKey(today, 1)]
+
+  const weekdayNumber = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(weekday)
+  const daysUntilFriday = (5 - weekdayNumber + 7) % 7
+  const start = addDaysToDateKey(today, daysUntilFriday)
+  return [start, addDaysToDateKey(start, 2)]
+}
+
+function formatDate(dateTime: string) {
   return new Intl.DateTimeFormat('sv-SE', {
     weekday: 'short',
     day: 'numeric',
     month: 'short',
-  }).format(date).replace('.', '')
+    timeZone: 'Europe/Stockholm',
+  }).format(new Date(dateTime)).replaceAll('.', '')
+}
+
+function formatTime(dateTime: string) {
+  return new Intl.DateTimeFormat('sv-SE', {
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZone: 'Europe/Stockholm',
+  }).format(new Date(dateTime))
+}
+
+function formatEventDate(event: EventRecord) {
+  const start = formatDate(event.startsAt)
+  if (!event.endsAt || dateKey(new Date(event.startsAt)) === dateKey(new Date(event.endsAt))) {
+    return start
+  }
+  return `${start}–${formatDate(event.endsAt)}`
 }
 
 function App() {
   const [query, setQuery] = useState('')
-  const [category, setCategory] = useState<'Alla' | Category>('Alla')
+  const [category, setCategory] = useState<'Alla' | EventCategory>('Alla')
   const [dateFilter, setDateFilter] = useState<DateFilter>('all')
+  const [todayKey] = useState(() => dateKey(new Date()))
+  const [weekendRange] = useState<[string, string]>(() => getWeekendRange(new Date()))
   const [savedOnly, setSavedOnly] = useState(false)
   const [savedIds, setSavedIds] = useState<string[]>(() => {
     try {
@@ -143,12 +107,11 @@ function App() {
   }, [savedIds])
 
   const visibleEvents = events.filter((event) => {
-    const searchText = `${event.title} ${event.venue} ${event.district} ${event.category}`.toLocaleLowerCase('sv-SE')
-    const eventDate = dateFor(event.daysAhead)
-    const day = eventDate.getDay()
+    const searchText = `${event.title} ${event.venue} ${event.district ?? ''} ${event.category} ${event.sourceName}`.toLocaleLowerCase('sv-SE')
+    const eventStart = new Date(event.startsAt)
     const matchesDate = dateFilter === 'all'
-      || (dateFilter === 'today' && event.daysAhead === 0)
-      || (dateFilter === 'weekend' && (day === 0 || day === 6))
+      || (dateFilter === 'today' && dateKey(eventStart) === todayKey)
+      || (dateFilter === 'weekend' && dateKey(eventStart) >= weekendRange[0] && dateKey(eventStart) <= weekendRange[1])
 
     return searchText.includes(query.toLocaleLowerCase('sv-SE'))
       && (category === 'Alla' || event.category === category)
@@ -245,16 +208,15 @@ function App() {
             <div className="event-grid">
               {visibleEvents.map((event) => {
                 const isSaved = savedIds.includes(event.id)
-                const date = dateFor(event.daysAhead)
 
                 return (
                   <article className="event-card" key={event.id}>
                     <div className="event-image-wrap">
-                      <img className="event-image" src={event.image} alt={event.imageAlt} loading="lazy" />
+                      <img className="event-image" src={event.imageUrl} alt={event.imageAlt} loading="lazy" />
                       <span className={`event-category category-${event.category.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'och')}`}>
                         {event.category}
                       </span>
-                      <span className="event-date">{formatDate(date)}</span>
+                      <span className="event-date">{formatEventDate(event)}</span>
                       <button
                         className={`save-event ${isSaved ? 'is-saved' : ''}`}
                         type="button"
@@ -266,9 +228,13 @@ function App() {
                       </button>
                     </div>
                     <div className="event-content">
-                      <div className="event-meta"><Clock3 size={14} /> <span>{event.time}</span><span className="meta-divider">·</span><span>{event.price}</span></div>
-                      <h3>{event.title}</h3>
-                      <p className="event-location"><MapPin size={15} strokeWidth={1.8} /><span>{event.venue}</span><span className="location-district">· {event.district}</span></p>
+                      <div className="event-meta"><Clock3 size={14} /> <span>{formatTime(event.startsAt)}</span>{event.price && <><span className="meta-divider">·</span><span>{event.price}</span></>}</div>
+                      <h3><a href={event.sourceUrl} target="_blank" rel="noreferrer">{event.title}</a></h3>
+                      <p className="event-location"><MapPin size={15} strokeWidth={1.8} /><span>{event.venue}</span>{event.district && <span className="location-district">· {event.district}</span>}</p>
+                      <a className="event-source" href={event.sourceUrl} target="_blank" rel="noreferrer">
+                        {event.sourceName}<ArrowUpRight size={14} aria-hidden="true" />
+                        <span className="visually-hidden">, verifierad {event.verifiedAt}</span>
+                      </a>
                     </div>
                   </article>
                 )

@@ -18,4 +18,4 @@ npm run build
 npm run lint
 ```
 
-The event list currently contains sample events and images. Replace the sample data in `src/EventGuide.tsx` with a live event source before publishing as a current guide. Saved events are stored in the browser's local storage.
+The event list is a small curated prototype dataset in `src/data/events.ts`. Each event includes its date, venue, category, source link, image URL, and verification date. The entries were checked against the linked organizer pages on 2026-10-27; this static dataset does not refresh automatically. Confirm dates and prices with the organizer before attending. Saved events are stored in the browser's local storage.

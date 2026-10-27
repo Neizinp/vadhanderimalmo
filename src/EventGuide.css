@@ -283,6 +283,10 @@ main {
 .category-mat-och-dryck { color: #815d20; background: #fff6db; }
 .category-konst { color: #3c5371; background: #edf2fb; }
 .category-familj { color: #85513b; background: #fff0e7; }
+.category-humor { color: #72502d; background: #f7efdf; }
+.category-dans { color: #5b4770; background: #f0eafa; }
+.category-sport { color: #3e654b; background: #e8f2e8; }
+.category-marknad { color: #805052; background: #f7e9e9; }
 
 .event-date {
   right: 54px;
@@ -320,7 +324,7 @@ main {
 
 .event-content {
   position: relative;
-  min-height: 141px;
+  min-height: 148px;
   padding: 15px 16px 17px;
 }
 
@@ -375,6 +379,22 @@ main {
   color: #97a097;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.event-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 5px;
+  color: #536b5b;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.event-source:hover {
+  color: #c44e35;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .empty-state {
@@ -534,7 +554,7 @@ main {
   }
 
   .event-content {
-    min-height: 133px;
+    min-height: 148px;
   }
 
   .event-content h3 {
