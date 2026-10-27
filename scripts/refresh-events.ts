@@ -7,6 +7,9 @@ import type { EventCategory, EventRecord } from '../src/data/events'
 const visitMalmoUrl = 'https://www.visitmalmo.se/evenemang/'
 const malmoArenaUrl = 'https://www.malmoarena.com/evenemang?hsLang=sv'
 const kulturbolagetFeedUrl = 'https://kulturbolaget.se/feed/?post_type=events'
+const malmoLiveUrl = 'https://malmolive.se/program'
+const moriskaUrl = 'https://moriskapaviljongen.se/'
+const slagthusetApiUrl = 'https://slagthuset.se/api/events'
 const malmoCityApi = 'https://malmo.se/appresource/4.50574bcf196ed960a55408d/12.50574bcf196ed960a55409f/items?start='
 const pageSize = 18
 const outputPath = resolve('src/data/events.json')
@@ -52,6 +55,23 @@ type CityEvent = {
 type CityEventPage = {
   count: number
   items: CityEvent[]
+}
+
+type SlagthusetEvent = {
+  id: number
+  slug: string
+  link?: string
+  title: { rendered: string }
+  event_medium?: { url?: string }
+  acf?: {
+    startdatum?: string
+    borjar?: string
+    slutdatum?: string
+    slutar?: string
+    plats?: Array<{ name?: string }>
+    status?: { slug?: string }
+    pris?: string
+  }
 }
 
 type KulturcentralenCandidate = {
@@ -324,7 +344,10 @@ function mapCityEvent(item: CityEvent, today: string, lastStartDate: string): Ev
   const endsOn = endsAt?.slice(0, 10) ?? startsOn
   if (endsOn < today || startsOn > lastStartDate) return undefined
 
-  const rawCategories = [...(item.categories ?? []), ...(item.targetGroups ?? [])]
+  const rawCategories = [...(item.categories ?? [])]
+  if ((item.targetGroups ?? []).some((target) => /barn|familj/i.test(target))) {
+    rawCategories.push('barn och familj')
+  }
   const mappedCategories = [...new Set(rawCategories.map(toCategory))]
   return {
     id: `malmo-stad-${slug(item.id)}`,
@@ -495,6 +518,28 @@ function parseSwedishMonthDay(value: string, today: string) {
   return parsedDate.toISOString().slice(0, 10) === date ? date : undefined
 }
 
+function parseSwedishListingDates(value: string, today: string) {
+  const normalized = value.replace(/[\u2010-\u2015\u2212]/g, '-')
+  const match = normalized.match(/\b(\d{1,2})(?:\s*-\s*(\d{1,2}))?\s+([a-zåäö]+)\s*,?\s*(\d{4})?/i)
+  if (!match) return undefined
+
+  const startDay = Number(match[1])
+  const endDay = match[2] ? Number(match[2]) : undefined
+  const month = swedishMonths[match[3].toLocaleLowerCase('sv-SE')]
+  if (!month || startDay < 1 || startDay > 31 || (endDay && (endDay < startDay || endDay > 31))) return undefined
+
+  let year = Number(match[4] ?? today.slice(0, 4))
+  let startsOn = `${year}-${String(month).padStart(2, '0')}-${String(startDay).padStart(2, '0')}`
+  if (!match[4] && startsOn < today) {
+    year += 1
+    startsOn = `${year}-${String(month).padStart(2, '0')}-${String(startDay).padStart(2, '0')}`
+  }
+  const endsOn = endDay ? `${year}-${String(month).padStart(2, '0')}-${String(endDay).padStart(2, '0')}` : undefined
+  if (new Date(`${startsOn}T00:00:00Z`).toISOString().slice(0, 10) !== startsOn) return undefined
+  if (endsOn && new Date(`${endsOn}T00:00:00Z`).toISOString().slice(0, 10) !== endsOn) return undefined
+  return { startsOn, ...(endsOn ? { endsOn } : {}) }
+}
+
 async function fetchKulturbolagetEvents(today: string, lastStartDate: string) {
   const feedResponse = await fetch(kulturbolagetFeedUrl, {
     headers: {
@@ -559,6 +604,162 @@ async function fetchKulturbolagetEvents(today: string, lastStartDate: string) {
   return events
 }
 
+async function fetchMoriskaEvents(today: string, lastStartDate: string) {
+  const response = await fetch(moriskaUrl, {
+    headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'text/html' },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!response.ok) throw new Error(`Moriska event calendar returned HTTP ${response.status}`)
+
+  const $ = load(await response.text())
+  const fallbackImage = $('meta[property="og:image"]').attr('content')
+  const candidates: EventRecord[] = []
+  $('h3').each((_index, element) => {
+    const heading = cleanText($(element).text())
+    const dayMonth = heading.match(/\b\d{1,2}\s+[a-zåäö]+/i)?.[0]
+    const startsOn = dayMonth ? parseSwedishMonthDay(dayMonth, today) : undefined
+    if (!startsOn || startsOn < today || startsOn > lastStartDate) return
+
+    $(element).parent().find('a[href*="/program/"]').each((_linkIndex, anchor) => {
+      const link = $(anchor)
+      const sourceUrl = link.attr('href')
+      const fullText = cleanText(link.text())
+      if (!sourceUrl || !fullText) return
+      const timeText = cleanText(link.find('em').first().text()).match(/\b([01]?\d|2[0-3])[:.]([0-5]\d)\b/)
+      const startTime = timeText ? `${timeText[1].padStart(2, '0')}:${timeText[2]}` : undefined
+      const title = cleanText(fullText.replace(link.find('em').first().text(), ''))
+      if (!title) return
+
+      const absoluteUrl = new URL(sourceUrl, moriskaUrl).href
+      const category = toCategory(title)
+      const event: EventRecord = {
+        id: `moriska-${createHash('sha256').update(normalizeUrl(absoluteUrl)).digest('hex').slice(0, 12)}`,
+        title,
+        startsAt: startTime ? stockholmIsoDateTime(startsOn, startTime) : startsOn,
+        venue: 'Moriska Paviljongen',
+        district: 'Folkets Park',
+        category,
+        categories: [category],
+        imageUrl: fallbackImage ?? 'https://moriskapaviljongen.se/wp-content/themes/moriskan/library/images/moriskan-logo-black.svg',
+        imageAlt: title,
+        sourceName: 'Moriska Paviljongen',
+        sourceUrl: absoluteUrl,
+        verifiedAt: today,
+      }
+      if (isEventRecord(event)) candidates.push(event)
+    })
+  })
+
+  if (!candidates.length) throw new Error('Moriska calendar returned no valid upcoming events')
+  return candidates
+}
+
+async function fetchSlagthusetEvents(today: string, lastStartDate: string) {
+  const response = await fetch(slagthusetApiUrl, {
+    headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'application/json' },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!response.ok) throw new Error(`Slagthuset event API returned HTTP ${response.status}`)
+  const payload: unknown = await response.json()
+  if (!Array.isArray(payload)) throw new Error('Slagthuset returned an unexpected event response')
+
+  const events = (payload as SlagthusetEvent[]).flatMap((item) => {
+    const rawDate = item.acf?.startdatum ?? ''
+    const startsOn = /^\d{8}$/.test(rawDate) ? `${rawDate.slice(0, 4)}-${rawDate.slice(4, 6)}-${rawDate.slice(6, 8)}` : ''
+    if (!startsOn || startsOn < today || startsOn > lastStartDate) return []
+    if (new Date(`${startsOn}T00:00:00Z`).toISOString().slice(0, 10) !== startsOn) return []
+
+    const title = cleanText(item.title?.rendered ?? '')
+    const eventUrl = item.link ?? `https://slagthuset.se/events/${item.slug}`
+    const imageUrl = item.event_medium?.url
+    const locationName = cleanText(item.acf?.plats?.[0]?.name ?? '')
+    if (!title || !imageUrl || !eventUrl) return []
+    const venue = locationName === 'Teatern'
+      ? 'Slagthusets Teater'
+      : locationName && locationName !== 'Slagthuset'
+        ? `Slagthuset, ${locationName}`
+        : 'Slagthuset'
+    const time = item.acf?.borjar?.match(/\b([01]?\d|2[0-3]):([0-5]\d)\b/)
+    const startTime = time ? `${time[1].padStart(2, '0')}:${time[2]}` : undefined
+    const category = toCategory(title)
+    const event: EventRecord = {
+      id: `slagthuset-${item.id}`,
+      title,
+      startsAt: startTime ? stockholmIsoDateTime(startsOn, startTime) : startsOn,
+      venue,
+      district: 'Slagthuset',
+      category,
+      categories: [category],
+      ...(item.acf?.pris ? { price: cleanText(item.acf.pris) } : {}),
+      imageUrl,
+      imageAlt: title,
+      sourceName: 'Slagthuset',
+      sourceUrl: new URL(eventUrl, 'https://slagthuset.se').href,
+      verifiedAt: today,
+    }
+    return isEventRecord(event) ? [event] : []
+  })
+
+  if (!events.length) throw new Error('Slagthuset API returned no valid upcoming events')
+  return events
+}
+
+async function fetchMalmoLiveEvents(today: string, lastStartDate: string) {
+  const response = await fetch(malmoLiveUrl, {
+    headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'text/html' },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!response.ok) throw new Error(`Malmö Live event page returned HTTP ${response.status}`)
+
+  const $ = load(await response.text())
+  const candidates = new Map<string, { title: string; url: string; dateText: string }>()
+  $('.views-row--event-listing').each((_index, element) => {
+    const row = $(element)
+    const link = row.find('a[href^="/program/"]').first()
+    const title = cleanText(link.find('h3').first().text())
+    const dateText = cleanText(link.find('.event--trending--date').first().text() || row.text().replace(title, ''))
+    const path = link.attr('href')
+    if (!title || !dateText || !path) return
+    const url = new URL(path, malmoLiveUrl).href
+    candidates.set(url, { title, url, dateText })
+  })
+
+  const events: EventRecord[] = []
+  for (const candidate of candidates.values()) {
+    const dates = parseSwedishListingDates(candidate.dateText, today)
+    if (!dates || dates.startsOn > lastStartDate || (dates.endsOn && dates.endsOn < today)) continue
+
+    const detailResponse = await fetch(candidate.url, {
+      headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'text/html' },
+      signal: AbortSignal.timeout(30_000),
+    })
+    if (!detailResponse.ok) throw new Error(`Malmö Live event detail returned HTTP ${detailResponse.status}`)
+    const detail = load(await detailResponse.text())
+    const imageUrl = detail('meta[property="og:image"]').attr('content')
+    if (!imageUrl) continue
+    const title = cleanText(detail('h1').first().text()) || candidate.title
+    const category = toCategory(title) === 'Övrigt' ? 'Scen' : toCategory(title)
+    const event: EventRecord = {
+      id: `malmo-live-${createHash('sha256').update(normalizeUrl(candidate.url)).digest('hex').slice(0, 12)}`,
+      title,
+      startsAt: dates.startsOn,
+      ...(dates.endsOn ? { endsAt: dates.endsOn } : {}),
+      venue: 'Malmö Live Konserthus',
+      category,
+      categories: [category],
+      imageUrl: new URL(imageUrl, candidate.url).href,
+      imageAlt: title,
+      sourceName: 'Malmö Live',
+      sourceUrl: candidate.url,
+      verifiedAt: today,
+    }
+    if (isEventRecord(event)) events.push(event)
+  }
+
+  if (!events.length) throw new Error('Malmö Live program page returned no valid upcoming events')
+  return events
+}
+
 async function main() {
   const today = dateInMalmo(new Date())
   const lastStartDate = addDays(today, 365)
@@ -588,6 +789,21 @@ async function main() {
       fetch: () => fetchKulturbolagetEvents(today, lastStartDate),
       matchesPrevious: (event: EventRecord) => event.sourceName === 'Kulturbolaget',
     },
+    {
+      name: 'Malmö Live',
+      fetch: () => fetchMalmoLiveEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Malmö Live',
+    },
+    {
+      name: 'Moriska Paviljongen',
+      fetch: () => fetchMoriskaEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Moriska Paviljongen',
+    },
+    {
+      name: 'Slagthuset',
+      fetch: () => fetchSlagthusetEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Slagthuset',
+    },
   ]
   const sourceResults = await Promise.all(sources.map(async (source) => {
     try {
@@ -601,9 +817,14 @@ async function main() {
     throw new Error('Current event JSON failed validation; refusing to overwrite it')
   }
   const previousEvents = currentEvents as EventRecord[]
+  const cityResult = sourceResults.find((result) => result.source.name === 'Malmö stad')
+  const currentCityIds = cityResult && 'events' in cityResult
+    ? new Set(cityResult.events.map((event) => event.id))
+    : undefined
   const retainedEvents = previousEvents.filter((event) => {
     const startsOn = event.startsAt.slice(0, 10)
     const endsOn = (event.endsAt ?? event.startsAt).slice(0, 10)
+    if (event.sourceName === 'Malmö stad' && currentCityIds && !currentCityIds.has(event.id)) return false
     return endsOn >= today && startsOn <= lastStartDate
   })
   const fetchedEvents = sourceResults.flatMap((result) => {
@@ -655,7 +876,7 @@ async function main() {
   for (const event of mergedEvents) {
     const date = event.startsAt.slice(0, 10)
     const venue = slug(event.venue)
-    const canonicalKey = `${normalizeUrl(event.sourceUrl)}|${venue}|${date}`
+    const canonicalKey = `${normalizeUrl(event.sourceUrl)}|${date}`
     const titleKey = `${slug(event.title)}|${venue}|${date}`
     const key = eventKeys.get(canonicalKey) ?? eventKeys.get(titleKey) ?? canonicalKey
     const existing = deduplicatedByEvent.get(key)
@@ -669,14 +890,25 @@ async function main() {
     const existingHasTime = existing.startsAt.includes('T')
     const incomingHasTime = event.startsAt.includes('T')
     const preferredTitle = event.title.length > existing.title.length ? event.title : existing.title
+    const sameSourceListing = existing.sourceName === event.sourceName
+      && normalizeUrl(existing.sourceUrl) === normalizeUrl(event.sourceUrl)
     deduplicatedByEvent.set(key, {
       ...existing,
       id: existing.id.startsWith('malmo-stad-') && !event.id.startsWith('malmo-stad-') ? event.id : existing.id,
-      title: preferredTitle,
+      ...(sameSourceListing ? {
+        title: event.title,
+        venue: event.venue,
+        category: event.category,
+        imageUrl: event.imageUrl,
+        imageAlt: event.imageAlt,
+        sourceUrl: event.sourceUrl,
+      } : { title: preferredTitle }),
       startsAt: existingHasTime || !incomingHasTime ? existing.startsAt : event.startsAt,
       ...(existing.endsAt || !event.endsAt ? {} : { endsAt: event.endsAt }),
       ...(existing.price || !event.price ? {} : { price: event.price }),
-      categories: [...new Set([...(existing.categories ?? [existing.category]), ...(event.categories ?? [event.category])])],
+      categories: sameSourceListing
+        ? event.categories ?? [event.category]
+        : [...new Set([...(existing.categories ?? [existing.category]), ...(event.categories ?? [event.category])])],
       ...(existing.district || !event.district ? {} : { district: event.district }),
     })
     eventKeys.set(canonicalKey, key)

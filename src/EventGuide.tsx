@@ -118,6 +118,7 @@ function App() {
   const currentYear = todayKey.slice(0, 4)
   const [weekendRange] = useState<[string, string]>(() => getWeekendRange(new Date()))
   const [savedOnly, setSavedOnly] = useState(false)
+  const [expandedCategoryIds, setExpandedCategoryIds] = useState<string[]>([])
   const [savedIds, setSavedIds] = useState<string[]>(() => {
     try {
       return JSON.parse(localStorage.getItem('malmo-saved-events') ?? '[]') as string[]
@@ -284,14 +285,32 @@ function App() {
             <div className="event-grid">
               {visibleEvents.map((event) => {
                 const isSaved = savedIds.includes(event.id)
+                const eventCategories = [...new Set(event.categories ?? [event.category])]
+                const additionalCategories = eventCategories.filter((item) => item !== event.category)
+                const showAdditionalCategories = expandedCategoryIds.includes(event.id)
 
                 return (
                   <article className="event-card" key={event.id}>
                     <div className="event-image-wrap">
                       <img className="event-image" src={event.imageUrl} alt={event.imageAlt} loading="lazy" />
-                      <span className={`event-category category-${event.category.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'och')}`}>
-                        {event.category}
-                      </span>
+                      <div className="event-category-group">
+                        <span className={`event-category category-${event.category.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'och')}`}>
+                          {event.category}
+                        </span>
+                        {additionalCategories.length > 0 && (
+                          <button
+                            className="event-category-more-toggle"
+                            type="button"
+                            aria-expanded={showAdditionalCategories}
+                            aria-label={showAdditionalCategories ? `Dölj ${additionalCategories.length} fler kategorier` : `Visa ${additionalCategories.length} fler kategorier`}
+                            onClick={() => setExpandedCategoryIds((current) => showAdditionalCategories
+                              ? current.filter((id) => id !== event.id)
+                              : [...current, event.id])}
+                          >
+                            {showAdditionalCategories ? '−' : `+${additionalCategories.length}`}
+                          </button>
+                        )}
+                      </div>
                       <span className="event-date">{formatEventDate(event, currentYear)}</span>
                       <button
                         className={`save-event ${isSaved ? 'is-saved' : ''}`}
@@ -305,6 +324,15 @@ function App() {
                     </div>
                     <div className="event-content">
                       <div className="event-meta">{formatTime(event.startsAt) && <><Clock3 size={14} /><span>{formatTime(event.startsAt)}</span></>}{event.price && <><span className="meta-divider">·</span><span>{event.price}</span></>}</div>
+                      {showAdditionalCategories && (
+                        <div className="event-category-details" aria-label="Fler kategorier">
+                          {additionalCategories.map((item) => (
+                            <span className={`event-category-detail category-${item.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'och')}`} key={item}>
+                              {item}
+                            </span>
+                          ))}
+                        </div>
+                      )}
                       <h3><a href={event.sourceUrl} target="_blank" rel="noreferrer">{event.title}</a></h3>
                       <p className="event-location"><MapPin size={15} strokeWidth={1.8} /><span>{event.venue}</span>{event.district && <span className="location-district">· {event.district}</span>}</p>
                     </div>

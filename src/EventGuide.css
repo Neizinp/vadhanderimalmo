@@ -319,9 +319,62 @@ main {
 }
 
 .event-category {
-  left: 12px;
+  position: static;
   background: #f7f8f3;
   color: #293d31;
+}
+
+.event-category-group {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: calc(100% - 132px);
+}
+
+.event-category-more-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 27px;
+  min-height: 24px;
+  padding: 0 7px;
+  border: 0;
+  border-radius: 2px;
+  background: rgba(247, 248, 243, 0.96);
+  color: #293d31;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.event-category-more-toggle:hover {
+  background: white;
+}
+
+.event-category-more-toggle:focus-visible {
+  outline: 2px solid #1e4537;
+  outline-offset: 2px;
+}
+
+.event-category-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 0 0 8px;
+}
+
+.event-category-detail {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 0 7px;
+  border-radius: 2px;
+  font-size: 9px;
+  font-weight: 600;
 }
 
 .category-musik { color: #a43e2d; background: #fff1e9; }
