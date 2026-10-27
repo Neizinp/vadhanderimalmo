@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import {
-  ArrowUpRight,
   Bookmark,
   Clock3,
   Heart,
@@ -26,6 +25,7 @@ const categories: Array<'Alla' | EventCategory> = [
   'Dans',
   'Sport',
   'Marknad',
+  'Festival',
   'Övrigt',
 ]
 
@@ -70,7 +70,8 @@ function getWeekendRange(now: Date): [string, string] {
   return [start, addDaysToDateKey(start, 2)]
 }
 
-function formatDate(dateTime: string) {
+function formatDate(dateTime: string, currentYear: string) {
+  const year = eventDateKey(dateTime).slice(0, 4)
   const date = /^\d{4}-\d{2}-\d{2}$/.test(dateTime)
     ? new Date(`${dateTime}T12:00:00Z`)
     : new Date(dateTime)
@@ -78,6 +79,7 @@ function formatDate(dateTime: string) {
     weekday: 'short',
     day: 'numeric',
     month: 'short',
+    ...(year !== currentYear ? { year: 'numeric' as const } : {}),
     timeZone: 'Europe/Stockholm',
   }).format(date).replaceAll('.', '')
 }
@@ -91,12 +93,12 @@ function formatTime(dateTime: string) {
   }).format(new Date(dateTime))
 }
 
-function formatEventDate(event: EventRecord) {
-  const start = formatDate(event.startsAt)
+function formatEventDate(event: EventRecord, currentYear: string) {
+  const start = formatDate(event.startsAt, currentYear)
   if (!event.endsAt || eventDateKey(event.startsAt) === eventDateKey(event.endsAt)) {
     return start
   }
-  return `${start}–${formatDate(event.endsAt)}`
+  return `${start}–${formatDate(event.endsAt, currentYear)}`
 }
 
 function App() {
@@ -104,6 +106,7 @@ function App() {
   const [category, setCategory] = useState<'Alla' | EventCategory>('Alla')
   const [dateFilter, setDateFilter] = useState<DateFilter>('all')
   const [todayKey] = useState(() => dateKey(new Date()))
+  const currentYear = todayKey.slice(0, 4)
   const [weekendRange] = useState<[string, string]>(() => getWeekendRange(new Date()))
   const [savedOnly, setSavedOnly] = useState(false)
   const [savedIds, setSavedIds] = useState<string[]>(() => {
@@ -127,7 +130,7 @@ function App() {
       || (dateFilter === 'weekend' && startsOn <= weekendRange[1] && endsOn >= weekendRange[0])
 
     return searchText.includes(query.toLocaleLowerCase('sv-SE'))
-      && (category === 'Alla' || event.category === category)
+      && (category === 'Alla' || (event.categories ?? [event.category]).includes(category))
       && matchesDate
       && (!savedOnly || savedIds.includes(event.id))
   })
@@ -229,7 +232,7 @@ function App() {
                       <span className={`event-category category-${event.category.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'och')}`}>
                         {event.category}
                       </span>
-                      <span className="event-date">{formatEventDate(event)}</span>
+                      <span className="event-date">{formatEventDate(event, currentYear)}</span>
                       <button
                         className={`save-event ${isSaved ? 'is-saved' : ''}`}
                         type="button"
@@ -244,10 +247,6 @@ function App() {
                       <div className="event-meta">{formatTime(event.startsAt) && <><Clock3 size={14} /><span>{formatTime(event.startsAt)}</span></>}{event.price && <><span className="meta-divider">·</span><span>{event.price}</span></>}</div>
                       <h3><a href={event.sourceUrl} target="_blank" rel="noreferrer">{event.title}</a></h3>
                       <p className="event-location"><MapPin size={15} strokeWidth={1.8} /><span>{event.venue}</span>{event.district && <span className="location-district">· {event.district}</span>}</p>
-                      <a className="event-source" href={event.sourceUrl} target="_blank" rel="noreferrer">
-                        {event.sourceName}<ArrowUpRight size={14} aria-hidden="true" />
-                        <span className="visually-hidden">, verifierad {event.verifiedAt}</span>
-                      </a>
                     </div>
                   </article>
                 )

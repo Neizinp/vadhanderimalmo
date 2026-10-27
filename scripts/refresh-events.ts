@@ -17,11 +17,26 @@ const categories: EventCategory[] = [
   'Dans',
   'Sport',
   'Marknad',
+  'Festival',
   'Övrigt',
 ]
 
 function cleanText(value: string) {
   return value.replace(/\s+/g, ' ').trim()
+}
+
+function dateInMalmo(date: Date) {
+  return new Intl.DateTimeFormat('sv-SE', {
+    timeZone: 'Europe/Stockholm',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(date)
+}
+
+function addDays(dateKey: string, days: number) {
+  const [year, month, day] = dateKey.split('-').map(Number)
+  return new Date(Date.UTC(year, month - 1, day + days)).toISOString().slice(0, 10)
 }
 
 function toCategory(value: string): EventCategory {
@@ -32,10 +47,16 @@ function toCategory(value: string): EventCategory {
   if (normalized.includes('dans')) return 'Dans'
   if (normalized.includes('mat') || normalized.includes('dryck') || normalized.includes('after work')) return 'Mat & dryck'
   if (normalized.includes('konst') || normalized.includes('design') || normalized.includes('utställning')) return 'Konst'
-  if (normalized.includes('marknad') || normalized.includes('festival')) return 'Marknad'
+  if (normalized.includes('festival')) return 'Festival'
+  if (normalized.includes('marknad') || normalized.includes('mässa')) return 'Marknad'
   if (normalized.includes('musik') || normalized.includes('konsert') || normalized.includes('klubb')) return 'Musik'
   if (normalized.includes('teater') || normalized.includes('opera') || normalized.includes('film')) return 'Scen'
   return 'Övrigt'
+}
+
+function toCategories(value: string): EventCategory[] {
+  const mapped = value.split(',').map((category) => toCategory(category.trim()))
+  return [...new Set(mapped)]
 }
 
 function normalizeUrl(value: string) {
@@ -90,7 +111,8 @@ async function main() {
   if (!response.ok) throw new Error(`Event source returned HTTP ${response.status}`)
   const html = await response.text()
   const $ = load(html)
-  const today = new Date().toISOString().slice(0, 10)
+  const today = dateInMalmo(new Date())
+  const lastStartDate = addDays(today, 365)
   const reviewed: EventRecord[] = []
 
   $('.itemview.event').each((_index, card) => {
@@ -104,6 +126,7 @@ async function main() {
 
     if (!title || !venue || !sourcePath || !dates) return
     if (dates.endsAt ? dates.endsAt < today : dates.startsAt < today) return
+    if (dates.startsAt > lastStartDate) return
 
     const eventSourceUrl = new URL(sourcePath, sourceUrl).href
     const imageUrl = imagePath ? new URL(imagePath, sourceUrl).href : ''
@@ -112,7 +135,8 @@ async function main() {
       title,
       ...dates,
       venue,
-      category: toCategory(categoryText),
+      category: toCategory(categoryText.split(',')[0]?.trim() ?? ''),
+      categories: toCategories(categoryText),
       imageUrl,
       imageAlt: title,
       sourceName: venue,
@@ -155,7 +179,11 @@ async function main() {
       ...(curated.price ? { price: curated.price } : {}),
       ...(curated.imageAlt ? { imageAlt: curated.imageAlt } : {}),
     }
-  }).filter((event) => event.endsAt ? event.endsAt >= today : event.startsAt >= today)
+  }).filter((event) => {
+    const startsOn = event.startsAt.slice(0, 10)
+    const endsOn = (event.endsAt ?? event.startsAt).slice(0, 10)
+    return endsOn >= today && startsOn <= lastStartDate
+  })
     .sort((first, second) => Date.parse(first.startsAt) - Date.parse(second.startsAt))
   const deduplicatedEvents = [...new Map(mergedEvents.map((event) => {
     const key = `${slug(event.title)}|${slug(event.venue)}|${event.startsAt}`

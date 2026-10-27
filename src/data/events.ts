@@ -8,6 +8,7 @@ export type EventCategory =
   | 'Dans'
   | 'Sport'
   | 'Marknad'
+  | 'Festival'
   | 'Övrigt'
 
 export type EventRecord = {
@@ -18,6 +19,7 @@ export type EventRecord = {
   venue: string
   district?: string
   category: EventCategory
+  categories?: EventCategory[]
   price?: string
   imageUrl: string
   imageAlt: string

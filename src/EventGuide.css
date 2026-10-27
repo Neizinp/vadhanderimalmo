@@ -287,6 +287,7 @@ main {
 .category-dans { color: #5b4770; background: #f0eafa; }
 .category-sport { color: #3e654b; background: #e8f2e8; }
 .category-marknad { color: #805052; background: #f7e9e9; }
+.category-festival { color: #67502f; background: #f5efdf; }
 .category-övrigt { color: #53636b; background: #e9f0f2; }
 
 .event-date {
@@ -325,7 +326,6 @@ main {
 
 .event-content {
   position: relative;
-  min-height: 148px;
   padding: 15px 16px 17px;
 }
 
@@ -380,22 +380,6 @@ main {
   color: #97a097;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.event-source {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
-  margin-top: 5px;
-  color: #536b5b;
-  font-size: 10px;
-  font-weight: 600;
-}
-
-.event-source:hover {
-  color: #c44e35;
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 .empty-state {
@@ -552,10 +536,6 @@ main {
 
   .event-image-wrap {
     height: clamp(175px, 55vw, 250px);
-  }
-
-  .event-content {
-    min-height: 148px;
   }
 
   .event-content h3 {

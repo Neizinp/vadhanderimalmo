@@ -6,6 +6,10 @@
     "endsAt": "2027-03-07",
     "venue": "Malmö Opera",
     "category": "Musik",
+    "categories": [
+      "Musik",
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/joyride_1b_1080x1080_fb_insta_eng_20251024_120846.jpg",
     "imageAlt": "Joyride the Musical",
     "sourceName": "Malmö Opera",
@@ -18,7 +22,12 @@
     "startsAt": "2026-10-26",
     "endsAt": "2026-11-01",
     "venue": "Ribban Green Golf",
-    "category": "Familj",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Familj",
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_(2)_20261005_132641.png",
     "imageAlt": "Höstlovsmys & spökgolf",
     "sourceName": "Ribban Green Golf",
@@ -31,7 +40,12 @@
     "startsAt": "2026-10-26",
     "endsAt": "2026-10-27",
     "venue": "Eleda Stadion / MFF-museet",
-    "category": "Familj",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Familj",
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mff_20261013_110721.jpg",
     "imageAlt": "Visning av Eleda Stadion/MFF-museet för barn",
     "sourceName": "Eleda Stadion / MFF-museet",
@@ -45,6 +59,10 @@
     "endsAt": "2026-10-29",
     "venue": "Atleticum",
     "category": "Familj",
+    "categories": [
+      "Familj",
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mai-skolan-4736_20261014_085823.jpg",
     "imageAlt": "MAI Friidrottsskola för barn födda 2014-2020",
     "sourceName": "Atleticum",
@@ -58,6 +76,9 @@
     "endsAt": "2026-11-01",
     "venue": "Funnys Äventyr",
     "category": "Familj",
+    "categories": [
+      "Familj"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/h%c3%b6stlov_p%c3%a5_funnys_%c3%a4ventyr_20261021_125534.jpg",
     "imageAlt": "Sagolikt höstlov med aktiviteter, teater m.m.",
     "sourceName": "Funnys Äventyr",
@@ -70,6 +91,9 @@
     "startsAt": "2026-10-28T19:30:00+01:00",
     "venue": "Moriska Paviljongen",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/john_achkar_20260918_153135.png",
     "imageAlt": "John Achkar uppträder med sin standupföreställning",
     "sourceName": "Moriska Paviljongen",
@@ -84,6 +108,9 @@
     "endsAt": "2026-11-28",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_afterlife_1x1_posterphoto_carl-johan-f-karlidag_20260624_161130.jpg",
     "imageAlt": "Dansare i föreställningen Afterlife",
     "sourceName": "Skånes Dansteater",
@@ -98,6 +125,9 @@
     "startsAt": "2026-10-30",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/halloween_bash_20260918_153405.png",
     "imageAlt": "Klubb: Oya! Halloween Bash",
     "sourceName": "Moriska Paviljongen",
@@ -109,7 +139,12 @@
     "title": "Hip Hop Weekend",
     "startsAt": "2026-10-30T14:00:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Dans",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Dans",
+      "Festival"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hip_hop_weekend_1_20260918_153247.png",
     "imageAlt": "Dansare under Hip Hop Weekend",
     "sourceName": "Moriska Paviljongen",
@@ -124,6 +159,9 @@
     "startsAt": "2026-10-30T19:30:00+01:00",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/benjaminingrosso2026_promospot_400x400px_malmoarena_20260924_094008.jpg",
     "imageAlt": "Benjamin Ingrosso på scen under What Happens Next?-turnén",
     "sourceName": "Malmö Arena",
@@ -138,6 +176,9 @@
     "startsAt": "2026-10-30T19:30:00+01:00",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/elvis,_elvis,_elvis!_20260518_121758.jpg",
     "imageAlt": "Affisch för Elvis, Elvis, Elvis! på Slagthuset",
     "sourceName": "Slagthuset",
@@ -152,6 +193,9 @@
     "startsAt": "2026-10-31",
     "venue": "Glasklart",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/love50halloween_kvadrat_20260910_083529.png",
     "imageAlt": "Love 50+ Halloween Party",
     "sourceName": "Glasklart",
@@ -164,6 +208,9 @@
     "startsAt": "2026-10-31",
     "venue": "Malmö IP",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan2_20261014_092809.jpg",
     "imageAlt": "FC Rosengård - Växjö OBOS Damallsvenskan",
     "sourceName": "Malmö IP",
@@ -175,7 +222,12 @@
     "title": "Hip Hop Weekend",
     "startsAt": "2026-10-31T13:30:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Dans",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Dans",
+      "Festival"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hip_hop_weekend_2_20260918_153556.png",
     "imageAlt": "Dansare under Hip Hop Weekend",
     "sourceName": "Moriska Paviljongen",
@@ -190,6 +242,9 @@
     "startsAt": "2026-11-01",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/calaisa_20260918_153708.png",
     "imageAlt": "Konsert: Calaisa",
     "sourceName": "Moriska Paviljongen",
@@ -202,6 +257,9 @@
     "startsAt": "2026-11-01",
     "venue": "Eleda Stadion",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bb250308lt003-1_20261014_054151.jpg",
     "imageAlt": "Malmö FF Herr vs. Hammarby IF",
     "sourceName": "Eleda Stadion",
@@ -214,6 +272,9 @@
     "startsAt": "2026-11-02",
     "venue": "Eleda Stadion",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bb251004cb005_20261014_054037.jpg",
     "imageAlt": "Malmö FF Dam vs. IFK Norrköping",
     "sourceName": "Eleda Stadion",
@@ -226,6 +287,9 @@
     "startsAt": "2026-11-02T17:00:00+01:00",
     "venue": "Moriska Paviljongen",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/soullinedance_20260918_153804.png",
     "imageAlt": "SOULlinedance på Moriska Paviljongen",
     "sourceName": "Moriska Paviljongen",
@@ -241,6 +305,9 @@
     "startsAt": "2026-11-03",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/l%c3%advia_mattos_20260918_153859.png",
     "imageAlt": "Konsert: Lívia Mattos",
     "sourceName": "Moriska Paviljongen",
@@ -252,7 +319,11 @@
     "title": "Perikles på Glasklart",
     "startsAt": "2026-11-06",
     "venue": "Glasklart",
-    "category": "Dans",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/perikles_20260910_083143.png",
     "imageAlt": "Perikles på Glasklart",
     "sourceName": "Glasklart",
@@ -265,6 +336,9 @@
     "startsAt": "2026-11-06",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/frank_martini_s_party_of_the_century_20260918_153948.png",
     "imageAlt": "Show: Frank Martini’s Party Of The Century",
     "sourceName": "Moriska Paviljongen",
@@ -277,6 +351,9 @@
     "startsAt": "2026-11-06T13:00:00+01:00",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_afterlife_1x1_posterphoto_carl-johan-f-karlidag_20260911_075258.jpg",
     "imageAlt": "Dansare i föreställningen Afterlife",
     "sourceName": "Skånes Dansteater",
@@ -291,6 +368,9 @@
     "startsAt": "2026-11-07",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/digital_sk%c3%a4rm_1080x1080_20260529_153346.jpg",
     "imageAlt": "Lars Winnerbäck",
     "sourceName": "Malmö Arena",
@@ -303,6 +383,9 @@
     "startsAt": "2026-11-07",
     "venue": "Mitt Möllan",
     "category": "Marknad",
+    "categories": [
+      "Marknad"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mmm_20260708_080823.jpg",
     "imageAlt": "MÖLLAN PRINT FEST – Marknad med fokus på trycksaker",
     "sourceName": "Mitt Möllan",
@@ -315,6 +398,9 @@
     "startsAt": "2026-11-07",
     "venue": "Scandic Triangeln",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mecn_20260819_091119.jpg",
     "imageAlt": "Malmö English Comedy Nights",
     "sourceName": "Scandic Triangeln",
@@ -327,6 +413,9 @@
     "startsAt": "2026-11-07",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/sara_parkman_20260918_154125.png",
     "imageAlt": "Konsert: Sara Parkman",
     "sourceName": "Moriska Paviljongen",
@@ -339,6 +428,9 @@
     "startsAt": "2026-11-07",
     "venue": "Malmö IP",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan3_20261014_092913.jpg",
     "imageAlt": "FC Rosengård - Hammarby OBOS Damallsvenskan",
     "sourceName": "Malmö IP",
@@ -351,6 +443,9 @@
     "startsAt": "2026-11-07T19:30:00+01:00",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kardborreshowen_per_andersson_20260518_121918.jpg",
     "imageAlt": "Per Andersson i Kardborreshowen",
     "sourceName": "Slagthuset",
@@ -364,7 +459,11 @@
     "title": "Fisk & Trix - havets läckerheter",
     "startsAt": "2026-11-09",
     "venue": "Mat & Vin i Slottsparken",
-    "category": "Mat & dryck",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Mat & dryck"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/gadda-1226x1536_20260813_084658.jpg",
     "imageAlt": "Fisk & Trix - havets läckerheter",
     "sourceName": "Mat & Vin i Slottsparken",
@@ -377,6 +476,9 @@
     "startsAt": "2026-11-09",
     "venue": "Moriska Paviljongen",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/doc_lounge__sjung_f%c3%b6r_mig_arja_20260918_154232.png",
     "imageAlt": "Doc Lounge: Sjung För Mig Arja!",
     "sourceName": "Moriska Paviljongen",
@@ -389,6 +491,9 @@
     "startsAt": "2026-11-11",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hansson_de_wolfe_united_20260518_122242.jpg",
     "imageAlt": "Hansson de Wolfe United",
     "sourceName": "Slagthuset",
@@ -400,7 +505,11 @@
     "title": "Bokrelease: Ät dig igenom boken \"Malmö Saluhall – från ruin till matdestination\"",
     "startsAt": "2026-11-11",
     "venue": "Malmö Saluhall",
-    "category": "Mat & dryck",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Mat & dryck"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/1_20260910_160314.jpg",
     "imageAlt": "Bokrelease: Ät dig igenom boken \"Malmö Saluhall – från ruin till matdestination\"",
     "sourceName": "Malmö Saluhall",
@@ -412,7 +521,13 @@
     "title": "Föreställning: Pussy Riot - Riot Days",
     "startsAt": "2026-11-11",
     "venue": "Moriska Paviljongen",
-    "category": "Konst",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Musik",
+      "Scen",
+      "Konst"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/pussy_riot_20260918_154322.png",
     "imageAlt": "Föreställning: Pussy Riot - Riot Days",
     "sourceName": "Moriska Paviljongen",
@@ -425,6 +540,9 @@
     "startsAt": "2026-11-11",
     "venue": "Eleda Stadion",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bb261004ma001_20261014_053949.jpg",
     "imageAlt": "Malmö FF Dam vs. AFC Ajax",
     "sourceName": "Eleda Stadion",
@@ -437,6 +555,9 @@
     "startsAt": "2026-11-12",
     "venue": "Plan B",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/the_sisters_of_mercy_21_nov_plan_b_20260518_141209.jpg",
     "imageAlt": "The Sisters of Mercy",
     "sourceName": "Plan B",
@@ -450,6 +571,10 @@
     "endsAt": "2026-11-14",
     "venue": "Slagthuset",
     "category": "Mat & dryck",
+    "categories": [
+      "Mat & dryck",
+      "Festival"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/sparkling_&_wine_2026_20260518_122418.jpg",
     "imageAlt": "Sparkling & Wine 2026",
     "sourceName": "Slagthuset",
@@ -462,6 +587,9 @@
     "startsAt": "2026-11-13",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/marcus_berggren_hittar_hem_20260518_122550.jpg",
     "imageAlt": "Marcus Berggren | Hittar Hem",
     "sourceName": "Slagthuset",
@@ -474,6 +602,9 @@
     "startsAt": "2026-11-13",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bko_il-magnifico_360x270_20260529_153555.jpg",
     "imageAlt": "Bo Kaspers Orkester",
     "sourceName": "Malmö Arena",
@@ -485,7 +616,11 @@
     "title": "Jubileums-AW för Malmö Saluhall 10 år",
     "startsAt": "2026-11-13",
     "venue": "Malmö Saluhall",
-    "category": "Mat & dryck",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Mat & dryck"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_20260910_160742.jpg",
     "imageAlt": "Jubileums-AW för Malmö Saluhall 10 år",
     "sourceName": "Malmö Saluhall",
@@ -498,6 +633,9 @@
     "startsAt": "2026-11-14",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/inga_dumma_fr%c3%a5gor_robin_paulsson_&_tomas_kaminski_20260518_122712.jpg",
     "imageAlt": "Inga dumma frågor | Robin Paulsson & Tomas Kaminski",
     "sourceName": "Slagthuset",
@@ -509,7 +647,12 @@
     "title": "Jubileumsfest + matmingel \"Malmö Saluhall 10 år\"",
     "startsAt": "2026-11-14",
     "venue": "Malmö Saluhall",
-    "category": "Mat & dryck",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Musik",
+      "Mat & dryck"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/3_20260910_161033.jpg",
     "imageAlt": "Jubileumsfest + matmingel \"Malmö Saluhall 10 år\"",
     "sourceName": "Malmö Saluhall",
@@ -522,6 +665,9 @@
     "startsAt": "2026-11-14",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/common_ground_jazz_club_-_lydia_cronberg_20260918_154443.png",
     "imageAlt": "Jazzklubb: Common Ground Jazz Club - Lydia Cronberg",
     "sourceName": "Moriska Paviljongen",
@@ -533,7 +679,11 @@
     "title": "Rundvandring på Eleda Stadion (MFF)",
     "startsAt": "2026-11-14",
     "venue": "Eleda Stadion / MFF-museet",
-    "category": "Sport",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/tkdzdxhz9vns_20261013_110132.jpg",
     "imageAlt": "Rundvandring på Eleda Stadion (MFF)",
     "sourceName": "Eleda Stadion / MFF-museet",
@@ -545,7 +695,11 @@
     "title": "Rollspelsklubben SKRÄCK!",
     "startsAt": "2026-11-15",
     "venue": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/skr%c3%a4ck_20260708_100722.jpg",
     "imageAlt": "Rollspelsklubben SKRÄCK!",
     "sourceName": "Slagthuset",
@@ -558,6 +712,9 @@
     "startsAt": "2026-11-15",
     "venue": "Eleda Stadion",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bb250712co002_20261014_053858.jpg",
     "imageAlt": "Malmö FF Dam vs. Vittsjö GIK",
     "sourceName": "Eleda Stadion",
@@ -570,6 +727,9 @@
     "startsAt": "2026-11-16",
     "venue": "Moriska Paviljongen",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/soullinedance_20260918_154607.png",
     "imageAlt": "Social dans: SOULlinedance",
     "sourceName": "Moriska Paviljongen",
@@ -582,6 +742,10 @@
     "startsAt": "2026-11-17",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans",
+      "Festival"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_amoroso-08-1x1-teatr-klucz-foto_maciej-kaczy%c5%84ski_20260911_075518.jpg",
     "imageAlt": "DansFunk Festival: Amoroso",
     "sourceName": "Skånes Dansteater",
@@ -594,6 +758,9 @@
     "startsAt": "2026-11-19",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/tarabband_20260918_154838.png",
     "imageAlt": "Konsert: Tarabband",
     "sourceName": "Moriska Paviljongen",
@@ -606,6 +773,9 @@
     "startsAt": "2026-11-19",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_20260928_093815.jpg",
     "imageAlt": "Macy Gray - The Trouble With The Truth Tour",
     "sourceName": "Slagthuset",
@@ -619,6 +789,9 @@
     "endsAt": "2027-01-10",
     "venue": "Malmö Opera",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/rusalka_1080x1080_20251216_153407.jpg",
     "imageAlt": "Rusalka",
     "sourceName": "Malmö Opera",
@@ -631,6 +804,9 @@
     "startsAt": "2026-11-21",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/arvingarna_klart_det_ska_bli_jul_igen_20260518_125219.jpg",
     "imageAlt": "Arvingarna | Klart det ska bli jul igen",
     "sourceName": "Slagthuset",
@@ -643,6 +819,9 @@
     "startsAt": "2026-11-21",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/gasbox_20260518_125636.jpg",
     "imageAlt": "Gasbox",
     "sourceName": "Slagthuset",
@@ -655,6 +834,9 @@
     "startsAt": "2026-11-21",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/timbuktu_21_nov_malm%c3%b6_arena_20260518_141359.jpg",
     "imageAlt": "Timbuktu + Damn!, DJ Large, Esta Kirabo, Julimar Santos",
     "sourceName": "Malmö Arena",
@@ -667,6 +849,10 @@
     "startsAt": "2026-11-21",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans",
+      "Festival"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_hornfuckers_1x1_pad5026%c2%a9ap_20260911_075637.jpg",
     "imageAlt": "DansFunk Festival: Hornfuckers",
     "sourceName": "Skånes Dansteater",
@@ -679,6 +865,9 @@
     "startsAt": "2026-11-21",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/salmo_20260918_154933.png",
     "imageAlt": "Konsert: Salmo",
     "sourceName": "Moriska Paviljongen",
@@ -691,6 +880,9 @@
     "startsAt": "2026-11-22",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/infinity__celebrating_the_music_of_michael_jackson_20260518_125350.jpg",
     "imageAlt": "Infinity | Celebrating the Music of Michael Jackson",
     "sourceName": "Slagthuset",
@@ -703,6 +895,9 @@
     "startsAt": "2026-11-23",
     "venue": "Moriska Paviljongen",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/doc_lounge__cambodian_beer_dreams_20260918_155034.png",
     "imageAlt": "Doc Lounge: Cambodian Beer Dreams",
     "sourceName": "Moriska Paviljongen",
@@ -715,6 +910,9 @@
     "startsAt": "2026-11-24",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/maggie_reilly_etc_20260518_125507.webp",
     "imageAlt": "Maggie Reilly + Cutting Crew",
     "sourceName": "Slagthuset",
@@ -727,6 +925,9 @@
     "startsAt": "2026-11-24",
     "venue": "Moriska Paviljongen",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/soullinedance_20260918_155145.png",
     "imageAlt": "Social dans: SOULlinedance",
     "sourceName": "Moriska Paviljongen",
@@ -739,6 +940,9 @@
     "startsAt": "2026-11-25",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/molly_hammar_20260518_125743.jpg",
     "imageAlt": "Molly Hammar",
     "sourceName": "Slagthuset",
@@ -751,6 +955,9 @@
     "startsAt": "2026-11-26",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/christoffer_nyqvist_lejonet_fr%c3%a5n_norden_20260518_125907.jpg",
     "imageAlt": "Christoffer Nyqvist | Lejonet från Norden",
     "sourceName": "Slagthuset",
@@ -764,6 +971,9 @@
     "endsAt": "2026-11-28",
     "venue": "Glasklart",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/glasklart_julshow_2026_20260910_082502.jpg",
     "imageAlt": "Julshow Absolutely Glasklart",
     "sourceName": "Glasklart",
@@ -776,6 +986,9 @@
     "startsAt": "2026-11-26",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/eva_dahlgren_20260918_155229.png",
     "imageAlt": "Konsert: Eva Dahlgren",
     "sourceName": "Moriska Paviljongen",
@@ -788,6 +1001,9 @@
     "startsAt": "2026-11-27",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/seinabo_sey_20260518_130018.jpg",
     "imageAlt": "Seinabo Sey",
     "sourceName": "Slagthuset",
@@ -800,6 +1016,9 @@
     "startsAt": "2026-11-27",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/rythmz_20260918_155435.png",
     "imageAlt": "Klubb: Rythmz Klub Solaariss, DJ Anne, Devando & Jes",
     "sourceName": "Moriska Paviljongen",
@@ -812,7 +1031,11 @@
     "startsAt": "2026-11-27",
     "endsAt": "2026-12-18",
     "venue": "Slagthuset",
-    "category": "Mat & dryck",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Mat & dryck"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/julbordp%c3%a5slagthuset2026_malm%c3%b6stad_700x394_20261026_165048.jpg",
     "imageAlt": "Storslaget julbord & ösig liveshow med Julen Runt på 80 Låtar",
     "sourceName": "Slagthuset",
@@ -825,6 +1048,9 @@
     "startsAt": "2026-11-28",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/grymlings_2025_fotograf_rickard_liljero_eriksson_(2)_20260518_130931.jpg",
     "imageAlt": "Grymlings",
     "sourceName": "Slagthuset",
@@ -838,6 +1064,9 @@
     "endsAt": "2026-11-29",
     "venue": "Mitt Möllan",
     "category": "Marknad",
+    "categories": [
+      "Marknad"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mmm_20260708_080752.jpg",
     "imageAlt": "JULMARKNAD med handgjorda julklappar",
     "sourceName": "Mitt Möllan",
@@ -850,6 +1079,9 @@
     "startsAt": "2026-11-29",
     "venue": "Eleda Stadion",
     "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bb250831pa001_20261014_055524.jpg",
     "imageAlt": "Malmö FF Herr vs. IF Brommapojkarna",
     "sourceName": "Eleda Stadion",
@@ -861,7 +1093,11 @@
     "title": "Brandsta City Släckers | Familjekonsert",
     "startsAt": "2026-11-29",
     "venue": "Slagthuset",
-    "category": "Familj",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Familj"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bcsl_20261027_050420.jpg",
     "imageAlt": "Brandsta City Släckers | Familjekonsert",
     "sourceName": "Slagthuset",
@@ -874,6 +1110,9 @@
     "startsAt": "2026-11-30",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kvadrat_svart_1_20260928_101043.jpg",
     "imageAlt": "The Harlem Spirit of Gospel",
     "sourceName": "Slagthuset",
@@ -887,6 +1126,9 @@
     "endsAt": "2026-12-03",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_mayfall_0234a_1x1_photo-tilo-stengel_20260819_113717.jpg",
     "imageAlt": "Skånes Dansteaters Kompani: May Fall & Lampyris Noctiluca",
     "sourceName": "Skånes Dansteater",
@@ -900,6 +1142,9 @@
     "endsAt": "2026-12-05",
     "venue": "Glasklart",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/glasklart_julshow_2026_20260910_082757.jpg",
     "imageAlt": "Julshow Absolutely Glasklart",
     "sourceName": "Glasklart",
@@ -913,6 +1158,9 @@
     "endsAt": "2026-12-09",
     "venue": "Skånes Dansteater",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/still_syllables_1.1.1_1x1_20260911_075753.jpg",
     "imageAlt": "Gästföreställning: Syllables of Recorded Time",
     "sourceName": "Skånes Dansteater",
@@ -925,6 +1173,10 @@
     "startsAt": "2026-12-05",
     "venue": "Slagthuset",
     "category": "Familj",
+    "categories": [
+      "Familj",
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/n%c3%b6tkn%c3%a4pparen_international_festival_ballet_20260518_131237.jpg",
     "imageAlt": "Nötknäpparen | International Festival Ballet",
     "sourceName": "Slagthuset",
@@ -937,6 +1189,9 @@
     "startsAt": "2026-12-05",
     "venue": "Slagthuset",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/svansj%c3%b6n_international_festival_ballet_20260518_131444.jpg",
     "imageAlt": "Svansjön | International Festival Ballet",
     "sourceName": "Slagthuset",
@@ -949,6 +1204,9 @@
     "startsAt": "2026-12-05",
     "venue": "Scandic Triangeln",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mecn_20260819_091204.jpg",
     "imageAlt": "Malmö English Comedy Nights",
     "sourceName": "Scandic Triangeln",
@@ -961,6 +1219,10 @@
     "startsAt": "2026-12-05",
     "venue": "Skånes Dansteater",
     "category": "Familj",
+    "categories": [
+      "Familj",
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_figurer-7_1x1_20260911_075847.jpg",
     "imageAlt": "Danslördag: Figurer",
     "sourceName": "Skånes Dansteater",
@@ -973,6 +1235,9 @@
     "startsAt": "2026-12-07",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/lords_of_the_sound_hogwarts_magic_symphony_20260518_131651.jpg",
     "imageAlt": "Lords of the Sound | Hogwarts Magic Symphony",
     "sourceName": "Slagthuset",
@@ -985,6 +1250,9 @@
     "startsAt": "2026-12-07",
     "venue": "Moriska Paviljongen",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/doc_lounge__hotspot_20260918_155553.png",
     "imageAlt": "Doc Lounge: Hotspot",
     "sourceName": "Moriska Paviljongen",
@@ -997,6 +1265,9 @@
     "startsAt": "2026-12-08",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/naza_20261026_170329.jpg",
     "imageAlt": "Nazareth",
     "sourceName": "Slagthuset",
@@ -1010,6 +1281,9 @@
     "endsAt": "2026-12-12",
     "venue": "Glasklart",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/glasklart_julshow_2026_20260910_082949.jpg",
     "imageAlt": "Julshow Absolutely Glasklart",
     "sourceName": "Glasklart",
@@ -1022,6 +1296,9 @@
     "startsAt": "2026-12-09",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/banna-sona-band-jul26_nojesresor_1080x1080-mobile_20261027_050443.webp",
     "imageAlt": "Banna Sona Band | Christmas Edition 2026",
     "sourceName": "Slagthuset",
@@ -1034,6 +1311,9 @@
     "startsAt": "2026-12-10",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/lars_vegas_trio_varje_dag_%c3%a4r_jul_20260518_131948.jpg",
     "imageAlt": "Lars Vegas Trio | Varje dag är jul",
     "sourceName": "Slagthuset",
@@ -1046,6 +1326,9 @@
     "startsAt": "2026-12-11",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/thorbj%c3%b8rn_risager_&_the_black_tornado_20260518_132112.png",
     "imageAlt": "Thorbjørn Risager & The Black Tornado",
     "sourceName": "Slagthuset",
@@ -1059,6 +1342,9 @@
     "endsAt": "2026-12-13",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/tomten-2026_4_20260529_153922.jpg",
     "imageAlt": "Tomten är far till alla barnen",
     "sourceName": "Malmö Arena",
@@ -1071,6 +1357,9 @@
     "startsAt": "2026-12-12",
     "venue": "Mitt Möllan",
     "category": "Marknad",
+    "categories": [
+      "Marknad"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mmm_20260708_080732.jpg",
     "imageAlt": "KERAMIKMARKNAD",
     "sourceName": "Mitt Möllan",
@@ -1083,6 +1372,9 @@
     "startsAt": "2026-12-12",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/christmasnight_20260708_100333.jpg",
     "imageAlt": "Christmas Night med Tommy Nilsson, Jessica Andersson, Lasse Kronér & Annika Wickihalder",
     "sourceName": "Slagthuset",
@@ -1095,6 +1387,9 @@
     "startsAt": "2026-12-12",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/common_ground_jazz_club_-_almaz_yebio_20260918_155658.png",
     "imageAlt": "Jazzklubb: Common Ground Jazz Club - Almaz Yebio",
     "sourceName": "Moriska Paviljongen",
@@ -1107,6 +1402,9 @@
     "startsAt": "2026-12-13",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/christmas_unplugged_2026_20260518_132226.jpg",
     "imageAlt": "Christmas Unplugged 2026 med Peter, Bruno, Matilda & Petra",
     "sourceName": "Slagthuset",
@@ -1120,6 +1418,9 @@
     "endsAt": "2026-12-19",
     "venue": "Glasklart",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/glasklart_julshow_2026_20260910_083040.jpg",
     "imageAlt": "Julshow Absolutely Glasklart",
     "sourceName": "Glasklart",
@@ -1131,7 +1432,11 @@
     "title": "Thomas Järvheden | Sveriges roligaste julkonsert",
     "startsAt": "2026-12-17",
     "venue": "Slagthuset",
-    "category": "Humor",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/j%c3%a4rvinen_20260708_100158.jpg",
     "imageAlt": "Thomas Järvheden | Sveriges roligaste julkonsert",
     "sourceName": "Slagthuset",
@@ -1143,7 +1448,11 @@
     "title": "LABERO | A Magic Night",
     "startsAt": "2026-12-19",
     "venue": "Slagthuset",
-    "category": "Musik",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/labero_a_magic_night_20260518_132340.jpg",
     "imageAlt": "LABERO | A Magic Night",
     "sourceName": "Slagthuset",
@@ -1156,6 +1465,9 @@
     "startsAt": "2026-12-19",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/the_fantastic_four_20260918_155759.png",
     "imageAlt": "Konsert: The Fantastic Four",
     "sourceName": "Moriska Paviljongen",
@@ -1168,6 +1480,9 @@
     "startsAt": "2026-12-21",
     "venue": "Moriska Paviljongen",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/soullinedance_20260918_155853.png",
     "imageAlt": "Social dans: SOULlinedance",
     "sourceName": "Moriska Paviljongen",
@@ -1180,6 +1495,9 @@
     "startsAt": "2026-12-28",
     "venue": "Moriska Paviljongen",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/soullinedance_20260918_155946.png",
     "imageAlt": "Social dans: SOULlinedance",
     "sourceName": "Moriska Paviljongen",
@@ -1192,6 +1510,9 @@
     "startsAt": "2027-01-17",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kevin_bridges_20260518_132546.png",
     "imageAlt": "Kevin Bridges - Here If You Need Me - European Tour 2026/27",
     "sourceName": "Slagthuset",
@@ -1204,6 +1525,9 @@
     "startsAt": "2027-01-23",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(1)_20260928_101159.jpg",
     "imageAlt": "Melody Club",
     "sourceName": "Slagthuset",
@@ -1215,7 +1539,11 @@
     "title": "Stephen Lynch | The Me Tour",
     "startsAt": "2027-01-23",
     "venue": "Slagthuset",
-    "category": "Humor",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/lynch_20261027_050510.jpg",
     "imageAlt": "Stephen Lynch | The Me Tour",
     "sourceName": "Slagthuset",
@@ -1228,6 +1556,9 @@
     "startsAt": "2027-01-29",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/den_svenska_bj%c3%b6rnstammen_20260518_134924.jpg",
     "imageAlt": "Den Svenska Björnstammen",
     "sourceName": "Slagthuset",
@@ -1240,7 +1571,12 @@
     "startsAt": "2027-01-29",
     "endsAt": "2027-01-31",
     "venue": "Malmö Arena",
-    "category": "Familj",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Musik",
+      "Familj"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/doi27_-_1080x1080_20261005_152437.jpg",
     "imageAlt": "Disney On Ice",
     "sourceName": "Malmö Arena",
@@ -1253,6 +1589,9 @@
     "startsAt": "2027-01-30",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hits_&_historier_20260918_160040.png",
     "imageAlt": "Konsert/Show: Hits & Historier 64-66",
     "sourceName": "Moriska Paviljongen",
@@ -1265,6 +1604,9 @@
     "startsAt": "2027-02-01",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/zimm_20260708_100044.jpg",
     "imageAlt": "Lords of the Sound | The Music of Hans Zimmer",
     "sourceName": "Slagthuset",
@@ -1277,6 +1619,9 @@
     "startsAt": "2027-02-03",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/sejag_20260518_135331.jpg",
     "imageAlt": "Ser jag tjock ut i den här..? Pappa ljuger också",
     "sourceName": "Slagthuset",
@@ -1289,6 +1634,9 @@
     "startsAt": "2027-02-05",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/05.02.2027_malmo%cc%88_arena_malmo%cc%88_sweden_1080x1080_20261005_152657.jpg",
     "imageAlt": "Rock Sensation – The Contract",
     "sourceName": "Malmö Arena",
@@ -1301,6 +1649,9 @@
     "startsAt": "2027-02-06",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/imminence_20260708_095938.jpg",
     "imageAlt": "Imminence + August Burns Red",
     "sourceName": "Slagthuset",
@@ -1313,6 +1664,9 @@
     "startsAt": "2027-02-06",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(2)_20260928_101316.jpg",
     "imageAlt": "Torbjörn Averås Skorup",
     "sourceName": "Slagthuset",
@@ -1325,6 +1679,9 @@
     "startsAt": "2027-02-10",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kim_20260708_095814.jpg",
     "imageAlt": "Kim Wilde",
     "sourceName": "Slagthuset",
@@ -1337,6 +1694,9 @@
     "startsAt": "2027-02-10",
     "venue": "Slagthuset",
     "category": "Övrigt",
+    "categories": [
+      "Övrigt"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/alexx_20261026_170020.jpg",
     "imageAlt": "Alexx Alexxander",
     "sourceName": "Slagthuset",
@@ -1349,6 +1709,9 @@
     "startsAt": "2027-02-11",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/ane_20261026_165937.jpg",
     "imageAlt": "Ane Brun + Riley O’Flynn",
     "sourceName": "Slagthuset",
@@ -1362,6 +1725,9 @@
     "endsAt": "2027-05-15",
     "venue": "Malmö Opera",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/trollfl%c3%b6jten_1080x1080_20260227_062942.jpg",
     "imageAlt": "Trollflöjten",
     "sourceName": "Malmö Opera",
@@ -1374,6 +1740,9 @@
     "startsAt": "2027-02-13",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/nofm_biljettbilder_1080x1080_(2)_20260617_105847.jpg",
     "imageAlt": "Night of Famous Musicals",
     "sourceName": "Malmö Arena",
@@ -1386,6 +1755,9 @@
     "startsAt": "2027-02-18",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hq720_20260708_095700.jpg",
     "imageAlt": "The Halo Effect + Lacuna Coil, Omnium Gatherum",
     "sourceName": "Slagthuset",
@@ -1398,6 +1770,9 @@
     "startsAt": "2027-02-19",
     "venue": "Slagthuset",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kvadrat_svart_2_20260928_101504.jpg",
     "imageAlt": "Kärleksbrev | En teaterföreställning om kärlek",
     "sourceName": "Slagthuset",
@@ -1411,6 +1786,9 @@
     "endsAt": "2027-02-20",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/melodifestivalen2026_facebook_instagram_1080x1080px_malmo_20261005_152930.jpg",
     "imageAlt": "Melodifestivalen 2027 – deltävling 3",
     "sourceName": "Malmö Arena",
@@ -1423,6 +1801,9 @@
     "startsAt": "2027-02-26",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/hoffmaestro_20260918_160200.png",
     "imageAlt": "Konsert: Hoffmaestro",
     "sourceName": "Moriska Paviljongen",
@@ -1436,6 +1817,9 @@
     "endsAt": "2027-03-12",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/billy_20261026_165847.png",
     "imageAlt": "Gud förbannat – Nu får det bära eller brista | En humorföreställning med Leif & Billy",
     "sourceName": "Slagthuset",
@@ -1448,6 +1832,9 @@
     "startsAt": "2027-03-07",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/lisa_20261026_165655.jpg",
     "imageAlt": "Lisa Ekdahl",
     "sourceName": "Slagthuset",
@@ -1460,6 +1847,9 @@
     "startsAt": "2027-03-11",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(4)_20260928_101625.jpg",
     "imageAlt": "Kamelot + Cyhra",
     "sourceName": "Slagthuset",
@@ -1472,6 +1862,9 @@
     "startsAt": "2027-03-14",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(5)_20260928_101732.jpg",
     "imageAlt": "Purpendicular feat. Ian Paice",
     "sourceName": "Slagthuset",
@@ -1485,6 +1878,9 @@
     "endsAt": "2027-04-17",
     "venue": "Skånes Dansteater, Malmö Opera",
     "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/webthe-grand-dance_1x1-poster-photo-senay-berhe_20260624_161457.jpg",
     "imageAlt": "Skånes Dansteaters Kompani: The Grand Dance",
     "sourceName": "Skånes Dansteater, Malmö Opera",
@@ -1497,6 +1893,10 @@
     "startsAt": "2027-03-21",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor",
+      "Övrigt"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/h%c3%b6rh%c3%a4r_20260708_095557.jpg",
     "imageAlt": "Hör Här! (försöker göra) Livepodd",
     "sourceName": "Slagthuset",
@@ -1509,6 +1909,9 @@
     "startsAt": "2027-03-26",
     "venue": "Moriska Paviljongen",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/image_20260918_160608.png",
     "imageAlt": "Konsert: Kmfdm",
     "sourceName": "Moriska Paviljongen",
@@ -1521,6 +1924,9 @@
     "startsAt": "2027-04-03",
     "venue": "Moriska Paviljongen",
     "category": "Övrigt",
+    "categories": [
+      "Övrigt"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/livepodd__s%c3%a5_vad_h%c3%a4nder__20260918_160718.png",
     "imageAlt": "Livepodd: Så Vad Händer? - Live",
     "sourceName": "Moriska Paviljongen",
@@ -1533,6 +1939,9 @@
     "startsAt": "2027-04-10",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/copenhagen_drummers_20260518_135519.jpg",
     "imageAlt": "Copenhagen Drummers",
     "sourceName": "Slagthuset",
@@ -1545,6 +1954,9 @@
     "startsAt": "2027-04-16",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/from_a_jack_20261026_165520.jpg",
     "imageAlt": "From A Jack To A King",
     "sourceName": "Slagthuset",
@@ -1557,6 +1969,9 @@
     "startsAt": "2027-04-17",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(6)_20260928_101848.jpg",
     "imageAlt": "En Jäkla Massa Schlager",
     "sourceName": "Slagthuset",
@@ -1569,6 +1984,9 @@
     "startsAt": "2027-04-20",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bryanadams2027_promospot_400x400px_malmoarena_20261005_153110.jpg",
     "imageAlt": "Bryan Adams",
     "sourceName": "Malmö Arena",
@@ -1581,6 +1999,9 @@
     "startsAt": "2027-05-02",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/saga_20260708_095420.jpg",
     "imageAlt": "SAGA",
     "sourceName": "Slagthuset",
@@ -1593,6 +2014,9 @@
     "startsAt": "2027-05-02",
     "venue": "Slagthuset",
     "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/bianca_20261026_165332.jpg",
     "imageAlt": "Bianca Del Rio – It Gets Bitter",
     "sourceName": "Slagthuset",
@@ -1605,6 +2029,9 @@
     "startsAt": "2027-05-05",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/4_(7)_20260928_102035.jpg",
     "imageAlt": "George Michael Xperience",
     "sourceName": "Slagthuset",
@@ -1617,6 +2044,9 @@
     "startsAt": "2027-05-05",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/lukas_20261026_165242.jpg",
     "imageAlt": "Lukas Graham",
     "sourceName": "Slagthuset",
@@ -1629,6 +2059,9 @@
     "startsAt": "2027-05-09",
     "venue": "Slagthuset",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/kpop_20261026_165151.jpg",
     "imageAlt": "K-Pop Superstars",
     "sourceName": "Slagthuset",
@@ -1642,6 +2075,9 @@
     "endsAt": "2027-06-09",
     "venue": "Malmö Opera",
     "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/thewreckers_1080x1080_20260330_141429.jpg",
     "imageAlt": "The Wreckers",
     "sourceName": "Malmö Opera",
@@ -1655,6 +2091,10 @@
     "endsAt": "2028-04-02",
     "venue": "Malmö Opera",
     "category": "Musik",
+    "categories": [
+      "Musik",
+      "Scen"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/sunset_boulevard_kvadrat_johan_sundell_20261021_122232.jpg",
     "imageAlt": "Sunset Boulevard",
     "sourceName": "Malmö Opera",
@@ -1667,6 +2107,9 @@
     "startsAt": "2027-10-08",
     "venue": "Malmö Arena",
     "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/britfloyd2027_promospot_400x400px_malmoarena_20261005_153222.jpg",
     "imageAlt": "Brit Floyd",
     "sourceName": "Malmö Arena",
