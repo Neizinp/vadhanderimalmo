@@ -5,6 +5,8 @@ import { resolve } from 'node:path'
 import type { EventCategory, EventRecord } from '../src/data/events'
 
 const visitMalmoUrl = 'https://www.visitmalmo.se/evenemang/'
+const malmoArenaUrl = 'https://www.malmoarena.com/evenemang?hsLang=sv'
+const kulturbolagetFeedUrl = 'https://kulturbolaget.se/feed/?post_type=events'
 const malmoCityApi = 'https://malmo.se/appresource/4.50574bcf196ed960a55408d/12.50574bcf196ed960a55409f/items?start='
 const pageSize = 18
 const outputPath = resolve('src/data/events.json')
@@ -295,6 +297,14 @@ function isEventRecord(value: unknown): value is EventRecord {
     && typeof event.verifiedAt === 'string'
 }
 
+function sameEventData(first: EventRecord, second: EventRecord) {
+  const firstData = { ...first }
+  const secondData = { ...second }
+  delete firstData.verifiedAt
+  delete secondData.verifiedAt
+  return JSON.stringify(firstData) === JSON.stringify(secondData)
+}
+
 function mapCityEvent(item: CityEvent, today: string, lastStartDate: string): EventRecord | undefined {
   const title = cleanText(item.title ?? '')
   const venue = cleanText(item.place?.[0] ?? item.dates?.locations?.[0] ?? '')
@@ -406,25 +416,213 @@ async function fetchVisitMalmoEvents(today: string, lastStartDate: string) {
   return events
 }
 
+async function fetchMalmoArenaEvents(today: string, lastStartDate: string) {
+  const response = await fetch(malmoArenaUrl, {
+    headers: {
+      'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)',
+      accept: 'text/html,application/xhtml+xml',
+    },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!response.ok) throw new Error(`Malmö Arena event source returned HTTP ${response.status}`)
+
+  const $ = load(await response.text())
+  const events: EventRecord[] = []
+  let year = 0
+  const monthNumbers = new Map(Object.entries(swedishMonths))
+
+  $('.event-listing__heading-year, .event-listing__item').each((_index, element) => {
+    const node = $(element)
+    if (node.hasClass('event-listing__heading-year')) {
+      const headingYear = Number(cleanText(node.text()))
+      if (Number.isInteger(headingYear)) year = headingYear
+      return
+    }
+
+    const title = cleanText(node.find('h2').first().text())
+    const dateTimeText = cleanText(node.find('.event-listing__third-block').first().text())
+    const dateMatch = dateTimeText.match(/\b(\d{1,2})\s+([a-zåäö]+)\.?/i)
+    const time = dateTimeText.match(/\b([01]?\d|2[0-3]):[0-5]\d\b/)?.[0]
+    const month = dateMatch ? monthNumbers.get(dateMatch[2].toLocaleLowerCase('sv-SE').replace(/\.$/, '')) : undefined
+    const day = dateMatch ? Number(dateMatch[1]) : 0
+    if (!title || !dateMatch || !month || !year || day < 1 || day > 31) return
+
+    const startsOn = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+    const parsedDate = new Date(`${startsOn}T00:00:00Z`)
+    if (parsedDate.toISOString().slice(0, 10) !== startsOn || startsOn < today || startsOn > lastStartDate) return
+
+    const infoPath = node.find('.event-listing__buttons a[title="Info"]').attr('href')
+    if (!infoPath) return
+    const sourceUrl = new URL(infoPath, malmoArenaUrl).href
+    const imagePath = node.find('.event-listing__img-frame img').attr('src')
+    const categoryText = cleanText(node.find('.event-listing__second-block').text())
+    const category = /redhawks|sport/i.test(categoryText) ? 'Sport' : toCategory(categoryText)
+    const imageUrl = imagePath ? new URL(imagePath, malmoArenaUrl).href : 'https://www.malmoarena.com/hs-fs/hubfs/footer-logo.png'
+    const event: EventRecord = {
+      id: `malmo-arena-${createHash('sha256').update(normalizeUrl(sourceUrl)).digest('hex').slice(0, 12)}`,
+      title,
+      startsAt: time ? stockholmIsoDateTime(startsOn, time) : startsOn,
+      venue: 'Malmö Arena',
+      category,
+      categories: [category],
+      imageUrl,
+      imageAlt: title,
+      sourceName: 'Malmö Arena',
+      sourceUrl,
+      verifiedAt: today,
+    }
+    if (isEventRecord(event)) events.push(event)
+  })
+
+  if (!events.length) throw new Error('Malmö Arena returned no valid upcoming events')
+  return events
+}
+
+function parseSwedishMonthDay(value: string, today: string) {
+  const match = value.match(/\b(\d{1,2})\s+([a-zåäö]+)/i)
+  if (!match) return undefined
+  const month = swedishMonths[match[2].toLocaleLowerCase('sv-SE').replace(/\.$/, '')]
+  const day = Number(match[1])
+  if (!month || day < 1 || day > 31) return undefined
+
+  let year = Number(today.slice(0, 4))
+  let date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+  if (date < today) {
+    year += 1
+    date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`
+  }
+  const parsedDate = new Date(`${date}T00:00:00Z`)
+  return parsedDate.toISOString().slice(0, 10) === date ? date : undefined
+}
+
+async function fetchKulturbolagetEvents(today: string, lastStartDate: string) {
+  const feedResponse = await fetch(kulturbolagetFeedUrl, {
+    headers: {
+      'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)',
+      accept: 'application/rss+xml,application/xml,text/xml',
+    },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!feedResponse.ok) throw new Error(`Kulturbolaget RSS returned HTTP ${feedResponse.status}`)
+
+  const feed = load(await feedResponse.text(), { xmlMode: true })
+  const candidates = feed('item').toArray().flatMap((item) => {
+    const node = feed(item)
+    const title = cleanText(node.find('title').first().text())
+    const sourceUrl = cleanText(node.find('link').first().text())
+    const summary = cleanText(node.find('description').text())
+    if (!title || !sourceUrl || !/malm[oö]|\bmlm\b/i.test(`${sourceUrl} ${summary}`)) return []
+    return [{ title, sourceUrl }]
+  })
+
+  const events: EventRecord[] = []
+  for (const candidate of candidates) {
+    const response = await fetch(candidate.sourceUrl, {
+      headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'text/html' },
+      signal: AbortSignal.timeout(30_000),
+    })
+    if (!response.ok) throw new Error(`Kulturbolaget event detail returned HTTP ${response.status}`)
+    const $ = load(await response.text())
+    const detail = $('.event-template').first()
+    const city = cleanText(detail.find('.event-city').first().text())
+    if (!/^(malmö|malmo)$/i.test(city)) continue
+
+    const dateText = cleanText(detail.find('.InformationBox__meta-data').first().text())
+    const startsOn = parseSwedishMonthDay(dateText, today)
+    if (!startsOn || startsOn > lastStartDate) continue
+    const timeElements = detail.find('time').map((_index, element) => cleanText($(element).text())).get()
+    const startTime = timeElements.at(-1)?.match(/\b([01]?\d|2[0-3]):[0-5]\d\b/)?.[0]
+    const locationText = cleanText(detail.find('.InformationBox__meta-data--location').first().text())
+    const venue = locationText.replace(/^(?:location_on\s*)+/i, '').split(',')[0].trim()
+    const imageUrl = $('meta[property="og:image"]').attr('content')
+    const title = cleanText(detail.find('.event-headline').first().text()) || candidate.title
+    if (!venue || !imageUrl) continue
+
+    const category = toCategory('konsert')
+    const event: EventRecord = {
+      id: `kulturbolaget-${createHash('sha256').update(normalizeUrl(candidate.sourceUrl)).digest('hex').slice(0, 12)}`,
+      title,
+      startsAt: startTime ? stockholmIsoDateTime(startsOn, startTime) : startsOn,
+      venue,
+      category,
+      categories: [category],
+      imageUrl: new URL(imageUrl, candidate.sourceUrl).href,
+      imageAlt: title,
+      sourceName: 'Kulturbolaget',
+      sourceUrl: candidate.sourceUrl,
+      verifiedAt: today,
+    }
+    if (isEventRecord(event)) events.push(event)
+  }
+
+  if (candidates.length > 0 && !events.length) throw new Error('Kulturbolaget RSS had Malmö candidates but none passed detail-page validation')
+  return events
+}
+
 async function main() {
   const today = dateInMalmo(new Date())
   const lastStartDate = addDays(today, 365)
-  const [cityEvents, visitEvents, kulturcentralenEvents] = await Promise.all([
-    fetchCityEvents(today, lastStartDate),
-    fetchVisitMalmoEvents(today, lastStartDate),
-    fetchKulturcentralenEvents(today, lastStartDate),
-  ])
-  const uniqueEvents = [...new Map([...cityEvents, ...visitEvents, ...kulturcentralenEvents].map((event) => [event.id, event])).values()]
-  if (uniqueEvents.length < minimumUpcomingEvents) {
-    throw new Error(`Only ${uniqueEvents.length} valid upcoming events found; refusing to replace the current dataset`)
-  }
-
+  const sources = [
+    {
+      name: 'Malmö stad',
+      fetch: () => fetchCityEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Malmö stad',
+    },
+    {
+      name: 'Visit Malmö',
+      fetch: () => fetchVisitMalmoEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceUrl.includes('visitmalmo.se'),
+    },
+    {
+      name: 'Kulturcentralen',
+      fetch: () => fetchKulturcentralenEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceUrl.includes('kulturcentralen.nu'),
+    },
+    {
+      name: 'Malmö Arena',
+      fetch: () => fetchMalmoArenaEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Malmö Arena',
+    },
+    {
+      name: 'Kulturbolaget',
+      fetch: () => fetchKulturbolagetEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'Kulturbolaget',
+    },
+  ]
+  const sourceResults = await Promise.all(sources.map(async (source) => {
+    try {
+      return { source, events: await source.fetch() }
+    } catch (error) {
+      return { source, error }
+    }
+  }))
   const currentEvents: unknown = JSON.parse(await readFile(outputPath, 'utf8'))
   if (!Array.isArray(currentEvents) || !currentEvents.every(isEventRecord)) {
     throw new Error('Current event JSON failed validation; refusing to overwrite it')
   }
+  const previousEvents = currentEvents as EventRecord[]
+  const retainedEvents = previousEvents.filter((event) => {
+    const startsOn = event.startsAt.slice(0, 10)
+    const endsOn = (event.endsAt ?? event.startsAt).slice(0, 10)
+    return endsOn >= today && startsOn <= lastStartDate
+  })
+  const fetchedEvents = sourceResults.flatMap((result) => {
+    if ('events' in result) return result.events
+    console.error(`${result.source.name} source failed; retaining its previous records: ${result.error instanceof Error ? result.error.message : result.error}`)
+    return previousEvents.filter(result.source.matchesPrevious)
+  })
+  const previousById = new Map(previousEvents.map((event) => [event.id, event]))
+  const uniqueEvents = [...new Map([...retainedEvents, ...fetchedEvents].map((event) => [event.id, event])).values()]
+    .map((event) => {
+      const previous = previousById.get(event.id)
+      return previous && sameEventData(previous, event) ? { ...event, verifiedAt: previous.verifiedAt } : event
+    })
+  if (uniqueEvents.length < minimumUpcomingEvents) {
+    throw new Error(`Only ${uniqueEvents.length} valid upcoming events found; refusing to replace the current dataset`)
+  }
+
   const curatedByUrl = new Map<string, EventRecord[]>()
-  for (const event of currentEvents as EventRecord[]) {
+  for (const event of previousEvents) {
     const key = normalizeUrl(event.sourceUrl)
     curatedByUrl.set(key, [...(curatedByUrl.get(key) ?? []), event])
   }
@@ -488,9 +686,15 @@ async function main() {
     .sort((first, second) => Date.parse(first.startsAt) - Date.parse(second.startsAt))
 
   const temporaryPath = `${outputPath}.tmp`
-  await writeFile(temporaryPath, `${JSON.stringify(deduplicatedEvents, null, 2)}\n`, 'utf8')
+  const updatedJson = `${JSON.stringify(deduplicatedEvents, null, 2)}\n`
+  if (await readFile(outputPath, 'utf8') === updatedJson) {
+    console.log(`No event data changes; retained ${deduplicatedEvents.length} upcoming events`)
+    return
+  }
+  await writeFile(temporaryPath, updatedJson, 'utf8')
   await rename(temporaryPath, outputPath)
-  console.log(`Updated ${deduplicatedEvents.length} upcoming events: ${cityEvents.length} from Malmö City, ${visitEvents.length} from Visit Malmö, ${kulturcentralenEvents.length} from Kulturcentralen (${mergedEvents.length - deduplicatedEvents.length} duplicate listings removed)`)
+  const sourceCounts = sourceResults.map((result) => `${result.source.name}: ${'events' in result ? result.events.length : previousEvents.filter(result.source.matchesPrevious).length}`).join(', ')
+  console.log(`Updated ${deduplicatedEvents.length} upcoming events (${sourceCounts}; ${mergedEvents.length - deduplicatedEvents.length} duplicate listings removed)`)
 }
 
 main().catch((error: unknown) => {

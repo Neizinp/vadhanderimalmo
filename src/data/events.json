@@ -656,17 +656,33 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-2e3993472420",
+    "title": "Malmö Redhawks - Linköping HC",
+    "startsAt": "2026-10-27T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Linköping HC",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-link%C3%B6pinghc_1_sve?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-thedublinlegendsie",
     "title": "The Dublin Legends (IE)",
-    "startsAt": "2026-10-27T19:30:00+01:00",
+    "startsAt": "2026-10-27T19:00:00+01:00",
+    "endsAt": "2026-10-27T19:00:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
+      "Musik",
       "Övrigt",
       "Scen",
       "Dans",
       "Konst",
-      "Musik",
       "Litteratur",
       "Familj",
       "Festival",
@@ -676,13 +692,12 @@
       "Humor",
       "Workshop"
     ],
-    "price": "440 kr",
-    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/dublin26.jpg",
-    "imageAlt": "Kulturcentralen",
-    "sourceName": "Victoriateatern",
-    "sourceUrl": "https://kulturcentralen.nu/evenemang/thedublinlegendsie",
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63c40/1791363307732/dublin.jpg",
+    "imageAlt": "The Dublin Legends (IE)",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://victoria.se/sv/program/the-dublin-legends-2026",
     "verifiedAt": "2026-10-27",
-    "endsAt": "2026-10-27T20:00:00+01:00"
+    "price": "440 kr"
   },
   {
     "id": "malmo-stad-5-630778b81a03e20b4c52630",
@@ -1683,6 +1698,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-9b54f9bcd439",
+    "title": "Malmö Redhawks - HV71",
+    "startsAt": "2026-10-31T18:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - HV71",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-hv71_1_sve?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-midnattsdopp-halloween-f",
     "title": "Midnattsdopp – Halloween",
     "startsAt": "2026-10-31T19:00:00+01:00",
@@ -1805,12 +1835,9 @@
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hstfgelturislottsparken",
     "title": "Höstfågeltur i Slottsparken",
     "startsAt": "2026-11-01T09:00:00+01:00",
-    "endsAt": "2026-11-01T11:00:00+01:00",
     "venue": "Slottsparken",
-    "category": "Natur",
+    "category": "Övrigt",
     "categories": [
-      "Natur",
-      "Fritid",
       "Övrigt",
       "Scen",
       "Dans",
@@ -1819,16 +1846,19 @@
       "Litteratur",
       "Familj",
       "Festival",
+      "Fritid",
+      "Natur",
       "Mat & dryck",
       "Humor",
       "Workshop"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759bae36/1774376153448/kungsfa%CC%8AgelErikHirschfeld%203_eve.jpg",
+    "price": "10 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/kungsfagel_kc.jpg",
     "imageAlt": "Höstfågeltur i Slottsparken",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5dd12b0619c51d1d0503bc3&title=H%C3%B6stf%C3%A5geltur-i-Slottsparken",
+    "sourceName": "Malmö stad - Vilda Malmö",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/hstfgelturislottsparken",
     "verifiedAt": "2026-10-27",
-    "price": "10 kr"
+    "endsAt": "2026-11-01T11:00:00+01:00"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9510",
@@ -2633,21 +2663,6 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "lars-winnerback-2026-11-07-a9c488c3",
-    "title": "Lars Winnerbäck",
-    "startsAt": "2026-11-07",
-    "venue": "Malmö Arena",
-    "category": "Musik",
-    "categories": [
-      "Musik"
-    ],
-    "imageUrl": "https://www.visitmalmo.se/Upload/Article/digital_sk%c3%a4rm_1080x1080_20260529_153346.jpg",
-    "imageAlt": "Lars Winnerbäck",
-    "sourceName": "Malmö Arena",
-    "sourceUrl": "https://www.malmoarena.com/evenemang/lars-winnerb%c3%a4ck_sv?hslang=sv",
-    "verifiedAt": "2026-10-27"
-  },
-  {
     "id": "mollan-print-fest-marknad-med-fokus-pa-trycksaker-2026-11-07-eff3e008",
     "title": "MÖLLAN PRINT FEST – Marknad med fokus på trycksaker",
     "startsAt": "2026-11-07",
@@ -2767,6 +2782,21 @@
     "imageAlt": "Mer än bara slutet – Palliativ vård och stöd för livet",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.palliativaveckan.se/evenemangslista/#evenemang-17406",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "lars-winnerback-2026-11-07-a9c488c3",
+    "title": "Lars Winnerbäck",
+    "startsAt": "2026-11-07T19:30:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/digital_sk%c3%a4rm_1080x1080_20260529_153346.jpg",
+    "imageAlt": "Lars Winnerbäck",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/lars-winnerb%c3%a4ck_sv?hslang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -3946,6 +3976,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-d8b1da3bb7c7",
+    "title": "Malmö Redhawks - Växjö Lakers",
+    "startsAt": "2026-11-14T15:15:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Växjö Lakers",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-v%C3%A4xj%C3%B6-lakers_1_sve?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-detstrstaventyret",
     "title": "Det Största Äventyret",
     "startsAt": "2026-11-14T17:00:00+01:00",
@@ -4376,6 +4421,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-e196b49db7d3",
+    "title": "Malmö Redhawks - Rögle BK",
+    "startsAt": "2026-11-19T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Rögle BK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-r%C3%B6gle-bk_1_sve?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "konsert-tarabband-2026-11-19-ec866b39",
     "title": "Konsert: Tarabband",
     "startsAt": "2026-11-19T20:00:00+01:00",
@@ -4694,7 +4754,7 @@
   },
   {
     "id": "malmo-stad-5-5dd12b0619c51d1d050c2dd",
-    "title": "Timbuktu",
+    "title": "Timbuktu + Damn!, DJ Large, Esta Kirabo, Julimar Santos",
     "startsAt": "2026-11-21T20:30:00+01:00",
     "endsAt": "2026-11-21T20:30:00+01:00",
     "venue": "Malmö Arena",
@@ -5164,15 +5224,15 @@
     "startsAt": "2026-11-27",
     "endsAt": "2026-12-18",
     "venue": "Slagthuset",
-    "category": "Mat & dryck",
+    "category": "Musik",
     "categories": [
-      "Mat & dryck",
       "Musik",
+      "Mat & dryck",
       "Övrigt"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64e1e/1791977292858/JulbordP%C3%A5Slagthuset2026_Malm%C3%B6Stad_700x394.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/julbordp%c3%a5slagthuset2026_malm%c3%b6stad_700x394_20261026_165048.jpg",
     "imageAlt": "Storslaget julbord & ösig liveshow med Julen Runt på 80 Låtar",
-    "sourceName": "Malmö stad",
+    "sourceName": "Slagthuset",
     "sourceUrl": "https://julbord.slagthuset.se/",
     "verifiedAt": "2026-10-27"
   },
@@ -5315,6 +5375,21 @@
     "imageAlt": "Lindängenbibliotekets romska novellklubb",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e5977c57&title=Lind%C3%A4ngenbibliotekets-romska-novellklubb",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-d35e844402ed",
+    "title": "Malmö Redhawks - Djurgårdens IF",
+    "startsAt": "2026-11-28T15:15:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Djurgårdens IF",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-djurg%C3%A5rdens-if_1_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -5503,9 +5578,9 @@
     "categories": [
       "Dans"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02132/1784093212025/WEB_MayFall_2951A_photo-Tilo-Stengel.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/web_mayfall_0234a_1x1_photo-tilo-stengel_20260819_113717.jpg",
     "imageAlt": "May Fall & Lampyris Noctiluca",
-    "sourceName": "Malmö stad",
+    "sourceName": "Skånes Dansteater",
     "sourceUrl": "https://www.skanesdansteater.se/may-fall-lampyris-noctiluca",
     "verifiedAt": "2026-10-27"
   },
@@ -5630,6 +5705,21 @@
     "imageAlt": "Ett Oslipat Julbord på TRAVERS",
     "sourceName": "Travers Malmö AB",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ett-oslipat-julbord-pa-travers",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-a8f4064c0ff4",
+    "title": "Malmö Redhawks - Brynäs IF",
+    "startsAt": "2026-12-03T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Brynäs IF",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-bryn%C3%A4s-if_2_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -5983,6 +6073,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "kulturbolaget-d117eb960c4c",
+    "title": "Nazareth",
+    "startsAt": "2026-12-08T19:30:00+01:00",
+    "venue": "Slagthusets Teater",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://kulturbolaget.se/wp-content/uploads/2026/10/Nazareth2026_WEBB-1200x600.jpg",
+    "imageAlt": "Nazareth",
+    "sourceName": "Kulturbolaget",
+    "sourceUrl": "https://kulturbolaget.se/konserter/2026/nazareth-right-left-centre-tour-2026-mlm/",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "julshow-absolutely-glasklart-2026-12-09-d9edb7de",
     "title": "Julshow Absolutely Glasklart",
     "startsAt": "2026-12-09",
@@ -6255,6 +6360,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-b4130326f690",
+    "title": "Tomten är far till alla barnen",
+    "startsAt": "2026-12-12T15:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/Tomten-2026_360x270_v2.jpg?width=768&name=Tomten-2026_360x270_v2.jpg|",
+    "imageAlt": "Tomten är far till alla barnen",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/tomten-ar-far-0-2?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-luciakonsert-s-t-pauli-kyrka",
     "title": "Luciakonsert - S:t Pauli kyrka",
     "startsAt": "2026-12-12T17:00:00+01:00",
@@ -6315,6 +6435,21 @@
     "imageAlt": "Christmas Unplugged 2026 med Peter, Bruno, Matilda & Petra",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://slagthuset.se/events/christmas-unplugged-2026",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-9db57e779f4f",
+    "title": "Tomten är far till alla barnen",
+    "startsAt": "2026-12-13T15:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/Tomten-2026_360x270_v2.jpg?width=768&name=Tomten-2026_360x270_v2.jpg|",
+    "imageAlt": "Tomten är far till alla barnen",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/tomten-ar-far-01?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -6587,6 +6722,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-24de497bd4c5",
+    "title": "Malmö Redhawks - Skellefteå AIK",
+    "startsAt": "2026-12-19T18:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Skellefteå AIK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-skellefte%C3%A5-aik_1_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-a-night-of-christmas-joy-let-your",
     "title": "A NIGHT OF CHRISTMAS JOY – LET YOUR SOUL SING",
     "startsAt": "2026-12-19T19:00:00+01:00",
@@ -6692,6 +6842,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-bf49a6d4582a",
+    "title": "Malmö Redhawks - Linköping HC",
+    "startsAt": "2026-12-26T15:15:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Linköping HC",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-link%C3%B6ping-hc_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "social-dans-soullinedance-2026-12-28",
     "title": "Social dans: SOULlinedance",
     "startsAt": "2026-12-28",
@@ -6704,6 +6869,36 @@
     "imageAlt": "Social dans: SOULlinedance",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/soullinedance28dec2026/",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-f52d171bc9d3",
+    "title": "Malmö Redhawks - Växjö Lakers",
+    "startsAt": "2026-12-30T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Växjö Lakers",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-v%C3%A4xj%C3%B6-lakers_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-6c6847d44eef",
+    "title": "Malmö Redhawks - Timrå IK",
+    "startsAt": "2027-01-05T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Timrå IK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-timr%C3%A5-ik_2_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -6725,6 +6920,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-c178823bef08",
+    "title": "Malmö Redhawks - Luleå Hockey",
+    "startsAt": "2027-01-07T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Luleå Hockey",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-lule%C3%A5-hockey_1_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "malmo-stad-5-4968b1201a03e2e59774c3",
     "title": "Skapa egna ljudlandskap tillsammans med We Are Not Robots.",
     "startsAt": "2027-01-08T10:00:00+01:00",
@@ -6742,6 +6952,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-5028c730d7d2",
+    "title": "Malmö Redhawks - HV71",
+    "startsAt": "2027-01-14T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - HV71",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-hv71_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "kevin-bridges-here-if-you-need-me-european-tour-2026-27-2027-01-17",
     "title": "Kevin Bridges - Here If You Need Me - European Tour 2026/27",
     "startsAt": "2027-01-17",
@@ -6755,6 +6980,21 @@
     "imageAlt": "Kevin Bridges - Here If You Need Me - European Tour 2026/27",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://slagthuset.se/events/kevin-bridges",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-a3100844e77e",
+    "title": "Malmö Redhawks - Björklöven",
+    "startsAt": "2027-01-21T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Björklöven",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-bj%C3%B6rkl%C3%B6ven_1_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -6793,6 +7033,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-3a720f10aaa5",
+    "title": "Malmö Redhawks - Färjestad BK",
+    "startsAt": "2027-01-23T15:15:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Färjestad BK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-f%C3%A4rjestad-bk_1_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "den-svenska-bjornstammen-2027-01-29",
     "title": "Den Svenska Björnstammen",
     "startsAt": "2027-01-29",
@@ -6807,24 +7062,6 @@
     "imageAlt": "Den Svenska Björnstammen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://slagthuset.se/events/den-svenska-bjornstammen",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9a280",
-    "title": "Disney on Ice - Discover the Magic",
-    "startsAt": "2027-01-29",
-    "endsAt": "2027-01-31T16:00:00+01:00",
-    "venue": "Malmö Arena",
-    "category": "Musik",
-    "categories": [
-      "Musik",
-      "Scen",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64bf0/1791883803343/DOI27%20-%20Malmo%E2%95%A0%C3%AA%20700x394.jpg",
-    "imageAlt": "Disney on Ice - Discover the Magic",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmoarena.com/evenemang/disney-on-ice_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -6846,6 +7083,24 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-99b573a4d037",
+    "title": "Disney on Ice - Discover the Magic",
+    "startsAt": "2027-01-29T18:30:00+01:00",
+    "endsAt": "2027-01-31T16:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Scen",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64bf0/1791883803343/DOI27%20-%20Malmo%E2%95%A0%C3%AA%20700x394.jpg",
+    "imageAlt": "Disney on Ice - Discover the Magic",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/disney-on-ice_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "konsert-show-hits-historier-64-66-2027-01-30",
     "title": "Konsert/Show: Hits & Historier 64-66",
     "startsAt": "2027-01-30",
@@ -6858,6 +7113,21 @@
     "imageAlt": "Konsert/Show: Hits & Historier 64-66",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/hits-historier-64-66-malmo-30-jan-2027/",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-0e3b4774328f",
+    "title": "Disney on Ice - Discover the Magic",
+    "startsAt": "2027-01-30T10:30:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/DOI_360x270.jpg?width=768&name=DOI_360x270.jpg|",
+    "imageAlt": "Disney on Ice - Discover the Magic",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/disney-on-ice_sv-2?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -6877,6 +7147,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-1945fb5aa760",
+    "title": "Disney on Ice - Discover the Magic",
+    "startsAt": "2027-01-31T10:30:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/DOI_360x270.jpg?width=768&name=DOI_360x270.jpg|",
+    "imageAlt": "Disney on Ice - Discover the Magic",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/disney-on-ice_eng-2-0?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "lords-of-the-sound-the-music-of-hans-zimmer-2027-02-01",
     "title": "Lords of the Sound | The Music of Hans Zimmer",
     "startsAt": "2027-02-01",
@@ -6889,6 +7174,21 @@
     "imageAlt": "Lords of the Sound | The Music of Hans Zimmer",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/the-music-of-hans-zimmer",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-7efa3b9019bb",
+    "title": "Malmö Redhawks - Skellefteå AIK",
+    "startsAt": "2027-02-02T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Skellefteå AIK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-skellefte%C3%A5-aik_2_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -7019,6 +7319,21 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-20c63e7ef897",
+    "title": "Malmö Redhawks - Rögle BK",
+    "startsAt": "2027-02-06T15:15:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Rögle BK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-r%C3%B6gle-bk_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "malmo-stad-5-4968b1201a03e2e5977101d",
     "title": "Månadskonsert med kulturskolan i Röda rummet",
     "startsAt": "2027-02-09",
@@ -7096,6 +7411,21 @@
     "imageAlt": "Ane Brun + Riley O’Flynn",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/ane-brun",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "kulturbolaget-e16410247c84",
+    "title": "Ane Brun",
+    "startsAt": "2027-02-11T19:30:00+01:00",
+    "venue": "Slagthusets Teater",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://kulturbolaget.se/wp-content/uploads/2026/10/AneBrun2027_WEBB_FotoLamiaKaric-1200x600.jpg",
+    "imageAlt": "Ane Brun",
+    "sourceName": "Kulturbolaget",
+    "sourceUrl": "https://kulturbolaget.se/konserter/2026/ane-brun-i-thought-we-were-the-same-nordic-tour-mlm/",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -7177,10 +7507,55 @@
       "Familj",
       "Övrigt"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64117/1791453022062/Logga%20utan%20text_evenemangskalender.png",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/melodifestivalen2026_facebook_instagram_1080x1080px_malmo_20261005_152930.jpg",
     "imageAlt": "Melodifestivalen 2027 – deltävling 3",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmoarena.com/evenemang/melodifestivalen-2027?hsLang=sv",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/melodifestivalen-2027?hslang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-28569b61a645",
+    "title": "Melodifestivalen 2027 - Matiné",
+    "startsAt": "2027-02-20T14:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/Melodifestivalen2026_FacebookPost_1920x1080px_Malmo-1.jpg?width=768&name=Melodifestivalen2026_FacebookPost_1920x1080px_Malmo-1.jpg|",
+    "imageAlt": "Melodifestivalen 2027 - Matiné",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/melodifestivalen-2027-0?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-4e26fe02f9e2",
+    "title": "Melodifestivalen 2027 - Deltävling 3",
+    "startsAt": "2027-02-20T20:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/Melodifestivalen2026_FacebookPost_1920x1080px_Malmo-1.jpg?width=768&name=Melodifestivalen2026_FacebookPost_1920x1080px_Malmo-1.jpg|",
+    "imageAlt": "Melodifestivalen 2027 - Deltävling 3",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/melodifestivalen-2027-0-0?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-44832bad9004",
+    "title": "Malmö Redhawks - Örebro Hockey",
+    "startsAt": "2027-02-25T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Örebro Hockey",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-%C3%B6rebro_2_sve?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -7199,19 +7574,49 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-arena-36fa905eca29",
+    "title": "Malmö Redhawks - Frölunda HC",
+    "startsAt": "2027-02-27T18:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Frölunda HC",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-fr%C3%B6lunda_2_sve?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-67c3ad2a8ca2",
+    "title": "Malmö Redhawks - Luleå Hockey",
+    "startsAt": "2027-03-02T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Luleå Hockey",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-lule%C3%A5-hockey_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
     "id": "gud-forbannat-nu-far-det-bara-eller-brista-en-humorforestallning-med-leif-billy-2027-03-04-e0ca19aa",
     "title": "Gud förbannat – Nu får det bära eller brista | En humorföreställning med Leif & Billy",
     "startsAt": "2027-03-04",
     "endsAt": "2027-03-12",
     "venue": "Slagthuset",
-    "category": "Konst",
+    "category": "Humor",
     "categories": [
-      "Konst",
-      "Humor"
+      "Humor",
+      "Konst"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6564c/1792497187984/Leif&Billy2027_Malm%C3%B6Stad_700x394.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/billy_20261026_165847.png",
     "imageAlt": "Gud förbannat – Nu får det bära eller brista | En humorföreställning med Leif & Billy",
-    "sourceName": "Malmö stad",
+    "sourceName": "Slagthuset",
     "sourceUrl": "https://secure.tickster.com/mjabnyce3ll3j1v",
     "verifiedAt": "2026-10-27"
   },
@@ -7230,6 +7635,51 @@
     "imageAlt": "Lisa Ekdahl",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://slagthuset.se/events/lisa-ekdahl",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-11b2eb0b0876",
+    "title": "Malmö Redhawks - Färjestad BK",
+    "startsAt": "2027-03-07T16:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Färjestad BK",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-f%C3%A4rjestad-bk_2_sv?hsLang=sv",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "kulturbolaget-3f8341b64f50",
+    "title": "Lisa Ekdahl",
+    "startsAt": "2027-03-07T19:30:00+01:00",
+    "venue": "Slagthusets Teater",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://kulturbolaget.se/wp-content/uploads/2026/10/LisaEkdahl2027_WEBB-1200x600.jpg",
+    "imageAlt": "Lisa Ekdahl",
+    "sourceName": "Kulturbolaget",
+    "sourceUrl": "https://kulturbolaget.se/konserter/2026/lisa-ekdahl-du-har-alltid-mej-tour-mlm/",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-0eab62c15e15",
+    "title": "Malmö Redhawks - Djurgårdens IF",
+    "startsAt": "2027-03-11T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Djurgårdens IF",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-djurg%C3%A5rdens-if_2_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -7280,6 +7730,21 @@
     "imageAlt": "Leva och låta bli att dö",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmolive.se/program/leva-och-lata-bli-att-do",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-arena-131cd32b8427",
+    "title": "Malmö Redhawks - Björklöven",
+    "startsAt": "2027-03-16T19:00:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://143366277.fs1.hubspotusercontent-eu1.net/hub/143366277/hubfs/360x270.png?width=768&name=360x270.png|",
+    "imageAlt": "Malmö Redhawks - Björklöven",
+    "sourceName": "Malmö Arena",
+    "sourceUrl": "https://www.malmoarena.com/evenemang/redhawks-bj%C3%B6rkl%C3%B6ven_2_sv?hsLang=sv",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -7526,19 +7991,19 @@
   {
     "id": "lukas-graham-2027-05-05",
     "title": "Lukas Graham",
-    "startsAt": "2027-05-05",
-    "endsAt": "2027-05-05T22:00:00+02:00",
+    "startsAt": "2027-05-05T20:00:00+02:00",
     "venue": "Slagthuset",
     "category": "Musik",
     "categories": [
       "Musik",
       "Mat & dryck"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6393e/1791264626752/LukasGraham_2027.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/lukas_20261026_165242.jpg",
     "imageAlt": "Lukas Graham",
-    "sourceName": "Malmö stad",
+    "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/lukas-graham",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-27",
+    "endsAt": "2027-05-05T22:00:00+02:00"
   },
   {
     "id": "k-pop-superstars-2027-05-09",
@@ -7644,7 +8109,7 @@
   {
     "id": "brit-floyd-2027-10-08-ca94b096",
     "title": "Brit Floyd",
-    "startsAt": "2027-10-08T19:30:00+02:00",
+    "startsAt": "2027-10-08T19:00:00+02:00",
     "venue": "Malmö Arena",
     "category": "Musik",
     "categories": [
