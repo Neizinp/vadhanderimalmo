@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  ArrowUpRight,
   Bookmark,
-  CalendarDays,
   Clock3,
   Heart,
   MapPin,
@@ -178,10 +176,6 @@ function App() {
           <span className="wordmark-mark" aria-hidden="true">M</span>
           <span className="wordmark-name">Vad händer <span>i Malmö</span></span>
         </a>
-        <nav className="top-nav" aria-label="Huvudmeny">
-          <a className="nav-link active" href="#events">Evenemang</a>
-          <a className="nav-link" href="#about">Om guiden</a>
-        </nav>
         <button
           className={`saved-toggle ${savedOnly ? 'is-active' : ''}`}
           type="button"
@@ -195,30 +189,7 @@ function App() {
       </header>
 
       <main id="top">
-        <section className="intro" aria-labelledby="page-title">
-          <div className="intro-copy">
-            <p className="eyebrow"><span className="eyebrow-dot" /> MALMÖ, JUST NU</p>
-            <h1 id="page-title">Det händer<br /><em>i Malmö.</em></h1>
-            <p className="intro-description">En stad full av små och stora planer.<br className="desktop-break" /> Hitta något att se fram emot.</p>
-          </div>
-          <div className="intro-stamp" aria-label={`${events.length} evenemang att upptäcka`}>
-            <CalendarDays size={21} strokeWidth={1.6} />
-            <strong>{events.length.toString().padStart(2, '0')}</strong>
-            <span>utvalda<br />evenemang</span>
-            <span className="stamp-spark" aria-hidden="true">✳</span>
-          </div>
-          <div className="intro-scribble" aria-hidden="true">✳</div>
-        </section>
-
-        <section className="event-section" id="events" aria-labelledby="events-heading">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow section-eyebrow">DIN NÄSTA PLAN</p>
-              <h2 id="events-heading">På gång i stan <span className="heading-star">✳</span></h2>
-            </div>
-            <p className="demo-note"><span /> Exempel på evenemang</p>
-          </div>
-
+        <section className="event-section" id="events" aria-label="Evenemang">
           <div className="filter-panel">
             <label className="search-box">
               <Search size={19} strokeWidth={1.8} aria-hidden="true" />
@@ -313,17 +284,8 @@ function App() {
           )}
         </section>
 
-        <section className="about-strip" id="about">
-          <span className="about-mark" aria-hidden="true">M</span>
-          <div><h2>Staden är din scen.</h2><p>En samlad guide till allt fint, kul och oväntat som händer i Malmö.</p></div>
-          <a href="#top" className="back-to-top">Till toppen <ArrowUpRight size={17} /></a>
-        </section>
       </main>
 
-      <footer className="footer">
-        <span>Vad händer i Malmö? <span className="footer-dot">✳</span></span>
-        <span>Lokala tips, stora upplevelser.</span>
-      </footer>
     </div>
   )
 }
