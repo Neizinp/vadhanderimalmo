@@ -1,6 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   Bookmark,
+  ChevronLeft,
+  ChevronRight,
   Clock3,
   Heart,
   MapPin,
@@ -107,6 +109,8 @@ function formatEventDate(event: EventRecord, currentYear: string) {
 }
 
 function App() {
+  const categoryScroller = useRef<HTMLDivElement>(null)
+  const [categoryScroll, setCategoryScroll] = useState({ left: false, right: false })
   const [query, setQuery] = useState('')
   const [category, setCategory] = useState<'Alla' | EventCategory>('Alla')
   const [dateFilter, setDateFilter] = useState<DateFilter>('all')
@@ -125,6 +129,37 @@ function App() {
   useEffect(() => {
     localStorage.setItem('malmo-saved-events', JSON.stringify(savedIds))
   }, [savedIds])
+
+  useEffect(() => {
+    const element = categoryScroller.current
+    if (!element) return
+
+    const updateScrollState = () => {
+      setCategoryScroll({
+        left: element.scrollLeft > 0,
+        right: element.scrollLeft + element.clientWidth < element.scrollWidth - 1,
+      })
+    }
+    const resizeObserver = new ResizeObserver(updateScrollState)
+    resizeObserver.observe(element)
+    element.addEventListener('scroll', updateScrollState, { passive: true })
+    updateScrollState()
+
+    return () => {
+      resizeObserver.disconnect()
+      element.removeEventListener('scroll', updateScrollState)
+    }
+  }, [])
+
+  function scrollCategories(distance: number) {
+    const element = categoryScroller.current
+    if (!element) return
+    element.scrollBy({ left: distance, behavior: 'instant' })
+    setCategoryScroll({
+      left: element.scrollLeft > 0,
+      right: element.scrollLeft + element.clientWidth < element.scrollWidth - 1,
+    })
+  }
 
   const visibleEvents = events.filter((event) => {
     const searchText = `${event.title} ${event.venue} ${event.district ?? ''} ${event.category} ${event.sourceName}`.toLocaleLowerCase('sv-SE')
@@ -210,18 +245,38 @@ function App() {
             </div>
           </div>
 
-          <div className="category-row" role="group" aria-label="Filtrera efter kategori">
-            {categories.map((item) => (
-              <button
-                className={`category-chip ${category === item ? 'is-selected' : ''}`}
-                key={item}
-                type="button"
-                aria-pressed={category === item}
-                onClick={() => setCategory(item)}
-              >
-                {item}
-              </button>
-            ))}
+          <div className="category-row">
+            <button
+              className="category-scroll-button"
+              type="button"
+              aria-label="Visa tidigare kategorier"
+              disabled={!categoryScroll.left}
+              onClick={() => scrollCategories(-220)}
+            >
+              <ChevronLeft size={17} />
+            </button>
+            <div className="category-viewport" ref={categoryScroller} role="group" aria-label="Filtrera efter kategori">
+              {categories.map((item) => (
+                <button
+                  className={`category-chip ${category === item ? 'is-selected' : ''}`}
+                  key={item}
+                  type="button"
+                  aria-pressed={category === item}
+                  onClick={() => setCategory(item)}
+                >
+                  {item}
+                </button>
+              ))}
+            </div>
+            <button
+              className="category-scroll-button"
+              type="button"
+              aria-label="Visa fler kategorier"
+              disabled={!categoryScroll.right}
+              onClick={() => scrollCategories(220)}
+            >
+              <ChevronRight size={17} />
+            </button>
             <span className="results-count">{visibleEvents.length} {visibleEvents.length === 1 ? 'träff' : 'träffar'}</span>
           </div>
 

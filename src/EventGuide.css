@@ -186,11 +186,57 @@ main {
 .category-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+  min-width: 0;
   min-height: 68px;
 }
 
+.category-viewport {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.category-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.category-scroll-button {
+  display: grid;
+  flex: 0 0 30px;
+  place-items: center;
+  width: 30px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid #dfe4dc;
+  border-radius: 2px;
+  background: #f9faf7;
+  color: #52665a;
+  cursor: pointer;
+}
+
+.category-scroll-button:hover:not(:disabled) {
+  border-color: #aab8ac;
+  background: #edf0ea;
+}
+
+.category-scroll-button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.category-scroll-button:focus-visible,
+.category-viewport .category-chip:focus-visible {
+  outline: 2px solid #1e4537;
+  outline-offset: 2px;
+}
+
 .category-chip {
+  flex: 0 0 auto;
   min-height: 31px;
   padding: 0 12px;
   border: 1px solid #dfe4dc;
@@ -514,20 +560,22 @@ main {
   }
 
   .category-row {
-    gap: 6px;
     min-height: 54px;
-    overflow-x: auto;
-    scrollbar-width: none;
   }
 
-  .category-row::-webkit-scrollbar {
-    display: none;
+  .category-viewport {
+    gap: 6px;
   }
 
   .category-chip {
-    flex: 0 0 auto;
     padding-inline: 10px;
     font-size: 10px;
+  }
+
+  .category-scroll-button {
+    flex-basis: 27px;
+    width: 27px;
+    height: 30px;
   }
 
   .results-count {
