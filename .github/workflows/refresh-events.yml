@@ -7,14 +7,21 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
-  group: refresh-events
+  group: github-pages
   cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      GITHUB_PAGES: 'true'
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -34,6 +41,11 @@ jobs:
       - name: Verify the application builds
         run: npm run build
 
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
       - name: Commit updated event data
         run: |
           if git diff --quiet -- src/data/events.json; then
@@ -45,3 +57,7 @@ jobs:
           git add src/data/events.json
           git commit -m "Refresh Malmö event data"
           git push
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
