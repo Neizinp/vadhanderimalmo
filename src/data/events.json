@@ -2467,19 +2467,18 @@
   },
   {
     "id": "malmo-stad-5-5544db6919ed4ce6f5fb7c",
-    "title": "Lolita, när en litterär gestalt blir en myt",
+    "title": "Påverkas energiomställningen av förändrat säkerhetsläge?",
     "startsAt": "2026-11-12T16:00:00+01:00",
     "endsAt": "2026-11-26",
-    "venue": "Kulturhyllan",
-    "category": "Litteratur",
+    "venue": "Stadsbiblioteket",
+    "category": "Scen",
     "categories": [
-      "Litteratur",
       "Scen"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64ed0/1791985142390/Mimme%20Bon_Foto_Zidi%20Holster.jpg",
-    "imageAlt": "Lolita, när en litterär gestalt blir en myt",
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65d2a/1793178746073/stadsbiblioteket-exterior-2017-sommar.jpg",
+    "imageAlt": "Påverkas energiomställningen av förändrat säkerhetsläge?",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9b97e&title=Lolita%2C-n%C3%A4r-en-litter%C3%A4r-gestalt-blir-en-myt",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9c956&title=P%C3%A5verkas-energiomst%C3%A4llningen-av-f%C3%B6r%C3%A4ndrat-s%C3%A4kerhetsl%C3%A4ge%3F",
     "verifiedAt": "2026-10-28"
   },
   {
@@ -2894,6 +2893,25 @@
     "imageAlt": "Arkivens dag och invigning av våra nyrenoverade lokaler",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bd97&title=Arkivens-dag-och-invigning-av-v%C3%A5ra-nyrenoverade-lokaler",
+    "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf9c930",
+    "title": "Mustaschmilen Malmö 2026",
+    "startsAt": "2026-11-14T10:00:00+01:00",
+    "endsAt": "2026-11-14T10:00:00+01:00",
+    "venue": "Jägersro Trav",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Mat & dryck",
+      "Fritid",
+      "Musik"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65d0a/1793177004990/Namnlo%CC%88s%20(1280%20x%20600%20px)%20(2000%20x%201500%20px)%20(700%20x%20394%20px)%20(1).png",
+    "imageAlt": "Mustaschmilen Malmö 2026",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://mustaschmilen.se/malmo/",
     "verifiedAt": "2026-10-28"
   },
   {
@@ -4361,6 +4379,22 @@
     "sourceName": "Eleda Stadion",
     "sourceUrl": "https://www.mff.se/matcher/malmo-ff-herr-vs-if-brommapojkarna-2026-11-29/",
     "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf9c9a5",
+    "title": "Söndagsverkstad – Stygnen berättar!",
+    "startsAt": "2026-11-29T11:00:00+01:00",
+    "endsAt": "2026-11-29T11:00:00+01:00",
+    "venue": "Moderna Museet Malmö",
+    "category": "Workshop",
+    "categories": [
+      "Workshop"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65949/1792735061300/verkstan_f_asa_lunden2.jpg",
+    "imageAlt": "Söndagsverkstad – Stygnen berättar!",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/sondagsverkstad-stygnen-berattar/",
+    "verifiedAt": "2026-10-28"
   },
   {
     "id": "brandsta-city-slackers-familjekonsert-2026-11-29",
@@ -7021,6 +7055,68 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "slagthuset-8013",
+    "title": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "startsAt": "2027-03-18T20:00:00+01:00",
+    "venue": "Slagthusets Teater",
+    "district": "Slagthuset",
+    "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
+    "price": "från 795 kr",
+    "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
+    "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "sourceName": "Slagthuset",
+    "sourceUrl": "https://slagthuset.se/events/leif-billy-18mars",
+    "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "slagthuset-8015",
+    "title": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "startsAt": "2027-03-19T17:00:00+01:00",
+    "venue": "Slagthusets Teater",
+    "district": "Slagthuset",
+    "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
+    "price": "från 795 kr",
+    "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
+    "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "sourceName": "Slagthuset",
+    "sourceUrl": "https://slagthuset.se/events/leif-billy-19mars-matine",
+    "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-adambenezramichaeloliveraisrcu",
+    "title": "Adam Ben Ezra & Michael Olivera (ISR/CU)",
+    "startsAt": "2027-03-19T19:30:00+01:00",
+    "venue": "Victoriateatern",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Scen",
+      "Dans",
+      "Konst",
+      "Musik",
+      "Litteratur",
+      "Familj",
+      "Festival",
+      "Fritid",
+      "Natur",
+      "Mat & dryck",
+      "Humor",
+      "Workshop"
+    ],
+    "price": "320 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/adamben2027.jpg",
+    "imageAlt": "Adam Ben Ezra & Michael Olivera (ISR/CU)",
+    "sourceName": "Victoriateatern",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/adambenezramichaeloliveraisrcu",
+    "verifiedAt": "2026-10-28"
+  },
+  {
     "id": "skanes-dansteaters-kompani-the-grand-dance-2027-03-20-c2388122",
     "title": "Skånes Dansteaters Kompani: The Grand Dance",
     "startsAt": "2027-03-20",
@@ -7034,6 +7130,23 @@
     "imageAlt": "The Grand Dance",
     "sourceName": "Skånes Dansteater, Malmö Opera",
     "sourceUrl": "https://www.skanesdansteater.se/grand-dance",
+    "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "slagthuset-8022",
+    "title": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "startsAt": "2027-03-20T17:00:00+01:00",
+    "venue": "Slagthusets Teater",
+    "district": "Slagthuset",
+    "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
+    "price": "från 795 kr",
+    "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
+    "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
+    "sourceName": "Slagthuset",
+    "sourceUrl": "https://slagthuset.se/events/leif-billy-20mars-matine",
     "verifiedAt": "2026-10-28"
   },
   {
@@ -7306,6 +7419,23 @@
     "endsAt": "2027-05-05T22:00:00+02:00",
     "district": "Slagthuset",
     "price": "640 kr"
+  },
+  {
+    "id": "slagthuset-8036",
+    "title": "Björn Rosenström",
+    "startsAt": "2027-05-08T19:30:00+02:00",
+    "venue": "Slagthusets Teater",
+    "district": "Slagthuset",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt"
+    ],
+    "price": "595 kr",
+    "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/BjornRosenstrom2027_Slagthuset_2000x1000-750x375.jpg",
+    "imageAlt": "Björn Rosenström",
+    "sourceName": "Slagthuset",
+    "sourceUrl": "https://slagthuset.se/events/bjorn-rosenstrom-2027",
+    "verifiedAt": "2026-10-28"
   },
   {
     "id": "k-pop-superstars-2027-05-09",
