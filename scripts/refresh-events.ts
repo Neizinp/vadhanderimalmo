@@ -10,6 +10,7 @@ const kulturbolagetFeedUrl = 'https://kulturbolaget.se/feed/?post_type=events'
 const malmoLiveUrl = 'https://malmolive.se/program'
 const moriskaUrl = 'https://moriskapaviljongen.se/'
 const slagthusetApiUrl = 'https://slagthuset.se/api/events'
+const fcRosengardUrl = 'https://www.fcrosengard.se/sv/matches'
 const malmoCityApi = 'https://malmo.se/appresource/4.50574bcf196ed960a55408d/12.50574bcf196ed960a55409f/items?start='
 const pageSize = 18
 const outputPath = resolve('src/data/events.json')
@@ -760,6 +761,51 @@ async function fetchMalmoLiveEvents(today: string, lastStartDate: string) {
   return events
 }
 
+async function fetchFcRosengardEvents(today: string, lastStartDate: string) {
+  const response = await fetch(fcRosengardUrl, {
+    headers: { 'user-agent': 'VadHanderIMalmoEventUpdater/1.0 (scheduled event listing)', accept: 'text/html' },
+    signal: AbortSignal.timeout(30_000),
+  })
+  if (!response.ok) throw new Error(`FC Rosengård match page returned HTTP ${response.status}`)
+
+  const $ = load(await response.text())
+  const events: EventRecord[] = []
+  $('div.px-4.py-4.bg-card').each((_index, element) => {
+    const card = $(element)
+    const venue = card.find('span').map((_spanIndex, span) => cleanText($(span).text())).get()
+      .find((value) => /^Malmö IP$/i.test(value))
+    const dateTimeText = card.find('span').map((_spanIndex, span) => cleanText($(span).text())).get()
+      .find((value) => /\b\d{1,2}\s+[a-zåäö]+/i.test(value) && /\b\d{1,2}:\d{2}\b/.test(value)) ?? ''
+    const teamNames = card.find('img[alt]').map((_imageIndex, image) => cleanText($(image).attr('alt') ?? '').replace(/\s+logo$/i, '')).get()
+    const startsOn = parseSwedishMonthDay(dateTimeText, today)
+    const time = dateTimeText.match(/\b([01]?\d|2[0-3]):([0-5]\d)\b/)
+    if (!venue || !/^FC Rosengård$/i.test(teamNames[0] ?? '') || !teamNames[1] || !startsOn || !time) return
+    if (startsOn < today || startsOn > lastStartDate) return
+
+    const title = `${teamNames[0]} - ${teamNames[1]} OBOS Damallsvenskan`
+    const imagePath = card.find('img[alt]').first().attr('src')
+    const ticketPath = card.find('a[href*="liveday.se"]').first().attr('href')
+    if (!imagePath) return
+    const event: EventRecord = {
+      id: `fc-rosengard-${startsOn}-${slug(teamNames[1])}`,
+      title,
+      startsAt: stockholmIsoDateTime(startsOn, `${time[1].padStart(2, '0')}:${time[2]}`),
+      venue,
+      category: 'Sport',
+      categories: ['Sport'],
+      imageUrl: new URL(imagePath, fcRosengardUrl).href,
+      imageAlt: title,
+      sourceName: 'FC Rosengård',
+      sourceUrl: ticketPath ? new URL(ticketPath, fcRosengardUrl).href : fcRosengardUrl,
+      verifiedAt: today,
+    }
+    if (isEventRecord(event)) events.push(event)
+  })
+
+  if (!events.length) throw new Error('FC Rosengård match page returned no valid upcoming Malmö IP fixtures')
+  return events
+}
+
 async function main() {
   const today = dateInMalmo(new Date())
   const lastStartDate = addDays(today, 365)
@@ -803,6 +849,11 @@ async function main() {
       name: 'Slagthuset',
       fetch: () => fetchSlagthusetEvents(today, lastStartDate),
       matchesPrevious: (event: EventRecord) => event.sourceName === 'Slagthuset',
+    },
+    {
+      name: 'FC Rosengård',
+      fetch: () => fetchFcRosengardEvents(today, lastStartDate),
+      matchesPrevious: (event: EventRecord) => event.sourceName === 'FC Rosengård' || event.sourceUrl.includes('fcrosengard.se'),
     },
   ]
   const sourceResults = await Promise.all(sources.map(async (source) => {

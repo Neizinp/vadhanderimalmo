@@ -353,6 +353,22 @@
     "district": "Folkets Park"
   },
   {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf9c928",
+    "title": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
+    "startsAt": "2026-10-28",
+    "endsAt": "2027-03-31",
+    "venue": "Orkanen (Malmö Universitet)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65ca5/1793174422760/strumpan_webb_kalender.jpg",
+    "imageAlt": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://mau.se/bibliotek/pa-biblioteket/utstallningar-och-evenemang/forskarnas-galleri/doffeln-strumpan--trikatan/",
+    "verifiedAt": "2026-10-28"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf97c49",
     "title": "Into Practice: What comes next in our antiracist work?",
     "startsAt": "2026-10-28T11:00:00+01:00",
@@ -858,21 +874,6 @@
     "price": "250 kr"
   },
   {
-    "id": "fc-rosengard-vaxjo-obos-damallsvenskan-2026-10-31-35b2644a",
-    "title": "FC Rosengård - Växjö OBOS Damallsvenskan",
-    "startsAt": "2026-10-31",
-    "venue": "Malmö IP",
-    "category": "Sport",
-    "categories": [
-      "Sport"
-    ],
-    "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan2_20261014_092809.jpg",
-    "imageAlt": "FC Rosengård - Växjö OBOS Damallsvenskan",
-    "sourceName": "Malmö IP",
-    "sourceUrl": "https://www.fcrosengard.se/sv/matches",
-    "verifiedAt": "2026-10-27"
-  },
-  {
     "id": "malmo-stad-5-4968b1201a03e2e5977c6d",
     "title": "Rullskridskodisco med DJs",
     "startsAt": "2026-10-31T09:00:00+01:00",
@@ -915,6 +916,21 @@
     "imageAlt": "Smaktur, Malmö (promenad, cykel, buss)",
     "sourceName": "Travelshop AB",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/smaktur-malmo-promenad-cykel-buss",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "fc-rosengard-vaxjo-obos-damallsvenskan-2026-10-31-35b2644a",
+    "title": "FC Rosengård - Växjö OBOS Damallsvenskan",
+    "startsAt": "2026-10-31T15:00:00+01:00",
+    "venue": "Malmö IP",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan2_20261014_092809.jpg",
+    "imageAlt": "FC Rosengård - Växjö OBOS Damallsvenskan",
+    "sourceName": "Malmö IP",
+    "sourceUrl": "https://www.fcrosengard.se/sv/matches",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -1724,21 +1740,6 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "fc-rosengard-hammarby-obos-damallsvenskan-2026-11-07-35b2644a",
-    "title": "FC Rosengård - Hammarby OBOS Damallsvenskan",
-    "startsAt": "2026-11-07",
-    "venue": "Malmö IP",
-    "category": "Sport",
-    "categories": [
-      "Sport"
-    ],
-    "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan3_20261014_092913.jpg",
-    "imageAlt": "FC Rosengård - Hammarby OBOS Damallsvenskan",
-    "sourceName": "Malmö IP",
-    "sourceUrl": "https://www.fcrosengard.se/sv/matches",
-    "verifiedAt": "2026-10-27"
-  },
-  {
     "id": "malmo-stad-5-5544db6919ed4ce6f5f73ce",
     "title": "Internationell bokfestival på spanska",
     "startsAt": "2026-11-07T10:00:00+01:00",
@@ -1783,6 +1784,21 @@
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/languageoffungi",
     "verifiedAt": "2026-10-28"
+  },
+  {
+    "id": "fc-rosengard-hammarby-obos-damallsvenskan-2026-11-07-35b2644a",
+    "title": "FC Rosengård - Hammarby OBOS Damallsvenskan",
+    "startsAt": "2026-11-07T14:00:00+01:00",
+    "venue": "Malmö IP",
+    "category": "Sport",
+    "categories": [
+      "Sport"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/biljettbanners_malmo-destinationssamverkan3_20261014_092913.jpg",
+    "imageAlt": "FC Rosengård - Hammarby OBOS Damallsvenskan",
+    "sourceName": "Malmö IP",
+    "sourceUrl": "https://www.fcrosengard.se/sv/matches",
+    "verifiedAt": "2026-10-27"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9861f",
@@ -2213,7 +2229,7 @@
     "imageAlt": "Sagostund på somaliska med Ayanle | 3–6 år",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.630778b81a03e20b4c52630&title=Sagostund-p%C3%A5-somaliska-med-Ayanle-%7C-3%E2%80%936-%C3%A5r",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-28"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-matkaravan-pa-mollan-fran-16-juli",
@@ -4360,9 +4376,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/brandsta-city-slackers",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2026-11-29T16:00:00+01:00",
     "district": "Slagthuset",
-    "price": "350 kr",
-    "endsAt": "2026-11-29T16:00:00+01:00"
+    "price": "350 kr"
   },
   {
     "id": "moriska-c51b673efff8",
@@ -5002,9 +5018,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/nazareth",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2026-12-08T19:30:00+01:00",
     "district": "Slagthuset",
-    "price": "595 kr",
-    "endsAt": "2026-12-08T19:30:00+01:00"
+    "price": "595 kr"
   },
   {
     "id": "kulturbolaget-d117eb960c4c",
@@ -6231,9 +6247,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/the-music-of-hans-zimmer",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2027-02-01T19:00:00+01:00",
     "district": "Slagthuset",
-    "price": "från 740 kr",
-    "endsAt": "2027-02-01T19:00:00+01:00"
+    "price": "från 740 kr"
   },
   {
     "id": "malmo-arena-7efa3b9019bb",
@@ -6443,9 +6459,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/alexx-alexxander",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2027-02-10T19:30:00+01:00",
     "district": "Slagthuset",
-    "price": "från 595 kr",
-    "endsAt": "2027-02-10T19:30:00+01:00"
+    "price": "från 595 kr"
   },
   {
     "id": "kim-wilde-2027-02-10",
@@ -6479,9 +6495,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/ane-brun",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2027-02-11T19:30:00+01:00",
     "district": "Slagthuset",
-    "price": "från 640 kr",
-    "endsAt": "2027-02-11T19:30:00+01:00"
+    "price": "från 640 kr"
   },
   {
     "id": "kulturbolaget-e16410247c84",
@@ -7118,9 +7134,9 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/from-a-jack-to-a-king",
     "verifiedAt": "2026-10-28",
+    "endsAt": "2027-04-16T19:30:00+02:00",
     "district": "Slagthuset",
-    "price": "530 kr",
-    "endsAt": "2027-04-16T19:30:00+02:00"
+    "price": "530 kr"
   },
   {
     "id": "en-jakla-massa-schlager-2027-04-17",
