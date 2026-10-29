@@ -84,308 +84,6 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5d19",
-    "title": "Stick-AW!",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-11-26",
-    "venue": "Moderna Museet Malmö",
-    "category": "Workshop",
-    "categories": [
-      "Workshop"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0401b/1786965763326/StickAW_-A.Giertz.jpg",
-    "imageAlt": "Stick-AW!",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/stick-aw/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f3560",
-    "title": "Afterlife",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-11-28",
-    "venue": "Skånes Dansteater",
-    "category": "Dans",
-    "categories": [
-      "Dans"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02131/1784093131735/WEB_Afterlife_16x9_photo_Carl-Johan-F-Karlidag.jpg",
-    "imageAlt": "Afterlife",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.skanesdansteater.se/afterlife",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5c2e",
-    "title": "Barnvagnsvisning",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-09",
-    "venue": "Moderna Museet Malmö",
-    "category": "Fritid",
-    "categories": [
-      "Fritid",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03ecf/1786947993698/barnvagnsvisning_f_sanna-dolck-wall_mm_1500.jpg",
-    "imageAlt": "Barnvagnsvisning",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/barnvagnsvisning/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5cf1",
-    "title": "Babymåleri",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-11",
-    "venue": "Moderna Museet Malmö",
-    "category": "Workshop",
-    "categories": [
-      "Workshop",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0400b/1786964591733/Babyvisning-Foto-PrallanAllsten-e1686299116310.jpg",
-    "imageAlt": "Babymåleri",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/babymaleri/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5d01",
-    "title": "Museis – Stor konst för de små",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-15",
-    "venue": "Moderna Museet Malmö",
-    "category": "Workshop",
-    "categories": [
-      "Workshop",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04018/1786965705718/museis5_f_sanna-dolck-wall_mm_1500.jpg",
-    "imageAlt": "Museis – Stor konst för de små",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/museis-stor-konst-for-de-sma/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5d09",
-    "title": "Konst & Känsla",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-17",
-    "venue": "Moderna Museet Malmö",
-    "category": "Konst",
-    "categories": [
-      "Konst",
-      "Fritid",
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04019/1786965728467/konst-o-knsl2a_f_sanna-dolck-wall_mm_1500.jpg",
-    "imageAlt": "Konst & Känsla",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/konst-kansla/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5cf9",
-    "title": "Guidad visning",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-27",
-    "venue": "Moderna Museet Malmö",
-    "category": "Konst",
-    "categories": [
-      "Konst",
-      "Fritid"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04017/1786965585567/guidad%20visn.jpg",
-    "imageAlt": "Guidad visning",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/kalender/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9b91e",
-    "title": "Höstlov på Statarmuseet",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-10-30",
-    "venue": "Statarmuseet",
-    "category": "Mat & dryck",
-    "categories": [
-      "Mat & dryck",
-      "Natur",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65406/1792405238598/BILDho%CC%88stlov.jpg",
-    "imageAlt": "Höstlov på Statarmuseet",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.facebook.com/statarmuseet/?locale=sv_SE",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9be7d",
-    "title": "Höstlovsgolf",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-10-31",
-    "venue": "T-bryggan",
-    "category": "Mat & dryck",
-    "categories": [
-      "Mat & dryck",
-      "Övrigt",
-      "Sport",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f657ea/1792577597430/75B853D1-D5E5-4649-B0AC-C445A7E6925E.jpg",
-    "imageAlt": "Höstlovsgolf",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.ribbangreengolf.se/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9b891",
-    "title": "Höstsalong – samlingsutställning",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-11-30",
-    "venue": "Svenska Konstgalleriet",
-    "category": "Konst",
-    "categories": [
-      "Konst",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6537c/1792395785824/H%C3%B6stsalong.png",
-    "imageAlt": "Höstsalong – samlingsutställning",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.sv-konstgalleriet.se/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5d21",
-    "title": "Drink & Draw – Teckna i caféet!",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-03",
-    "venue": "Moderna Museet Malmö",
-    "category": "Workshop",
-    "categories": [
-      "Workshop"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0401c/1786965777562/260501_ModernaMuseet_VernissageAbdulkadirTurbeville_FotoSannaDolckWall_17.jpg",
-    "imageAlt": "Drink & Draw – Teckna i caféet!",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/drinkdraw/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5dd12b0619c51d1d0503d7c3",
-    "title": "Killar",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-10-30",
-    "venue": "Rosengård (Malmö stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759b1104a/1777973953628/STADSTEATERN%20KILLAR14758%20(1).jpg",
-    "imageAlt": "Killar",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/killar",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-437d186119ed4baa5961177",
-    "title": "Prima Facie",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-12-19",
-    "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e075c/1782293812558/EMP_MST_PrimaFacie_9802.jpg",
-    "imageAlt": "Prima Facie",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/prima-facie",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-437d186119ed4baa5966d28",
-    "title": "Sommarkvällar på jorden",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-11-11",
-    "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a61/1786607427221/STADSTEATERN-SOMMARKV%C3%84LLAR21669%201%20(2).jpg",
-    "imageAlt": "Sommarkvällar på jorden",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/sommarkvallar-pa-jorden",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf97e19",
-    "title": "Höstlovsverkstad – Som vax i dina händer!",
-    "startsAt": "2026-10-28",
-    "endsAt": "2026-11-01T12:00:00+01:00",
-    "venue": "Moderna Museet Malmö",
-    "category": "Fritid",
-    "categories": [
-      "Fritid",
-      "Workshop"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62ef4/1790766654986/poder-anu_Tongues_1998_Courtesy-of-the-Art-Museum-of-Estonia_mm.jpg",
-    "imageAlt": "Höstlovsverkstad – Som vax i dina händer!",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/hostlov-som-vax-i-dina-hander/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "stand-up-john-achkar-feena-nehke-2026-10-28",
-    "title": "JOHN ACHKAR: FEENA NEHKE?",
-    "startsAt": "2026-10-28",
-    "venue": "Moriska Paviljongen",
-    "category": "Övrigt",
-    "categories": [
-      "Övrigt"
-    ],
-    "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
-    "imageAlt": "John Achkar uppträder med sin standupföreställning",
-    "sourceName": "Moriska Paviljongen",
-    "sourceUrl": "https://moriskapaviljongen.se/program/johnachkar28okt/",
-    "verifiedAt": "2026-10-27",
-    "district": "Folkets Park"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9c928",
-    "title": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
-    "startsAt": "2026-10-28",
-    "endsAt": "2027-03-31",
-    "venue": "Orkanen (Malmö Universitet)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65ca5/1793174422760/strumpan_webb_kalender.jpg",
-    "imageAlt": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://mau.se/bibliotek/pa-biblioteket/utstallningar-och-evenemang/forskarnas-galleri/doffeln-strumpan--trikatan/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf97c49",
-    "title": "Into Practice: What comes next in our antiracist work?",
-    "startsAt": "2026-10-28T11:00:00+01:00",
-    "endsAt": "2026-10-29",
-    "venue": "Kulturhyllan",
-    "category": "Dans",
-    "categories": [
-      "Dans",
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f653e2/1792399447393/Sophia%20Wekesa.png",
-    "imageAlt": "Into Practice: What comes next in our antiracist work?",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9b8dc&title=Into-Practice%3A-What-comes-next-in-our-antiracist-work%3F",
-    "verifiedAt": "2026-10-28"
-  },
-  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-monsterochannatkul",
     "title": "Monster och annat kul",
     "startsAt": "2026-10-28T16:00:00+01:00",
@@ -415,9 +113,328 @@
     "verifiedAt": "2026-10-28"
   },
   {
+    "id": "malmo-live-61489e860614",
+    "title": "Verdis Requiem",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-10-30",
+    "venue": "Malmö Live Konserthus",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://malmolive.se/sites/default/files/2026/02/Verdi_Requiem_MSO_26-27_Webbilder_1640%20x%20800_7.jpg",
+    "imageAlt": "Verdis Requiem",
+    "sourceName": "Malmö Live",
+    "sourceUrl": "https://malmolive.se/program/verdis-requiem-2026",
+    "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919c5",
+    "title": "Stick-AW!",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-11-26",
+    "venue": "Moderna Museet Malmö",
+    "category": "Workshop",
+    "categories": [
+      "Workshop"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0401b/1786965763326/StickAW_-A.Giertz.jpg",
+    "imageAlt": "Stick-AW!",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/stick-aw/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591d3d",
+    "title": "Afterlife",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-11-28",
+    "venue": "Skånes Dansteater",
+    "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02131/1784093131735/WEB_Afterlife_16x9_photo_Carl-Johan-F-Karlidag.jpg",
+    "imageAlt": "Afterlife",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.skanesdansteater.se/afterlife",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591a6d",
+    "title": "Barnvagnsvisning",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-09",
+    "venue": "Moderna Museet Malmö",
+    "category": "Fritid",
+    "categories": [
+      "Fritid",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03ecf/1786947993698/barnvagnsvisning_f_sanna-dolck-wall_mm_1500.jpg",
+    "imageAlt": "Barnvagnsvisning",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/barnvagnsvisning/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919e5",
+    "title": "Babymåleri",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-11",
+    "venue": "Moderna Museet Malmö",
+    "category": "Workshop",
+    "categories": [
+      "Workshop",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0400b/1786964591733/Babyvisning-Foto-PrallanAllsten-e1686299116310.jpg",
+    "imageAlt": "Babymåleri",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/babymaleri/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919d5",
+    "title": "Museis – Stor konst för de små",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-15",
+    "venue": "Moderna Museet Malmö",
+    "category": "Workshop",
+    "categories": [
+      "Workshop",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04018/1786965705718/museis5_f_sanna-dolck-wall_mm_1500.jpg",
+    "imageAlt": "Museis – Stor konst för de små",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/museis-stor-konst-for-de-sma/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919cd",
+    "title": "Konst & Känsla",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-17",
+    "venue": "Moderna Museet Malmö",
+    "category": "Konst",
+    "categories": [
+      "Konst",
+      "Fritid",
+      "Scen"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04019/1786965728467/konst-o-knsl2a_f_sanna-dolck-wall_mm_1500.jpg",
+    "imageAlt": "Konst & Känsla",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/konst-kansla/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919dd",
+    "title": "Guidad visning",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-27",
+    "venue": "Moderna Museet Malmö",
+    "category": "Konst",
+    "categories": [
+      "Konst",
+      "Fritid"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e04017/1786965585567/guidad%20visn.jpg",
+    "imageAlt": "Guidad visning",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/kalender/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a182891259112c",
+    "title": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
+    "startsAt": "2026-10-29",
+    "endsAt": "2027-03-31",
+    "venue": "Orkanen (Malmö Universitet)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65ca5/1793174422760/strumpan_webb_kalender.jpg",
+    "imageAlt": "Doffeln, Strumpan & Trikåtan – Malmös textila arv",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://mau.se/bibliotek/pa-biblioteket/utstallningar-och-evenemang/forskarnas-galleri/doffeln-strumpan--trikatan/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125911fc",
+    "title": "Höstlov på Statarmuseet",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-10-30",
+    "venue": "Statarmuseet",
+    "category": "Mat & dryck",
+    "categories": [
+      "Mat & dryck",
+      "Natur",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65406/1792405238598/BILDho%CC%88stlov.jpg",
+    "imageAlt": "Höstlov på Statarmuseet",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.facebook.com/statarmuseet/?locale=sv_SE",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a182891259153d",
+    "title": "Höstlovsverkstad – Som vax i dina händer!",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-11-01",
+    "venue": "Moderna Museet Malmö",
+    "category": "Fritid",
+    "categories": [
+      "Fritid",
+      "Workshop"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62ef4/1790766654986/poder-anu_Tongues_1998_Courtesy-of-the-Art-Museum-of-Estonia_mm.jpg",
+    "imageAlt": "Höstlovsverkstad – Som vax i dina händer!",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/hostlov-som-vax-i-dina-hander/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125912a4",
+    "title": "Höstlovsgolf",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-10-31",
+    "venue": "T-bryggan",
+    "category": "Mat & dryck",
+    "categories": [
+      "Mat & dryck",
+      "Övrigt",
+      "Sport",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f657ea/1792577597430/75B853D1-D5E5-4649-B0AC-C445A7E6925E.jpg",
+    "imageAlt": "Höstlovsgolf",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.ribbangreengolf.se/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a182891259120c",
+    "title": "Höstsalong – samlingsutställning",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-11-30",
+    "venue": "Svenska Konstgalleriet",
+    "category": "Konst",
+    "categories": [
+      "Konst",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6537c/1792395785824/H%C3%B6stsalong.png",
+    "imageAlt": "Höstsalong – samlingsutställning",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.sv-konstgalleriet.se/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125919bd",
+    "title": "Drink & Draw – Teckna i caféet!",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-03",
+    "venue": "Moderna Museet Malmö",
+    "category": "Workshop",
+    "categories": [
+      "Workshop"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0401c/1786965777562/260501_ModernaMuseet_VernissageAbdulkadirTurbeville_FotoSannaDolckWall_17.jpg",
+    "imageAlt": "Drink & Draw – Teckna i caféet!",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/drinkdraw/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125920b5",
+    "title": "Killar",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-10-30",
+    "venue": "Rosengård (Malmö stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759b1104a/1777973953628/STADSTEATERN%20KILLAR14758%20(1).jpg",
+    "imageAlt": "Killar",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/killar",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591c15",
+    "title": "Prima Facie",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-12-19",
+    "venue": "Intiman (Malmö Stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e075c/1782293812558/EMP_MST_PrimaFacie_9802.jpg",
+    "imageAlt": "Prima Facie",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/prima-facie",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf992cb",
+    "title": "Eric Bibb (US) – One Mississippi",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-10-30T20:00:00+01:00",
+    "venue": "Victoriateatern",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63c44/1791363482708/eric.jpg",
+    "imageAlt": "Eric Bibb (US) – One Mississippi",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://victoria.se/sv/program/eric-bibb-one-mississippi",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591ac5",
+    "title": "Sommarkvällar på jorden",
+    "startsAt": "2026-10-29",
+    "endsAt": "2026-11-11",
+    "venue": "Intiman (Malmö Stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a61/1786607427221/STADSTEATERN-SOMMARKV%C3%84LLAR21669%201%20(2).jpg",
+    "imageAlt": "Sommarkvällar på jorden",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/sommarkvallar-pa-jorden",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591535",
+    "title": "Bokpresentation med Majed Al Abdallah från FC Rosengård 1917",
+    "startsAt": "2026-10-29T10:30:00+01:00",
+    "endsAt": "2026-10-31",
+    "venue": "Rosengårdsbiblioteket",
+    "category": "Sport",
+    "categories": [
+      "Sport",
+      "Scen",
+      "Litteratur"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6375e/1791195758559/Bildstorlek%20(13).jpeg",
+    "imageAlt": "Bokpresentation med Majed Al Abdallah från FC Rosengård 1917",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125914dd&title=Bokpresentation-med-Majed-Al-Abdallah-fr%C3%A5n-FC-Roseng%C3%A5rd-1917",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-frankenstein",
     "title": "Frankenstein",
-    "startsAt": "2026-10-28T19:00:00+01:00",
+    "startsAt": "2026-10-29T19:00:00+01:00",
     "endsAt": "2026-11-11",
     "venue": "Moomsteatern",
     "category": "Övrigt",
@@ -438,177 +455,10 @@
     ],
     "price": "300 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/frankensteinmooms.jpg",
-    "imageAlt": "Kulturcentralen",
+    "imageAlt": "Frankenstein",
     "sourceName": "Moomsteatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/frankenstein",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-jasperhibys3elements",
-    "title": "Jasper Høiby’s 3Elements",
-    "startsAt": "2026-10-28T19:30:00+01:00",
-    "venue": "Victoriateatern",
-    "category": "Övrigt",
-    "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Festival",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
-    ],
-    "price": "280 kr",
-    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Jasper-Hoiby-34.jpg",
-    "imageAlt": "Kulturcentralen",
-    "sourceName": "Victoriateatern",
-    "sourceUrl": "https://kulturcentralen.nu/evenemang/jasperhibys3elements",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-thehousethatlarsvontrierbuilt",
-    "title": "The House That Lars von Trier Built",
-    "startsAt": "2026-10-28T19:30:00+01:00",
-    "endsAt": "2026-11-01",
-    "venue": "Teaterrepubliken",
-    "category": "Övrigt",
-    "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Festival",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
-    ],
-    "price": "100 kr",
-    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/therese5.png",
-    "imageAlt": "The House That Lars von Trier Built",
-    "sourceName": "Teaterrepubliken",
-    "sourceUrl": "https://kulturcentralen.nu/evenemang/thehousethatlarsvontrierbuilt",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-mack-nypremiar-pa-sodertull-halloween",
-    "title": "MACK nypremiär på Södertull - Halloween standup",
-    "startsAt": "2026-10-28T19:30:00+01:00",
-    "venue": "Södertull",
-    "category": "Övrigt",
-    "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Festival",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
-    ],
-    "price": "150 kr",
-    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/MACK_Halloween.jpg",
-    "imageAlt": "MACK nypremiär på Södertull - Halloween standup",
-    "sourceName": "MACK",
-    "sourceUrl": "https://kulturcentralen.nu/evenemang/mack-nypremiar-pa-sodertull-halloween",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "moriska-e895f5fe0e65",
-    "title": "WEDNESDAY NIGHT HOP",
-    "startsAt": "2026-10-28T19:30:00+01:00",
-    "venue": "Moriska Paviljongen",
-    "district": "Folkets Park",
-    "category": "Övrigt",
-    "categories": [
-      "Övrigt"
-    ],
-    "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
-    "imageAlt": "WEDNESDAY NIGHT HOP",
-    "sourceName": "Moriska Paviljongen",
-    "sourceUrl": "https://moriskapaviljongen.se/program/wednesday-night-lindyhop-28-okt-2026/",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9927b",
-    "title": "Jasper Høiby’s 3Elements feat. Xavi Torres & Marc",
-    "startsAt": "2026-10-28T20:00:00+01:00",
-    "endsAt": "2026-10-28T20:00:00+01:00",
-    "venue": "Victoriateatern",
-    "category": "Musik",
-    "categories": [
-      "Musik"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63c42/1791363339504/jasper.jpg",
-    "imageAlt": "Jasper Høiby’s 3Elements feat. Xavi Torres & Marc",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://victoria.se/sv/program/jasper-hoibys-3elements",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf992cb",
-    "title": "Eric Bibb (US) – One Mississippi",
-    "startsAt": "2026-10-29",
-    "endsAt": "2026-10-30T20:00:00+01:00",
-    "venue": "Victoriateatern",
-    "category": "Musik",
-    "categories": [
-      "Musik"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63c44/1791363482708/eric.jpg",
-    "imageAlt": "Eric Bibb (US) – One Mississippi",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://victoria.se/sv/program/eric-bibb-one-mississippi",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-live-61489e860614",
-    "title": "Verdis Requiem",
-    "startsAt": "2026-10-29",
-    "endsAt": "2026-10-30",
-    "venue": "Malmö Live Konserthus",
-    "category": "Scen",
-    "categories": [
-      "Scen"
-    ],
-    "imageUrl": "https://malmolive.se/sites/default/files/2026/02/Verdi_Requiem_MSO_26-27_Webbilder_1640%20x%20800_7.jpg",
-    "imageAlt": "Verdis Requiem",
-    "sourceName": "Malmö Live",
-    "sourceUrl": "https://malmolive.se/program/verdis-requiem-2026",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9acdc",
-    "title": "Bokpresentation med Majed Al Abdallah från FC Rosengård 1917",
-    "startsAt": "2026-10-29T13:00:00+01:00",
-    "endsAt": "2026-11-26",
-    "venue": "Rosengårdsbiblioteket",
-    "category": "Sport",
-    "categories": [
-      "Sport",
-      "Scen",
-      "Litteratur"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6375e/1791195758559/Bildstorlek%20(13).jpeg",
-    "imageAlt": "Bokpresentation med Majed Al Abdallah från FC Rosengård 1917",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf98772&title=Bokpresentation-med-Majed-Al-Abdallah-fr%C3%A5n-FC-Roseng%C3%A5rd-1917",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-ericbibb",
@@ -637,7 +487,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ericbibb",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "hip-hop-weekend-2026-10-30",
@@ -688,7 +538,7 @@
     "verifiedAt": "2026-10-28"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf990bd",
+    "id": "malmo-stad-5-7e4bdcf31a182891259149d",
     "title": "Sagorestaurangen | 5–7 år",
     "startsAt": "2026-10-30T13:00:00+01:00",
     "endsAt": "2026-11-01",
@@ -701,8 +551,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63068/1790776365029/Bildstorlek%20(8).jpeg",
     "imageAlt": "Sagorestaurangen | 5–7 år",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf982a1&title=Sagorestaurangen-%7C-5%E2%80%937-%C3%A5r",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591515&title=Sagorestaurangen-%7C-5%E2%80%937-%C3%A5r",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-scenkonstbasareniiltomossbedja",
@@ -760,7 +610,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/cometa",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-the-queens-files",
@@ -804,10 +654,39 @@
     "imageAlt": "Elvis, Elvis, Elvis!",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/elvis-elvis-elvis-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-10-30T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "595 kr"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-thehousethatlarsvontrierbuilt",
+    "title": "The House That Lars von Trier Built",
+    "startsAt": "2026-10-30T19:30:00+01:00",
+    "endsAt": "2026-11-01",
+    "venue": "Teaterrepubliken",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Scen",
+      "Dans",
+      "Konst",
+      "Musik",
+      "Litteratur",
+      "Familj",
+      "Festival",
+      "Fritid",
+      "Natur",
+      "Mat & dryck",
+      "Humor",
+      "Workshop"
+    ],
+    "price": "100 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/therese5.png",
+    "imageAlt": "The House That Lars von Trier Built",
+    "sourceName": "Teaterrepubliken",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/thehousethatlarsvontrierbuilt",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "benjamin-ingrosso-what-happens-next-2026-10-30-0609dd66",
@@ -822,7 +701,7 @@
     "imageAlt": "Benjamin Ingrosso - What Happens Next?",
     "sourceName": "Malmö Arena",
     "sourceUrl": "https://www.malmoarena.com/evenemang/benjamin-ingrosso-what-happens-next?hsLang=sv",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-10-30T20:30:00+01:00"
   },
   {
@@ -839,7 +718,7 @@
     "imageAlt": "Sylvie's Head + Civil Polis",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.grandmalmo.se/event-calendar",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "love-50-halloween-party-2026-10-31-2dded915",
@@ -874,7 +753,7 @@
     "price": "250 kr"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e5977c6d",
+    "id": "malmo-stad-5-7e4bdcf31a182891259171d",
     "title": "Rullskridskodisco med DJs",
     "startsAt": "2026-10-31T09:00:00+01:00",
     "endsAt": "2026-11-28",
@@ -886,8 +765,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0428d/1787040403072/251101_Folketspark_06050-1_web.jpg",
     "imageAlt": "Rullskridskodisco med DJs",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.630778b81a03e20b4c5ad3&title=Rullskridskodisco-med-DJs",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125919ad&title=Rullskridskodisco-med-DJs",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-smaktur-malmo-promenad-cykel-buss",
@@ -931,7 +810,7 @@
     "imageAlt": "FC Rosengård - Växjö OBOS Damallsvenskan",
     "sourceName": "Malmö IP",
     "sourceUrl": "https://www.fcrosengard.se/sv/matches",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-bryggerivandring-med-olprovning",
@@ -1003,7 +882,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Ribersborgs Kallbadhus",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/midnattsdopp-halloween-f",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-the-next-movement-ch",
@@ -1031,7 +910,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/the-next-movement-ch",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf992c3",
@@ -1047,7 +926,7 @@
     "imageAlt": "The Next Movement (CH) – Karma Dojo Tour",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://victoria.se/sv/program/the-next-movement-2026",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-956890614ad1",
@@ -1096,7 +975,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-437d186119ed4baa596f15",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591c25",
     "title": "Höstfågeltur i Slottsparken",
     "startsAt": "2026-11-01T09:00:00+01:00",
     "endsAt": "2026-12-06",
@@ -1109,8 +988,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759bae36/1774376153448/kungsfa%CC%8AgelErikHirschfeld%203_eve.jpg",
     "imageAlt": "Höstfågeltur i Slottsparken",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5dd12b0619c51d1d0503bc3&title=H%C3%B6stf%C3%A5geltur-i-Slottsparken",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591efd&title=H%C3%B6stf%C3%A5geltur-i-Slottsparken",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hstfgelturislottsparken",
@@ -1138,7 +1017,7 @@
     "imageAlt": "Höstfågeltur i Slottsparken",
     "sourceName": "Malmö stad - Vilda Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hstfgelturislottsparken",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-01T11:00:00+01:00"
   },
   {
@@ -1155,7 +1034,7 @@
     "imageAlt": "Entertaining Bad Vibes",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://inkonst.com/sv/events/entertaining-bad-vibes-samtalsserie-9E2",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-tangokvllmedmareados",
@@ -1183,7 +1062,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Tangokompaniet",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/tangokvllmedmareados",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "social-dans-soullinedance-2026-11-02",
@@ -1219,7 +1098,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59772015",
+    "id": "malmo-stad-5-7e4bdcf31a18289125918c5",
     "title": "DocSenior visar dokumentären Mördarens son",
     "startsAt": "2026-11-02T12:45:00+01:00",
     "endsAt": "2026-11-02T12:45:00+01:00",
@@ -1232,10 +1111,10 @@
     "imageAlt": "DocSenior visar dokumentären Mördarens son",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.doclounge.se/projects/doc-augusten-connecting-through-documentaries",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f277c",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591e25",
     "title": "Samtal om existentiella frågor",
     "startsAt": "2026-11-02T13:00:00+01:00",
     "endsAt": "2026-12-14",
@@ -1247,11 +1126,11 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63d1d/1791381520806/Palliativa.png",
     "imageAlt": "Samtal om existentiella frågor",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf99527&title=Samtal-om-existentiella-fr%C3%A5gor-",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591455&title=Samtal-om-existentiella-fr%C3%A5gor-",
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf98627",
+    "id": "malmo-stad-5-7e4bdcf31a18289125914fd",
     "title": "Öppet samtal om existentiella frågor",
     "startsAt": "2026-11-02T14:15:00+01:00",
     "endsAt": "2026-11-02T14:15:00+01:00",
@@ -1264,7 +1143,7 @@
     "imageAlt": "Öppet samtal om existentiella frågor",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.palliativaveckan.se/evenemangslista/#evenemang-17410",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-4968b1201a03e2e5977b3af",
@@ -1281,10 +1160,10 @@
     "imageAlt": "I am a Woman Worker – vernissage och föreläsning",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://mau.se/kalender/i-am-a-woman-worker/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf91045",
+    "id": "malmo-stad-5-7e4bdcf31a18289125918ad",
     "title": "Höstens nya böcker",
     "startsAt": "2026-11-03T17:30:00+01:00",
     "endsAt": "2026-12-11",
@@ -1296,8 +1175,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65619/1792492472394/COLOURBOX21723396.jpg",
     "imageAlt": "Höstens nya böcker",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bce6&title=H%C3%B6stens-nya-b%C3%B6cker",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125912e4&title=H%C3%B6stens-nya-b%C3%B6cker",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9beba",
@@ -1313,7 +1192,7 @@
     "imageAlt": "Forskningens dag: Diabetes - från vetenskap till vardag",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.vetenskaphalsa.se/forskningensdag/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "konsert-livia-mattos-2026-11-03",
@@ -1328,25 +1207,9 @@
     "imageAlt": "Konsert: Lívia Mattos",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/livia-mattos-3-nov-2026/",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Folkets Park",
     "price": "230 kr"
-  },
-  {
-    "id": "malmo-stad-5-e8e1c8e19e20790e13e2b6",
-    "title": "Lars Winnerbäck",
-    "startsAt": "2026-11-03T19:30:00+01:00",
-    "endsAt": "2026-11-03T19:30:00+01:00",
-    "venue": "Malmö Arena",
-    "category": "Musik",
-    "categories": [
-      "Musik"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.39e24b0419e208550073170/1780044764198/Event%20bakgrund%201600x620%20ingen%20text.jpg",
-    "imageAlt": "Lars Winnerbäck",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmoarena.com/evenemang/lars-winnerb%C3%A4ck_sv?hsLang=sv",
-    "verifiedAt": "2026-10-27"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-huun-huur-tu-ru",
@@ -1374,25 +1237,39 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/huun-huur-tu-ru",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5fb4c",
-    "title": "Bokklubb med böckerna om Vera Svanson",
-    "startsAt": "2026-11-04",
-    "endsAt": "2026-12-09",
-    "venue": "Kulturhyllan",
-    "category": "Litteratur",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591d95",
+    "title": "Lars Winnerbäck",
+    "startsAt": "2026-11-03T19:30:00+01:00",
+    "endsAt": "2026-11-03T19:30:00+01:00",
+    "venue": "Malmö Arena",
+    "category": "Musik",
     "categories": [
-      "Litteratur",
-      "Scen",
-      "Familj"
+      "Musik"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.556dd24c1a03308620d481/1787666087173/kollage%20moa.jpg",
-    "imageAlt": "Bokklubb med böckerna om Vera Svanson",
+    "imageUrl": "https://devenemang.malmo.se/images/200.39e24b0419e208550073170/1780044764198/Event%20bakgrund%201600x620%20ingen%20text.jpg",
+    "imageAlt": "Lars Winnerbäck",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.44b37d51a0333c4fb86ef&title=Bokklubb-med-b%C3%B6ckerna-om-Vera-Svanson-",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://www.malmoarena.com/evenemang/lars-winnerb%C3%A4ck_sv?hsLang=sv",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591c55",
+    "title": "Dans",
+    "startsAt": "2026-11-04T17:00:00+01:00",
+    "endsAt": "2026-12-09",
+    "venue": "Oxiebiblioteket",
+    "category": "Dans",
+    "categories": [
+      "Dans"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6236e/1789640196341/COLOURBOX1941315.jpg",
+    "imageAlt": "Dans",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125918d5&title=Dans",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-shtoltselider",
@@ -1420,7 +1297,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Mix Musik",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/shtoltselider",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-nackaforum",
@@ -1448,7 +1325,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/nackaforum",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-7457272d6070",
@@ -1467,7 +1344,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-e8e1c8e19e20790e13fa84",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591d65",
     "title": "Stulna kulturarv och virtuella museum",
     "startsAt": "2026-11-05T09:00:00+01:00",
     "endsAt": "2026-12-03",
@@ -1479,8 +1356,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6589d/1792658061478/stulna%20kulturarv.jpg",
     "imageAlt": "Stulna kulturarv och virtuella museum",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bf7d&title=Stulna-kulturarv-och-virtuella-museum",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125910fc&title=Stulna-kulturarv-och-virtuella-museum",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf99a34",
@@ -1496,7 +1373,7 @@
     "imageAlt": "KHMxMMM: Tove Storch",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/khmxmmm-tove-storch/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-declair",
@@ -1524,7 +1401,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/declair",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "perikles-pa-glasklart-2026-11-06-2dded915",
@@ -1601,10 +1478,10 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Sibbarps kallbadhus",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/sauna-yoga-ritual-c",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5fb84",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591c45",
     "title": "Ro, ro med Sagofen Isadora | 0–11 månader",
     "startsAt": "2026-11-06T10:00:00+01:00",
     "endsAt": "2026-12-04",
@@ -1617,8 +1494,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.39e24b0419e208550073e57/1780565271225/roro-sagofen-2100x1180.jpg",
     "imageAlt": "Ro, ro med Sagofen Isadora | 0–11 månader",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7f765e1719e2074a3d61cb4&title=Ro%2C-ro-med-Sagofen-Isadora-%7C-0%E2%80%9311-m%C3%A5nader",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591d85&title=Ro%2C-ro-med-Sagofen-Isadora-%7C-0%E2%80%9311-m%C3%A5nader",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-ekdahlbaggebigband",
@@ -1646,7 +1523,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ekdahlbaggebigband",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-rliveinspelning-nrbild",
@@ -1675,24 +1552,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "in-discourse",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/rliveinspelning-nrbild",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-437d186119ed4baa5966d30",
-    "title": "Astrid Lindgrens I Skymningslandet",
-    "startsAt": "2026-11-07",
-    "endsAt": "2027-01-30T17:00:00+01:00",
-    "venue": "Hipp (Malmö stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a62/1786607494695/STATSTEATERN%20SKYMNINGSLANDET19557%201%20(1).jpg",
-    "imageAlt": "Astrid Lindgrens I Skymningslandet",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/i-skymningslandet",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "mollan-print-fest-marknad-med-fokus-pa-trycksaker-2026-11-07-eff3e008",
@@ -1707,21 +1567,6 @@
     "imageAlt": "MÖLLAN PRINT FEST – Marknad med fokus på trycksaker",
     "sourceName": "Mitt Möllan",
     "sourceUrl": "https://www.mittmollan.se/marknad/",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-english-comedy-nights-2026-11-07-7067e445",
-    "title": "Malmö English Comedy Nights",
-    "startsAt": "2026-11-07",
-    "venue": "Scandic Triangeln",
-    "category": "Humor",
-    "categories": [
-      "Humor"
-    ],
-    "imageUrl": "https://www.visitmalmo.se/Upload/Article/mecn_20260819_091119.jpg",
-    "imageAlt": "Malmö English Comedy Nights",
-    "sourceName": "Scandic Triangeln",
-    "sourceUrl": "https://billetto.se/en/e/malmo-english-comedy-nights-scandic-triangeln-upcoming-shows-biljetter-761959",
     "verifiedAt": "2026-10-27"
   },
   {
@@ -1740,7 +1585,24 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f73ce",
+    "id": "malmo-stad-5-437d186119ed4baa5966d30",
+    "title": "Astrid Lindgrens I Skymningslandet",
+    "startsAt": "2026-11-07",
+    "endsAt": "2027-01-30T17:00:00+01:00",
+    "venue": "Hipp (Malmö stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a62/1786607494695/STATSTEATERN%20SKYMNINGSLANDET19557%201%20(1).jpg",
+    "imageAlt": "Astrid Lindgrens I Skymningslandet",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/i-skymningslandet",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912592125",
     "title": "Internationell bokfestival på spanska",
     "startsAt": "2026-11-07T10:00:00+01:00",
     "endsAt": "2026-12-19",
@@ -1754,8 +1616,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64ff0/1792069696722/spanskafest_hemsida_p.png",
     "imageAlt": "Internationell bokfestival på spanska",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9b1c2&title=Internationell-bokfestival-p%C3%A5-spanska",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591274&title=Internationell-bokfestival-p%C3%A5-spanska",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-languageoffungi",
@@ -1783,7 +1645,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/languageoffungi",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "fc-rosengard-hammarby-obos-damallsvenskan-2026-11-07-35b2644a",
@@ -1798,10 +1660,10 @@
     "imageAlt": "FC Rosengård - Hammarby OBOS Damallsvenskan",
     "sourceName": "Malmö IP",
     "sourceUrl": "https://www.fcrosengard.se/sv/matches",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9861f",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591505",
     "title": "Mer än bara slutet – Palliativ vård och stöd för livet",
     "startsAt": "2026-11-07T14:00:00+01:00",
     "endsAt": "2026-11-07T14:00:00+01:00",
@@ -1814,7 +1676,7 @@
     "imageAlt": "Mer än bara slutet – Palliativ vård och stöd för livet",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.palliativaveckan.se/evenemangslista/#evenemang-17406",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-b286ab46dd5c",
@@ -1845,7 +1707,7 @@
     "imageAlt": "Lars Winnerbäck",
     "sourceName": "Malmö Arena",
     "sourceUrl": "https://www.malmoarena.com/evenemang/lars-winnerb%C3%A4ck_sv?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kardborreshowen-per-andersson-2026-11-07-255af26d",
@@ -1860,7 +1722,7 @@
     "imageAlt": "Kardborreshowen | Per Andersson",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/kardborreshowen",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-07T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "Från 495 kr"
@@ -1891,7 +1753,25 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hermetosmothershipbr",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-english-comedy-nights-2026-11-07-7067e445",
+    "title": "Malmö English Comedy kväll - ståuppkomiker på engelska",
+    "startsAt": "2026-11-07T20:00:00+01:00",
+    "venue": "Scandic Triangeln",
+    "category": "Humor",
+    "categories": [
+      "Humor",
+      "Konst",
+      "Scen"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/mecn_20260819_091119.jpg",
+    "imageAlt": "Malmö English Comedy Nights",
+    "sourceName": "Scandic Triangeln",
+    "sourceUrl": "https://billetto.se/en/e/malmo-english-comedy-nights-scandic-triangeln-upcoming-shows-biljetter-761959",
+    "verifiedAt": "2026-10-27",
+    "endsAt": "2026-11-07T20:00:00+01:00"
   },
   {
     "id": "moriska-c6cd77811798",
@@ -1910,6 +1790,38 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "moriska-fb72fef4ccc3",
+    "title": "KLUBB: LET’S GET TROPICAL",
+    "startsAt": "2026-11-07T23:00:00+01:00",
+    "venue": "Moriska Paviljongen",
+    "district": "Folkets Park",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
+    "imageAlt": "KLUBB: LET’S GET TROPICAL",
+    "sourceName": "Moriska Paviljongen",
+    "sourceUrl": "https://moriskapaviljongen.se/program/klubb-lets-get-tropical-7-nov-2026/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "moriska-ea438ed41476",
+    "title": "KLUBB: EURODANCE RAVE",
+    "startsAt": "2026-11-07T23:00:00+01:00",
+    "venue": "Moriska Paviljongen",
+    "district": "Folkets Park",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
+    "imageAlt": "KLUBB: EURODANCE RAVE",
+    "sourceName": "Moriska Paviljongen",
+    "sourceUrl": "https://moriskapaviljongen.se/program/eurodance-rave-7-nov-2026/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "malmo-live-09b336fb8448",
     "title": "Maksim Segmenti",
     "startsAt": "2026-11-08",
@@ -1925,7 +1837,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9b224",
+    "id": "malmo-stad-5-7e4bdcf31a182891259126c",
     "title": "Lär dig teckna manga med Elise | 9–13 år",
     "startsAt": "2026-11-08T14:00:00+01:00",
     "endsAt": "2026-11-29",
@@ -1938,8 +1850,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f656b1/1792501535670/teckna%20manga.jpg",
     "imageAlt": "Lär dig teckna manga med Elise | 9–13 år",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bd16&title=L%C3%A4r-dig-teckna-manga-med-Elise-%7C-9%E2%80%9313-%C3%A5r",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125912dc&title=L%C3%A4r-dig-teckna-manga-med-Elise-%7C-9%E2%80%9313-%C3%A5r",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-tangokvllmedorqandariega",
@@ -1967,23 +1879,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Tangokompaniet",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/tangokvllmedorqandariega",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f5b53",
-    "title": "Filmvisning",
-    "startsAt": "2026-11-09",
-    "endsAt": "2027-02-01",
-    "venue": "Lindängenbiblioteket",
-    "category": "Scen",
-    "categories": [
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03e9a/1786719099981/Film%20arabiska.png",
-    "imageAlt": "Filmvisning",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5544db6919ed4ce6f5f5b53&title=Filmvisning",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "fisk-trix-havets-lackerheter-2026-11-09",
@@ -2018,6 +1914,22 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591a75",
+    "title": "Filmvisning",
+    "startsAt": "2026-11-09",
+    "endsAt": "2027-02-01",
+    "venue": "Lindängenbiblioteket",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03e9a/1786719099981/Film%20arabiska.png",
+    "imageAlt": "Filmvisning",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591a75&title=Filmvisning",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9a2e6",
     "title": "Lokal mötesplats: Jonna Bornemark - hur kan vi vrida världen",
     "startsAt": "2026-11-09T13:00:00+01:00",
@@ -2032,7 +1944,7 @@
     "imageAlt": "Lokal mötesplats: Jonna Bornemark - hur kan vi vrida världen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-lokal-motesplats-livestream-jonna-bornemark-samtal-fortsatter-1676165/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "doc-lounge-sjung-for-mig-arja-2026-11-09-990f219e",
@@ -2047,7 +1959,7 @@
     "imageAlt": "DOC LOUNGE",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/doc-lounge-9-nov-2026/",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Folkets Park"
   },
   {
@@ -2064,7 +1976,7 @@
     "imageAlt": "Doc Lounge: Galapremiär dokumentären Sjung för mig Arja!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://billetto.se/e/doc-lounge-sverigepremiar-sjung-for-mig-arja-gastas-av-arja-saijonmaa-stina-gardell-biljetter-1980586?bref=eyJzIjoiYmlsbGV0dG8gYWR2ZXJ0aXNpbmciLCJtIjoiYmlsbGV0dG8iLCJjIjoic2hhcmUiLCJjbyI6IjItZXAtU0UiLCJ0IjoxNzg5NTQxNzQ4fQ%3D%3D",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9a757",
@@ -2082,7 +1994,7 @@
     "imageAlt": "Lokal mötesplats: Berättande och musik kring hållbarhet",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-lokal-motesplats-berattande-sabine-neumann-musik-carolina-magdalena-1676172/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9c8ff",
@@ -2098,10 +2010,10 @@
     "imageAlt": "Ett personalkort: Malmö Strumpfabrik – också mer än strumpor",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://mau.se/kalender/ett-personalkort-malmo-strumpfabrik---ocksa-mer-an-strumpor/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-437d186119ed4baa59655ac",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591cfd",
     "title": "Författarscenen: Therese Bohman",
     "startsAt": "2026-11-10T17:30:00+01:00",
     "endsAt": "2026-12-08",
@@ -2113,8 +2025,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e07ea/1782297344131/therese-bohman_1_Kajsa%20Go%CC%88ransson-EK.jpg",
     "imageAlt": "Författarscenen: Therese Bohman",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5544db6919ed4ce6f5fd4b&title=F%C3%B6rfattarscenen%3A-Therese-Bohman",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591c2d&title=F%C3%B6rfattarscenen%3A-Therese-Bohman",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-5544db6919ed4ce6f5f4d27",
@@ -2131,23 +2043,7 @@
     "imageAlt": "Dansföreställning: LA EDAD DE ORO av ISRAEL GALVAN",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://dansstationen.nu/sv/11-nov-la-edad-de-oro-israel-galvan/",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9518",
-    "title": "Wuthering, Wuthering Heights",
-    "startsAt": "2026-11-11",
-    "endsAt": "2026-11-16T20:00:00+01:00",
-    "venue": "Inkonst",
-    "category": "Scen",
-    "categories": [
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62134/1789544224853/5.png",
-    "imageAlt": "Wuthering, Wuthering Heights",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://inkonst.com/sv/artists/poste-restante",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "bokrelease-at-dig-igenom-boken-malmo-saluhall-fran-ruin-till-matdestination-2026-11-11",
@@ -2197,6 +2093,22 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf9518",
+    "title": "Wuthering, Wuthering Heights",
+    "startsAt": "2026-11-11",
+    "endsAt": "2026-11-16T20:00:00+01:00",
+    "venue": "Inkonst",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62134/1789544224853/5.png",
+    "imageAlt": "Wuthering, Wuthering Heights",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://inkonst.com/sv/artists/poste-restante",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9a3c9",
     "title": "Lokal mötesplats: Bergkrantz Fjeldsted Duo & Campfire Storie",
     "startsAt": "2026-11-11T13:00:00+01:00",
@@ -2212,13 +2124,13 @@
     "imageAlt": "Lokal mötesplats: Bergkrantz Fjeldsted Duo & Campfire Storie",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-lokal-motesplats-bergcrantz-fjeldsted-duo-film-campfire-stories-1676163/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf97acb",
+    "id": "malmo-stad-5-7e4bdcf31a182891259204d",
     "title": "Sagostund på somaliska med Ayanle | 3–6 år",
     "startsAt": "2026-11-11T14:00:00+01:00",
-    "endsAt": "2026-11-11T15:30:00+01:00",
+    "endsAt": "2026-12-09",
     "venue": "Rosengårdsbiblioteket",
     "category": "Litteratur",
     "categories": [
@@ -2228,8 +2140,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6169c/1789033401059/Sagostund%202%20webb.jpg",
     "imageAlt": "Sagostund på somaliska med Ayanle | 3–6 år",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.630778b81a03e20b4c52630&title=Sagostund-p%C3%A5-somaliska-med-Ayanle-%7C-3%E2%80%936-%C3%A5r",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125917e5&title=Sagostund-p%C3%A5-somaliska-med-Ayanle-%7C-3%E2%80%936-%C3%A5r",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-matkaravan-pa-mollan-fran-16-juli",
@@ -2258,7 +2170,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Matkaravan",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/matkaravan-pa-mollan-fran-16-juli",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-bokreleasetdigigenomboken",
@@ -2314,7 +2226,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Mix Musik",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/dalum",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "hansson-de-wolfe-united-2026-11-11",
@@ -2329,7 +2241,7 @@
     "imageAlt": "Hansson de Wolfe United",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/hansson-de-wolfe-united",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "635 kr"
   },
@@ -2359,7 +2271,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/scottkinseygroupus",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-142f0ffb91a7",
@@ -2376,23 +2288,6 @@
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/wednesday-night-lindyhop-11-nov-2026/",
     "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf99b6c",
-    "title": "Campfire stories med Mattias Olsson",
-    "startsAt": "2026-11-11T20:00:00+01:00",
-    "endsAt": "2026-11-11T20:00:00+01:00",
-    "venue": "Studiefrämjandet Malmö",
-    "category": "Scen",
-    "categories": [
-      "Scen",
-      "Natur"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f643d0/1791536001644/Mattias-2025.original.jpg",
-    "imageAlt": "Campfire stories med Mattias Olsson",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-campfirestories-med-mattias-olsson-1672300/",
-    "verifiedAt": "2026-10-28"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-oslipatmedcarlstanley",
@@ -2420,7 +2315,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Oslipat",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/oslipatmedcarlstanley",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-ari-hoenig-trio-featuring-tom",
@@ -2451,6 +2346,23 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf99b6c",
+    "title": "Campfire stories med Mattias Olsson",
+    "startsAt": "2026-11-11T20:00:00+01:00",
+    "endsAt": "2026-11-11T20:00:00+01:00",
+    "venue": "Studiefrämjandet Malmö",
+    "category": "Scen",
+    "categories": [
+      "Scen",
+      "Natur"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f643d0/1791536001644/Mattias-2025.original.jpg",
+    "imageAlt": "Campfire stories med Mattias Olsson",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-campfirestories-med-mattias-olsson-1672300/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "the-sisters-of-mercy-2026-11-12",
     "title": "The Sisters of Mercy",
     "startsAt": "2026-11-12",
@@ -2466,7 +2378,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5fb7c",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591c4d",
     "title": "Påverkas energiomställningen av förändrat säkerhetsläge?",
     "startsAt": "2026-11-12T16:00:00+01:00",
     "endsAt": "2026-11-26",
@@ -2478,8 +2390,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65d2a/1793178746073/stadsbiblioteket-exterior-2017-sommar.jpg",
     "imageAlt": "Påverkas energiomställningen av förändrat säkerhetsläge?",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9c956&title=P%C3%A5verkas-energiomst%C3%A4llningen-av-f%C3%B6r%C3%A4ndrat-s%C3%A4kerhetsl%C3%A4ge%3F",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259111c&title=P%C3%A5verkas-energiomst%C3%A4llningen-av-f%C3%B6r%C3%A4ndrat-s%C3%A4kerhetsl%C3%A4ge%3F",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9c0b9",
@@ -2495,7 +2407,7 @@
     "imageAlt": "Stygn i vardagen – Testa broderi!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/broderi-i-vart-kafe/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-nar-alfabetets-bokstaver-ville-skapa",
@@ -2570,39 +2482,6 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-437d186119ed4baa596774b",
-    "title": "Babyrytmik",
-    "startsAt": "2026-11-13",
-    "endsAt": "2026-12-04",
-    "venue": "Limhamnsbiblioteket",
-    "category": "Musik",
-    "categories": [
-      "Musik",
-      "Familj"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03fe4/1786958916338/babyrytmikht26.jpg.png",
-    "imageAlt": "Babyrytmik",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.437d186119ed4baa596774b&title=Babyrytmik",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-stad-5-437d186119ed4baa596118f",
-    "title": "Unrecognized",
-    "startsAt": "2026-11-13",
-    "endsAt": "2026-11-15T20:00:00+01:00",
-    "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0781/1782294511631/poster_unrecognized_landcape_no%20text%20(1).jpg",
-    "imageAlt": "Unrecognized",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/unrecognized",
-    "verifiedAt": "2026-10-28"
-  },
-  {
     "id": "jubileums-aw-for-malmo-saluhall-10-ar-2026-11-13",
     "title": "Jubileums-AW för Malmö Saluhall 10 år",
     "startsAt": "2026-11-13",
@@ -2632,7 +2511,24 @@
     "imageAlt": "Bo Kaspers Orkester",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/bo-kaspers-ork?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591ba5",
+    "title": "Babyrytmik",
+    "startsAt": "2026-11-13",
+    "endsAt": "2026-12-04",
+    "venue": "Limhamnsbiblioteket",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03fe4/1786958916338/babyrytmikht26.jpg.png",
+    "imageAlt": "Babyrytmik",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591ba5&title=Babyrytmik",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "sparkling-wine-2026-2026-11-13",
@@ -2650,9 +2546,25 @@
     "imageAlt": "Sparkling & Wine 2026",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://slagthuset.se/events/sparkling-wine-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "Från 240 kr"
+  },
+  {
+    "id": "malmo-stad-5-437d186119ed4baa596118f",
+    "title": "Unrecognized",
+    "startsAt": "2026-11-13",
+    "endsAt": "2026-11-15T20:00:00+01:00",
+    "venue": "Intiman (Malmö Stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0781/1782294511631/poster_unrecognized_landcape_no%20text%20(1).jpg",
+    "imageAlt": "Unrecognized",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/unrecognized",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-malmsaluhall10rjubileums-aw",
@@ -2708,7 +2620,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/sagan-om-det-roda-applet-f",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-krestenosgoodquintetdk",
@@ -2736,7 +2648,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/krestenosgoodquintetdk",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-king2king-9",
@@ -2793,7 +2705,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Karavan",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/moir",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "marcus-berggren-hittar-hem-2026-11-13",
@@ -2808,27 +2720,10 @@
     "imageAlt": "Marcus Berggren | Hittar Hem",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/marcus-berggren-hittar-hem",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-13T21:30:00+01:00",
     "district": "Slagthuset",
     "price": "460"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9bfed",
-    "title": "Det Största Äventyret",
-    "startsAt": "2026-11-14",
-    "endsAt": "2026-11-29T00:59:00+01:00",
-    "venue": "Malmö AmatörteaterForum",
-    "category": "Konst",
-    "categories": [
-      "Konst",
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f658c7/1792670710524/DetStorstaAventyret_Thea_2_700x394.jpg",
-    "imageAlt": "Det Största Äventyret",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.teaterthea.se/index.php?content=shows",
-    "verifiedAt": "2026-10-28"
   },
   {
     "id": "jubileumsfest-matmingel-malmo-saluhall-10-ar-2026-11-14",
@@ -2880,7 +2775,52 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-cc49022193d3c4606719978",
+    "id": "malmo-stad-5-e99dd2f1a08fc27cf9bfed",
+    "title": "Det Största Äventyret",
+    "startsAt": "2026-11-14",
+    "endsAt": "2026-11-29T00:59:00+01:00",
+    "venue": "Malmö AmatörteaterForum",
+    "category": "Konst",
+    "categories": [
+      "Konst",
+      "Scen"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f658c7/1792670710524/DetStorstaAventyret_Thea_2_700x394.jpg",
+    "imageAlt": "Det Största Äventyret",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.teaterthea.se/index.php?content=shows",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hej-tide-x-sibbarp-kallbadhus",
+    "title": "Hej Tide x Sibbarp Kallbadhus",
+    "startsAt": "2026-11-14T08:00:00+01:00",
+    "venue": "Sibbarps kallbadhus",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Scen",
+      "Dans",
+      "Konst",
+      "Musik",
+      "Litteratur",
+      "Familj",
+      "Festival",
+      "Fritid",
+      "Natur",
+      "Mat & dryck",
+      "Humor",
+      "Workshop"
+    ],
+    "price": "149 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/saunasaturday.jpg",
+    "imageAlt": "Hej Tide x Sibbarp Kallbadhus",
+    "sourceName": "Sibbarps kallbadhus",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/hej-tide-x-sibbarp-kallbadhus",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912592115",
     "title": "Arkivens dag och invigning av våra nyrenoverade lokaler",
     "startsAt": "2026-11-14T10:00:00+01:00",
     "endsAt": "2026-11-14",
@@ -2892,8 +2832,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64eac/1791984916053/magnet-webb.png",
     "imageAlt": "Arkivens dag och invigning av våra nyrenoverade lokaler",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bd97&title=Arkivens-dag-och-invigning-av-v%C3%A5ra-nyrenoverade-lokaler",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591164&title=Arkivens-dag-och-invigning-av-v%C3%A5ra-nyrenoverade-lokaler",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9c930",
@@ -2912,7 +2852,7 @@
     "imageAlt": "Mustaschmilen Malmö 2026",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://mustaschmilen.se/malmo/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-det-var-det-frackaste-4",
@@ -2940,7 +2880,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/det-var-det-frackaste-4",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-d8b1da3bb7c7",
@@ -2984,7 +2924,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Teater Thea",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/detstrstaventyret",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-malmsaluhall10rjubileumfrnruintillmatdestination",
@@ -3027,7 +2967,7 @@
     "imageAlt": "Inga dumma frågor | Robin Paulsson & Tomas Kaminski",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/inga-dumma-fragor",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-14T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "465 kr"
@@ -3136,26 +3076,10 @@
     "imageAlt": "Rollspelsklubben SKRÄCK!",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/rollspelsklubben-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-15T17:00:00+01:00",
     "district": "Slagthuset",
     "price": "595 kr"
-  },
-  {
-    "id": "malmo-stad-5-44b37d51a0333c4fb8789",
-    "title": "Saltstänk & Smuggelsprit turné",
-    "startsAt": "2026-11-15T17:00:00+01:00",
-    "endsAt": "2026-11-15T17:00:00+01:00",
-    "venue": "Malmö Live",
-    "category": "Humor",
-    "categories": [
-      "Humor"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.556dd24c1a03308620d526/1787732566062/S&S%20700x394.png",
-    "imageAlt": "Saltstänk & Smuggelsprit turné",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://showtic.se/forestallningar/saltstank-smuggelsprit-turne",
-    "verifiedAt": "2026-10-28"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-fran-varsin-sida-sundet",
@@ -3183,7 +3107,23 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Malmö Sinfonietta",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/fran-varsin-sida-sundet",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-44b37d51a0333c4fb8789",
+    "title": "Saltstänk & Smuggelsprit turné",
+    "startsAt": "2026-11-15T17:00:00+01:00",
+    "endsAt": "2026-11-15T17:00:00+01:00",
+    "venue": "Malmö Live",
+    "category": "Humor",
+    "categories": [
+      "Humor"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.556dd24c1a03308620d526/1787732566062/S&S%20700x394.png",
+    "imageAlt": "Saltstänk & Smuggelsprit turné",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://showtic.se/forestallningar/saltstank-smuggelsprit-turne",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9a32f",
@@ -3200,7 +3140,7 @@
     "imageAlt": "Lokal mötesplats: The Real Economy & samtal fortsätter",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.sensus.se/kurser-och-evenemang/existentiell-hallbarhetsvecka-lokala-motesplatsen-livestream-med-the-real-economy-samtal-1676178/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "social-dans-soullinedance-2026-11-16",
@@ -3233,10 +3173,10 @@
     "imageAlt": "DansFunk Festival: Amoroso",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.skanesdansteater.se/amoroso",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59771daa",
+    "id": "malmo-stad-5-7e4bdcf31a18289125918f5",
     "title": "Naturum Öresund",
     "startsAt": "2026-11-17T15:00:00+01:00",
     "endsAt": "2026-11-17T16:00:00+01:00",
@@ -3249,8 +3189,24 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e032b7/1785928600600/Naturum.jpg",
     "imageAlt": "Naturum Öresund",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.437d186119ed4baa5965a94&title=Naturum-%C3%96resund",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591b55&title=Naturum-%C3%96resund",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-313f84e51a18283ec49c84",
+    "title": "Öppen träff för närstående i Malmö – även för icke medlemmar",
+    "startsAt": "2026-11-17T18:00:00+01:00",
+    "endsAt": "2026-11-17T18:00:00+01:00",
+    "venue": "Studieförbundet Vuxenskolan",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb714c/1793261386099/COLOURBOX49376755_11zon%20(1).jpg",
+    "imageAlt": "Öppen träff för närstående i Malmö – även för icke medlemmar",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.friskfri.se/event/oppen-traff-for-narstaende-i-malmo-aven-for-icke-medlemmar-2/",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf99bfa",
@@ -3266,10 +3222,10 @@
     "imageAlt": "The Great Ball at Satan's av Kira Nova (LT)",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://lilithperformancestudio.com/upcoming/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f52e2",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591b0d",
     "title": "How to med BLING",
     "startsAt": "2026-11-18T15:00:00+01:00",
     "endsAt": "2026-12-14",
@@ -3283,8 +3239,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65540/1792478162377/Namnl%C3%B6s%20-%2003%20augusti%202026%20kl.%2012.30.43%20(2).png",
     "imageAlt": "How to med BLING",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bc1b&title=How-to-med-BLING",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259130d&title=How-to-med-BLING",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-matkaravan-sasongskaravan-i-saluhallen",
@@ -3342,7 +3298,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/variete-victoria-55",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-198ba6ded691",
@@ -3361,10 +3317,10 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-630778b81a03e20b4c5472",
+    "id": "malmo-stad-5-7e4bdcf31a182891259212d",
     "title": "Allmän visning: Makt och prakt på Malmöhus",
-    "startsAt": "2026-11-19T17:00:00+01:00",
-    "endsAt": "2026-11-19T17:20:00+01:00",
+    "startsAt": "2026-11-19T09:30:00+01:00",
+    "endsAt": "2026-11-19T10:00:00+01:00",
     "venue": "Malmö museum",
     "category": "Fritid",
     "categories": [
@@ -3373,8 +3329,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f623/1787751326285/2025_4872_008_010.jpg",
     "imageAlt": "Allmän visning: Makt och prakt på Malmöhus",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.630778b81a03e20b4c5472&title=Allm%C3%A4n-visning%3A-Makt-och-prakt-p%C3%A5-Malm%C3%B6hus",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125919f5&title=Allm%C3%A4n-visning%3A-Makt-och-prakt-p%C3%A5-Malm%C3%B6hus",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-tarabband-8239",
@@ -3402,7 +3358,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Musik i Syd Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/tarabband-8239",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-e196b49db7d3",
@@ -3432,7 +3388,7 @@
     "imageAlt": "Macy Gray - The Trouble With The Truth Tour",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/macy-gray",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-19T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "640 kr"
@@ -3450,12 +3406,12 @@
     "imageAlt": "Konsert: Tarabband",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/tarabband-19-nov-2026/",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-19T20:00:00+01:00",
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f4c76",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591cf5",
     "title": "Offline Sessions",
     "startsAt": "2026-11-20T18:00:00+01:00",
     "endsAt": "2026-12-11",
@@ -3469,8 +3425,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f655a5/1792480210811/Offline%20Sessions.png",
     "imageAlt": "Offline Sessions",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bc44&title=Offline-Sessions",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125912fd&title=Offline-Sessions",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "rusalka-2026-11-21",
@@ -3519,7 +3475,7 @@
     "imageAlt": "DansFunk Festival: Hornfuckers",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.skanesdansteater.se/hornfuckers",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "timbuktu-damn-dj-large-esta-kirabo-julimar-santos-2026-11-21",
@@ -3535,7 +3491,7 @@
     "imageAlt": "Timbuktu + Damn!, DJ Large, Esta Kirabo, Julimar Santos",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/timbuktu/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-630778b81a03e20b4c525c3",
@@ -3551,25 +3507,7 @@
     "imageAlt": "Föreläsning - Always looking up!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.sv.se/kurser-och-evenemang/ovrigt/always-looking-up-302533?fbclid=IwY2xjawUOJJdwZG9mAWV4dG4DYWVtAjEwAGJyaWQRMHBNRnNEQ1pZTENoOFdoS3hzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeGXlMo0Gx-vZr9z4RrpxRApk6P0Kr_2v8-fVpwnjP8EoQp_bjyMNpLiEW6Z8_aem_lk4wirrPdq3dgXZKtwfgHw",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9a233",
-    "title": "Backanatten",
-    "startsAt": "2026-11-21T14:00:00+01:00",
-    "endsAt": "2026-11-21T15:00:00+01:00",
-    "venue": "Kirsebergsbiblioteket",
-    "category": "Musik",
-    "categories": [
-      "Musik",
-      "Konst",
-      "Litteratur"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6866/1788273053017/COLOURBOX2836959.jpg",
-    "imageAlt": "Backanatten",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e59776b4&title=Backanatten",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hona-hittar-hem-3",
@@ -3597,7 +3535,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hona-hittar-hem-3",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-05"
   },
   {
@@ -3628,6 +3566,24 @@
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/sagan-om-vanten-5",
     "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a18289125913ad",
+    "title": "Backanatten",
+    "startsAt": "2026-11-21T14:00:00+01:00",
+    "endsAt": "2026-11-21T15:00:00+01:00",
+    "venue": "Kirsebergsbiblioteket",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Konst",
+      "Litteratur"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6866/1788273053017/COLOURBOX2836959.jpg",
+    "imageAlt": "Backanatten",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259175d&title=Backanatten",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hstkvllmedpoesipianovisorochskivslpp",
@@ -3670,7 +3626,7 @@
     "imageAlt": "Arvingarna | Klart det ska bli jul igen",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/arvingarna",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-21T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "845 kr"
@@ -3688,7 +3644,7 @@
     "imageAlt": "Gasbox",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/gasbox-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-21T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "450 kr"
@@ -3707,7 +3663,7 @@
     "imageAlt": "Primary Partner",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://inkonst.com/sv/events/primary-partner-cornelius-o-and-amanda-apetrea",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-5dd12b0619c51d1d050c2dd",
@@ -3723,7 +3679,7 @@
     "imageAlt": "Timbuktu",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/timbuktu?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-saganomalfina",
@@ -3751,7 +3707,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Mix Musik",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/saganomalfina",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "infinity-celebrating-the-music-of-michael-jackson-2026-11-22-bac6a1e2",
@@ -3766,27 +3722,10 @@
     "imageAlt": "Infinity | Celebrating the Music of Michael Jackson",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/infinity",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-22T18:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 320 kr"
-  },
-  {
-    "id": "malmo-stad-5-5544db6919ed4ce6f5f4dff",
-    "title": "Dansstationen presenterar: DRIV HUNGER",
-    "startsAt": "2026-11-23",
-    "endsAt": "2026-11-24T20:30:00+01:00",
-    "venue": "Palladium",
-    "category": "Scen",
-    "categories": [
-      "Scen",
-      "Dans"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02f40/1785498173946/driv_malmo%CC%88stad.jpg",
-    "imageAlt": "Dansstationen presenterar: DRIV HUNGER",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://dansstationen.nu/sv/23-24-nov-drive-hunger-hagar-malin-hellkvist-sellen/",
-    "verifiedAt": "2026-10-28"
   },
   {
     "id": "doc-lounge-cambodian-beer-dreams-2026-11-23",
@@ -3805,7 +3744,24 @@
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9c18f",
+    "id": "malmo-stad-5-5544db6919ed4ce6f5f4dff",
+    "title": "Dansstationen presenterar: DRIV HUNGER",
+    "startsAt": "2026-11-23",
+    "endsAt": "2026-11-24T20:30:00+01:00",
+    "venue": "Palladium",
+    "category": "Scen",
+    "categories": [
+      "Scen",
+      "Dans"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02f40/1785498173946/driv_malmo%CC%88stad.jpg",
+    "imageAlt": "Dansstationen presenterar: DRIV HUNGER",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://dansstationen.nu/sv/23-24-nov-drive-hunger-hagar-malin-hellkvist-sellen/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591d5d",
     "title": "Magasinsvisning: Spår av resandefolket i arkiven",
     "startsAt": "2026-11-23T17:00:00+01:00",
     "endsAt": "2026-12-22",
@@ -3818,8 +3774,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64d51/1791960971537/Bild1%202.jpg",
     "imageAlt": "Magasinsvisning: Spår av resandefolket i arkiven",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9a380&title=Magasinsvisning%3A-Sp%C3%A5r-av-resandefolket-i-arkiven",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125911ac&title=Magasinsvisning%3A-Sp%C3%A5r-av-resandefolket-i-arkiven",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-mattias-risbergs-mining-international",
@@ -3863,7 +3819,7 @@
     "imageAlt": "Doc Lounge: dokumentärfilmen Cambodian Beer Dreams",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://billetto.se/e/doc-lounge-pres-cambodian-beer-dreams-biljetter-1980606?bref=eyJzIjoiYmlsbGV0dG8gYWR2ZXJ0aXNpbmciLCJtIjoiYmlsbGV0dG8iLCJjIjoic2hhcmUiLCJjbyI6IjItZXAtU0UiLCJ0IjoxNzg5MzkwMjYyfQ%3D%3D",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "social-dans-soullinedance-2026-11-24",
@@ -3882,7 +3838,7 @@
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf99e6b",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591335",
     "title": "Förbjuden bokträff för dig som går på gymnasiet",
     "startsAt": "2026-11-24T15:15:00+01:00",
     "endsAt": "2026-11-24T16:15:00+01:00",
@@ -3894,8 +3850,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03973/1786542428251/Bokgolv%20flexibel.jpg",
     "imageAlt": "Förbjuden bokträff för dig som går på gymnasiet",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5544db6919ed4ce6f5f578a&title=F%C3%B6rbjuden-boktr%C3%A4ff-f%C3%B6r-dig-som-g%C3%A5r-p%C3%A5-gymnasiet",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591ad5&title=F%C3%B6rbjuden-boktr%C3%A4ff-f%C3%B6r-dig-som-g%C3%A5r-p%C3%A5-gymnasiet",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "maggie-reilly-cutting-crew-2026-11-24",
@@ -3910,16 +3866,16 @@
     "imageAlt": "Maggie Reilly + Cutting Crew",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/maggie-reilly",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-24T20:35:00+01:00",
     "district": "Slagthuset",
     "price": "635 kr"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9bea9",
+    "id": "malmo-stad-5-7e4bdcf31a1828912592135",
     "title": "Offline Sessions",
-    "startsAt": "2026-11-25T12:00:00+01:00",
-    "endsAt": "2026-11-25T16:00:00+01:00",
+    "startsAt": "2026-11-25T09:30:00+01:00",
+    "endsAt": "2026-11-25T10:00:00+01:00",
     "venue": "Kulturhyllan",
     "category": "Fritid",
     "categories": [
@@ -3929,8 +3885,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f655bf/1792480364625/Offline%20Sessions.png",
     "imageAlt": "Offline Sessions",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9bc4c&title=Offline-Sessions",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125912f5&title=Offline-Sessions",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf99864",
@@ -3947,7 +3903,36 @@
     "imageAlt": "Odla tillsammans - inspirationsträff",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.studieframjandet.se/skane-lan/gustav-arrangemang/kalenderhandelser/2026/november/odla-tillsammans---inspirationstraff-for-dig-som-odlar-eller-vill-odla-tillsammans-med-andra/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-en-julsaga-c",
+    "title": "EN JULSAGA",
+    "startsAt": "2026-11-25T19:00:00+01:00",
+    "endsAt": "2026-11-26",
+    "venue": "Barnens scen",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Scen",
+      "Dans",
+      "Konst",
+      "Musik",
+      "Litteratur",
+      "Familj",
+      "Festival",
+      "Fritid",
+      "Natur",
+      "Mat & dryck",
+      "Humor",
+      "Workshop"
+    ],
+    "price": "200 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/KC_En_Julsaga.jpg",
+    "imageAlt": "EN JULSAGA",
+    "sourceName": "K.A.O.S",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/en-julsaga-c",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "molly-hammar-2026-11-25",
@@ -3962,7 +3947,7 @@
     "imageAlt": "Molly Hammar",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/molly-hammar",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-25T20:25:00+01:00",
     "district": "Slagthuset",
     "price": "från 635 kr"
@@ -4000,10 +3985,10 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-7f765e1719e2074a3d61e5b",
+    "id": "malmo-stad-5-7e4bdcf31a18289125919a5",
     "title": "Jag är också en människa – män i fängelse",
     "startsAt": "2026-11-26T18:00:00+01:00",
-    "endsAt": "2026-11-26T19:00:00+01:00",
+    "endsAt": "2026-12-17",
     "venue": "Stadsbiblioteket",
     "category": "Litteratur",
     "categories": [
@@ -4013,8 +3998,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6574a/1792568698373/Jag%20a%CC%88r%20ocksa%CC%8A%20ma%CC%88nniska%20ny.jpg",
     "imageAlt": "Jag är också en människa – män i fängelse",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf995c0&title=Jag-%C3%A4r-ocks%C3%A5-en-m%C3%A4nniska-%E2%80%93-m%C3%A4n-i-f%C3%A4ngelse",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259144d&title=Jag-%C3%A4r-ocks%C3%A5-en-m%C3%A4nniska-%E2%80%93-m%C3%A4n-i-f%C3%A4ngelse",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-ivanovaru",
@@ -4042,7 +4027,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ivanovaru",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "christoffer-nyqvist-lejonet-fran-norden-2026-11-26",
@@ -4057,7 +4042,7 @@
     "imageAlt": "Christoffer Nyqvist | Lejonet från Norden",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/christoffer-nyqvist",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-26T21:00:00+01:00",
     "district": "Slagthuset",
     "price": "480 kr"
@@ -4076,7 +4061,7 @@
     "imageAlt": "Great Southern Mayhem – Dominera: A Pantera Tribute, Disrupt",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://secure.tickster.com/v69fr4v2a9850l8",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "konsert-eva-dahlgren-2026-11-26-48801cdd",
@@ -4091,7 +4076,7 @@
     "imageAlt": "Konsert: Eva Dahlgren",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/eva-dahlgren/",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-26T21:00:00+01:00",
     "district": "Folkets Park"
   },
@@ -4111,7 +4096,7 @@
     "imageAlt": "Storslaget julbord & ösig liveshow med Julen Runt på 80 Låtar",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://julbord.slagthuset.se/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "klubb-rythmz-klub-solaariss-dj-anne-devando-jes-2026-11-27",
@@ -4130,7 +4115,7 @@
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59774b9",
+    "id": "malmo-stad-5-7e4bdcf31a182891259183d",
     "title": "Julkransbindning i Torup 2026",
     "startsAt": "2026-11-27T10:30:00+01:00",
     "endsAt": "2026-11-27T11:30:00+01:00",
@@ -4142,8 +4127,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759b84b3/1772023358884/Julkransbindning%20-%20foto%20Hillary%20Ungson.jpg",
     "imageAlt": "Julkransbindning i Torup 2026",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.5dd12b0619c51d1d050d19&title=Julkransbindning-i-Torup-2026-",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591e55&title=Julkransbindning-i-Torup-2026-",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "seinabo-sey-2026-11-27",
@@ -4158,7 +4143,7 @@
     "imageAlt": "Seinabo Sey",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/seinabo-sey-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-27T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "från 635 kr"
@@ -4189,7 +4174,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/carl-johan-vallgren-c",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9528",
@@ -4205,7 +4190,7 @@
     "imageAlt": "Kokong",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://inkonst.com/sv/events/kokong-receptor",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "julmarknad-med-handgjorda-julklappar-2026-11-28-eff3e008",
@@ -4224,10 +4209,10 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf97c5b",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591e3d",
     "title": "Livingroom | Al Madhafah",
     "startsAt": "2026-11-28T09:00:00+01:00",
-    "endsAt": "2026-11-28T15:00:00+01:00",
+    "endsAt": "2027-06-12",
     "venue": "Rosengårdsbiblioteket",
     "category": "Scen",
     "categories": [
@@ -4236,8 +4221,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f65c37/1793113922385/Livingroom%20webb.jpg",
     "imageAlt": "Livingroom | Al Madhafah",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9c871&title=Livingroom-%7C-Al-Madhafah",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591084&title=Livingroom-%7C-Al-Madhafah",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-18096a35cc90",
@@ -4285,7 +4270,7 @@
     "imageAlt": "Fira 5 år av Källan med impro-kabaré!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://inkonst.com/sv/events/femarsfest-med-kallan",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "grymlings-2026-11-28-6f6c24b1",
@@ -4300,7 +4285,7 @@
     "imageAlt": "Grymlings",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/grymlings",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-28T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "740 kr"
@@ -4331,7 +4316,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/allsang-100-ars-hits-c4",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-1a1aa1dacf13",
@@ -4366,6 +4351,22 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "moriska-bb494e54acd3",
+    "title": "KLUBB: STRICTLY BANGERS",
+    "startsAt": "2026-11-28T23:00:00+01:00",
+    "venue": "Moriska Paviljongen",
+    "district": "Folkets Park",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
+    "imageAlt": "KLUBB: STRICTLY BANGERS",
+    "sourceName": "Moriska Paviljongen",
+    "sourceUrl": "https://moriskapaviljongen.se/program/strictley-bangers-28-nov-2026/",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "malmo-ff-herr-vs-if-brommapojkarna-2026-11-29",
     "title": "Malmö FF Herr vs. IF Brommapojkarna",
     "startsAt": "2026-11-29",
@@ -4381,6 +4382,23 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-stad-5-7e4bdcf31a182891259213d",
+    "title": "Jul på slottet",
+    "startsAt": "2026-11-29T10:00:00+01:00",
+    "endsAt": "2026-11-29T17:00:00+01:00",
+    "venue": "Malmö museum",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Marknad"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb7e0/1793195990869/MACF5E~1.JPG",
+    "imageAlt": "Jul på slottet",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259213d&title=Jul-p%C3%A5-slottet",
+    "verifiedAt": "2026-10-29"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9c9a5",
     "title": "Söndagsverkstad – Stygnen berättar!",
     "startsAt": "2026-11-29T11:00:00+01:00",
@@ -4394,7 +4412,7 @@
     "imageAlt": "Söndagsverkstad – Stygnen berättar!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/sondagsverkstad-stygnen-berattar/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "brandsta-city-slackers-familjekonsert-2026-11-29",
@@ -4409,7 +4427,7 @@
     "imageAlt": "Brandsta City Släckers | Familjekonsert",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/brandsta-city-slackers",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-29T16:00:00+01:00",
     "district": "Slagthuset",
     "price": "350 kr"
@@ -4431,7 +4449,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59771d1e",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591905",
     "title": "DocSenior visar dokumentären Första blatten på månen",
     "startsAt": "2026-11-30T12:45:00+01:00",
     "endsAt": "2026-11-30T12:45:00+01:00",
@@ -4444,7 +4462,7 @@
     "imageAlt": "DocSenior visar dokumentären Första blatten på månen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.doclounge.se/projects/doc-augusten-connecting-through-documentaries",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "the-harlem-spirit-of-gospel-2026-11-30",
@@ -4459,13 +4477,13 @@
     "imageAlt": "The Harlem Spirit of Gospel",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/the-harlem-spirit-of-gospel",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-11-30T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "495 kr"
   },
   {
-    "id": "malmo-stad-5-437d186119ed4baa5965b83",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591b1d",
     "title": "Bokcirkel - \"Styr din plog över de dödas ben\"",
     "startsAt": "2026-12-01T17:30:00+01:00",
     "endsAt": "2026-12-01T18:30:00+01:00",
@@ -4478,8 +4496,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02a29/1784821349448/FOTO%20Olga_t.png",
     "imageAlt": "Bokcirkel - \"Styr din plog över de dödas ben\"",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.437d186119ed4baa5965110&title=Bokcirkel---%22Styr-din-plog-%C3%B6ver-de-d%C3%B6das-ben%22",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591d15&title=Bokcirkel---%22Styr-din-plog-%C3%B6ver-de-d%C3%B6das-ben%22",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-7d3dd50d0030",
@@ -4511,7 +4529,7 @@
     "imageAlt": "Emmi Christensson & Rickard Söderberg - En Fridfull Jul",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.nortic.se/ticket/event/80719",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "skanes-dansteaters-kompani-may-fall-lampyris-noctiluca-2026-12-02-83ea89b1",
@@ -4527,7 +4545,7 @@
     "imageAlt": "May Fall & Lampyris Noctiluca",
     "sourceName": "Skånes Dansteater",
     "sourceUrl": "https://www.skanesdansteater.se/may-fall-lampyris-noctiluca",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "julshow-absolutely-glasklart-2026-12-02-d9edb7de",
@@ -4590,7 +4608,23 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59771119",
+    "id": "malmo-live-8de36c60ac81",
+    "title": "Love Actually",
+    "startsAt": "2026-12-03",
+    "endsAt": "2026-12-05",
+    "venue": "Malmö Live Konserthus",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://malmolive.se/sites/default/files/2026/06/MLK_Love-Actually_Konsertlistning_920x640.jpg",
+    "imageAlt": "Love Actually",
+    "sourceName": "Malmö Live",
+    "sourceUrl": "https://malmolive.se/program/love-actually",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591815",
     "title": "Författarbesök: historieprofessorn Dick Harrison",
     "startsAt": "2026-12-03T16:00:00+01:00",
     "endsAt": "2026-12-03T18:00:00+01:00",
@@ -4603,8 +4637,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f61585/1789031514819/Dick%20Harrison_Foto%20Hans%20Jonsson%203%20webb.jpg",
     "imageAlt": "Författarbesök: historieprofessorn Dick Harrison",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.630778b81a03e20b4c52605&title=F%C3%B6rfattarbes%C3%B6k%3A-historieprofessorn-Dick-Harrison",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a18289125917ed&title=F%C3%B6rfattarbes%C3%B6k%3A-historieprofessorn-Dick-Harrison",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-ett-oslipat-julbord-pa-travers",
@@ -4633,7 +4667,7 @@
     "imageAlt": "Ett Oslipat Julbord på TRAVERS",
     "sourceName": "Travers Malmö AB",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ett-oslipat-julbord-pa-travers",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-a8f4064c0ff4",
@@ -4676,10 +4710,10 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/shaloshisr",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e8e1c8e19e20790e13f8ff",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591d6d",
     "title": "Välkommen till Katrinetorps traditionella julmarknad",
     "startsAt": "2026-12-04",
     "endsAt": "2026-12-11",
@@ -4692,11 +4726,11 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6118d/1788868650930/JUL%20_%20even.jpg",
     "imageAlt": "Välkommen till Katrinetorps traditionella julmarknad",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e597710fb&title=V%C3%A4lkommen-till-Katrinetorps-traditionella-julmarknad",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591945&title=V%C3%A4lkommen-till-Katrinetorps-traditionella-julmarknad",
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9bd85",
+    "id": "malmo-stad-5-7e4bdcf31a18289125912ac",
     "title": "Lotteri på Katrinetorp Landeri Julmarknad",
     "startsAt": "2026-12-04",
     "endsAt": "2026-12-06",
@@ -4711,23 +4745,7 @@
     "imageAlt": "Lotteri på Katrinetorp Landeri Julmarknad",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.facebook.com/lionsimalmo",
-    "verifiedAt": "2026-10-27"
-  },
-  {
-    "id": "malmo-live-8de36c60ac81",
-    "title": "Love Actually",
-    "startsAt": "2026-12-04",
-    "endsAt": "2026-12-05",
-    "venue": "Malmö Live Konserthus",
-    "category": "Scen",
-    "categories": [
-      "Scen"
-    ],
-    "imageUrl": "https://malmolive.se/sites/default/files/2026/06/MLK_Love-Actually_Konsertlistning_920x640.jpg",
-    "imageAlt": "Love Actually",
-    "sourceName": "Malmö Live",
-    "sourceUrl": "https://malmolive.se/program/love-actually",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "gastforestallning-syllables-of-recorded-time-2026-12-04",
@@ -4743,7 +4761,7 @@
     "imageAlt": "Gästföreställning: Syllables of Recorded Time",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.skanesdansteater.se/syllables-recorded-time",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "slagthuset-7002",
@@ -4777,7 +4795,7 @@
     "imageAlt": "Ben Folds | Paper Airplane Request Tour",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.slagthuset.se/events/ben-folds",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-english-comedy-nights-2026-12-05-7067e445",
@@ -4809,7 +4827,24 @@
     "imageAlt": "Danslördag: Figurer",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.skanesdansteater.se/danslordag-figurer",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912592155",
+    "title": "Romsk poesi och musik",
+    "startsAt": "2026-12-05T13:00:00+01:00",
+    "endsAt": "2026-12-05T13:40:00+01:00",
+    "venue": "Lindängenbiblioteket",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Litteratur"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb712a/1793198270033/Romsk%20poesi%204.png",
+    "imageAlt": "Romsk poesi och musik",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912592155&title=Romsk-poesi-och-musik",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "notknapparen-international-festival-ballet-2026-12-05",
@@ -4824,7 +4859,7 @@
     "imageAlt": "Nötknäpparen | International Festival Ballet",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/notknapparen-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "från 485 kr"
   },
@@ -4842,7 +4877,7 @@
     "imageAlt": "Nötknäpparen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://secure.tickster.com/sv/x3n618jb99vj04u/seating?gfsids=4788397%2C4788394%2C4788402",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "svansjon-international-festival-ballet-2026-12-05",
@@ -4857,7 +4892,7 @@
     "imageAlt": "Svansjön | International Festival Ballet",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/svansjon-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "från 485 kr"
   },
@@ -4875,7 +4910,7 @@
     "imageAlt": "Svansjön",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://secure.tickster.com/sv/ehtbk039ddp2g2t/seating?gfsids=4788521%2C4788518%2C4788526",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-8e5b6b465571",
@@ -4919,7 +4954,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/papperssvalan-5",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9c0c6",
@@ -4937,7 +4972,7 @@
     "imageAlt": "\"När hjärtat svämmar över\" – Musik på Museet!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.modernamuseet.se/sv/malmo/program/musik-pa-museet-nar-hjartat-svammar-over/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-3507a338328a",
@@ -4984,7 +5019,7 @@
     "imageAlt": "Lords of the Sound | Hogwarts Magic Symphony",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/hogwarts-magic-symphony",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-07T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 705 kr"
@@ -5003,7 +5038,7 @@
     "imageAlt": "Doc Lounge Hotspot, nya skånska dokumentärer",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://billetto.se/e/sasongsavslutning-doc-lounge-hotspot-biljetter-1980648?bref=eyJzIjoiYmlsbGV0dG8gYWR2ZXJ0aXNpbmciLCJtIjoiYmlsbGV0dG8iLCJjIjoic2hhcmUiLCJjbyI6IjItZXAtU0UiLCJ0IjoxNzg5NTQyMzEyfQ%3D%3D",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-4968b1201a03e2e597722ee",
@@ -5019,7 +5054,7 @@
     "imageAlt": "Lemkin och Lauterpacht – ett samtal i Lviv",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmostadsteater.se/lemkin-och-lauterpacht",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-5544db6919ed4ce6f5f4e07",
@@ -5036,7 +5071,7 @@
     "imageAlt": "Dansstationen: I QUERY / THIS BODY IS NOT AN ANSWER",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://dansstationen.nu/sv/8-9-dec-i-query-this-body-is-not-an-answer-fabio-liberti/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "nazareth-2026-12-08-01ca3729",
@@ -5051,7 +5086,7 @@
     "imageAlt": "Nazareth",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/nazareth",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-08T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "595 kr"
@@ -5088,7 +5123,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-437d186119ed4baa5967579",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591aa5",
     "title": "Minnescafé: Julpang i bygget!",
     "startsAt": "2026-12-09T14:00:00+01:00",
     "endsAt": "2026-12-09T16:00:00+01:00",
@@ -5100,8 +5135,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03c51/1786627106506/Julpang.jpg",
     "imageAlt": "Minnescafé: Julpang i bygget!",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.437d186119ed4baa5967579&title=Minnescaf%C3%A9%3A-Julpang-i-bygget!",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591aa5&title=Minnescaf%C3%A9%3A-Julpang-i-bygget!",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "banna-sona-band-christmas-edition-2026-2026-12-09-67253e09",
@@ -5116,7 +5151,7 @@
     "imageAlt": "Banna Sona Band | Christmas Edition 2026",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/banna-sona-band-christmas-edition-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-09T19:00:00+01:00",
     "district": "Slagthuset",
     "price": "795 kr"
@@ -5183,7 +5218,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9a736",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591154",
     "title": "Rasism inom vården, finns den?",
     "startsAt": "2026-12-10T18:00:00+01:00",
     "endsAt": "2026-12-10T19:30:00+01:00",
@@ -5196,8 +5231,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64f04/1791985506292/URVAL_241025_hypnobirthing0953.jpg",
     "imageAlt": "Rasism inom vården, finns den?",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9a72e&title=Rasism-inom-v%C3%A5rden%2C-finns-den%3F",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591154&title=Rasism-inom-v%C3%A5rden%2C-finns-den%3F",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "lars-vegas-trio-varje-dag-ar-jul-2026-12-10",
@@ -5212,7 +5247,7 @@
     "imageAlt": "Lars Vegas Trio | Varje dag är jul",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/lars-vegas-trio-varje-dag-ar-jul-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-10T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "530"
@@ -5231,7 +5266,7 @@
     "imageAlt": "Amanda Ginsburg - Det är jul nu igen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.nortic.se/ticket/event/80716",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9520",
@@ -5249,7 +5284,7 @@
     "imageAlt": "Molntriptyk",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://inkonst.com/sv/events/molntriptyk-olof-runstendramageddon",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "tomten-ar-far-till-alla-barnen-2026-12-11",
@@ -5266,7 +5301,36 @@
     "imageAlt": "Tomten är far till alla barnen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/tomten-ar-far?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-soitgoes",
+    "title": "So It Goes.",
+    "startsAt": "2026-12-11T19:00:00+01:00",
+    "endsAt": "2026-12-20",
+    "venue": "MAF",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt",
+      "Scen",
+      "Dans",
+      "Konst",
+      "Musik",
+      "Litteratur",
+      "Familj",
+      "Festival",
+      "Fritid",
+      "Natur",
+      "Mat & dryck",
+      "Humor",
+      "Workshop"
+    ],
+    "price": "120 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/soitgoes.jpg",
+    "imageAlt": "So It Goes.",
+    "sourceName": "On Stage Skåne",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/soitgoes",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "thorbj-rn-risager-the-black-tornado-2026-12-11",
@@ -5281,7 +5345,7 @@
     "imageAlt": "Thorbjørn Risager & The Black Tornado",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/thorbjorn-risager-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-11T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "460 kr"
@@ -5313,23 +5377,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/timorisnen",
-    "verifiedAt": "2026-10-28"
-  },
-  {
-    "id": "malmo-stad-5-437d186119ed4baa5961187",
-    "title": "Brecht till folket",
-    "startsAt": "2026-12-12",
-    "endsAt": "2027-02-27T19:00:00+01:00",
-    "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
-    "categories": [
-      "Konst"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0782/1782294532952/STADSTEATERN%20-%20BRECHT%20TILL%20FOLKET22540.jpg",
-    "imageAlt": "Brecht till folket",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.malmostadsteater.se/brecht-till-folket",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "keramikmarknad-2026-12-12-eff3e008",
@@ -5363,7 +5411,23 @@
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-630778b81a03e20b4c51d86",
+    "id": "malmo-stad-5-437d186119ed4baa5961187",
+    "title": "Brecht till folket",
+    "startsAt": "2026-12-12",
+    "endsAt": "2027-02-27T19:00:00+01:00",
+    "venue": "Intiman (Malmö Stadsteater)",
+    "category": "Konst",
+    "categories": [
+      "Konst"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0782/1782294532952/STADSTEATERN%20-%20BRECHT%20TILL%20FOLKET22540.jpg",
+    "imageAlt": "Brecht till folket",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/brecht-till-folket",
+    "verifiedAt": "2026-10-29"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a182891259180d",
     "title": "Drag Story Hour | 4–7 år",
     "startsAt": "2026-12-12T14:30:00+01:00",
     "endsAt": "2026-12-12T15:00:00+01:00",
@@ -5376,8 +5440,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f611f6/1788874172381/DSH-fb.jpg",
     "imageAlt": "Drag Story Hour | 4–7 år",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e5977117a&title=Drag-Story-Hour-%7C-4%E2%80%937-%C3%A5r",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591805&title=Drag-Story-Hour-%7C-4%E2%80%937-%C3%A5r",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-b4130326f690",
@@ -5435,7 +5499,7 @@
     "imageAlt": "Christmas Night med Tommy Nilsson, Jessica Andersson, Lasse Kronér & Annika Wickihalder",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/christmas-night-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-12T19:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 530 kr"
@@ -5468,7 +5532,7 @@
     "imageAlt": "Christmas Unplugged 2026 med Peter, Bruno, Matilda & Petra",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/christmas-unplugged-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-13T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "från 695 kr"
@@ -5499,7 +5563,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "S:t Johannes församling / Svenska kyrkan Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/luciakonsert-1",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-luciahogtid-i-s-t-matteus-kyrka",
@@ -5570,7 +5634,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/nynningen-f",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-76a649b2ca7a",
@@ -5601,7 +5665,7 @@
     "imageAlt": "Thomas Järvheden | Sveriges roligaste julkonsert",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/thomas-jarvheden-2026",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-17T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "595 kr"
@@ -5632,10 +5696,10 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ronnie-astrom-trio-d",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59774cc",
+    "id": "malmo-stad-5-7e4bdcf31a182891259182d",
     "title": "Jullovspyssel",
     "startsAt": "2026-12-18",
     "endsAt": "2027-01-08",
@@ -5648,8 +5712,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f67c0/1788272100930/COLOURBOX36921924.JPG",
     "imageAlt": "Jullovspyssel",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e59774cc&title=Jullovspyssel",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259182d&title=Jullovspyssel",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-71b54182c20d",
@@ -5693,7 +5757,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "S:t Johannes församling / Svenska kyrkan Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/vegakrenlinneahenriksson",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-heltoffvictoriadansar",
@@ -5721,7 +5785,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/heltoffvictoriadansar",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-1c8d82a29c2a",
@@ -5756,7 +5820,7 @@
     "district": "Folkets Park"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9a490",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591174",
     "title": "Läslördag",
     "startsAt": "2026-12-19T14:00:00+01:00",
     "endsAt": "2026-12-19T15:00:00+01:00",
@@ -5769,8 +5833,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64e6d/1791979354401/L%C3%A4sl%C3%B6rdag.png",
     "imageAlt": "Läslördag",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9a490&title=L%C3%A4sl%C3%B6rdag",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591174&title=L%C3%A4sl%C3%B6rdag",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-24de497bd4c5",
@@ -5828,13 +5892,13 @@
     "imageAlt": "LABERO | A Magic Night",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/labero-a-magic-night",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2026-12-19T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "från 395 kr"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9bd4c",
+    "id": "malmo-stad-5-7e4bdcf31a18289125912b4",
     "title": "Lions i Malmös Julkonsert 2026",
     "startsAt": "2026-12-20T17:00:00+01:00",
     "endsAt": "2026-12-20T17:00:00+01:00",
@@ -5848,7 +5912,7 @@
     "imageAlt": "Lions i Malmös Julkonsert 2026",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.facebook.com/lionsimalmo",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "social-dans-soullinedance-2026-12-21",
@@ -5865,23 +5929,6 @@
     "sourceUrl": "https://moriskapaviljongen.se/program/soullinedance21dec2026/",
     "verifiedAt": "2026-10-27",
     "district": "Folkets Park"
-  },
-  {
-    "id": "malmo-stad-5-dd8076019c51cb8e6739e0",
-    "title": "Vinterfåglar på Ribersborgsstranden",
-    "startsAt": "2026-12-26T09:00:00+01:00",
-    "endsAt": "2026-12-26T11:00:00+01:00",
-    "venue": "Ribersborgsstranden",
-    "category": "Natur",
-    "categories": [
-      "Natur",
-      "Fritid"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759ba8d4/1774089186931/Bla%E2%95%A0%C3%AAsandRibbanVilda%20Malmo%E2%95%A0%C3%AAErikHirschfeld_eve.jpg",
-    "imageAlt": "Vinterfåglar på Ribersborgsstranden",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.dd8076019c51cb8e6739e0&title=Vinterf%C3%A5glar-p%C3%A5-Ribersborgsstranden",
-    "verifiedAt": "2026-10-27"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-vinterfglarpribersborgsstranden",
@@ -5910,6 +5957,23 @@
     "sourceName": "Malmö stad - Vilda Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/vinterfglarpribersborgsstranden",
     "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591f0d",
+    "title": "Vinterfåglar på Ribersborgsstranden",
+    "startsAt": "2026-12-26T09:00:00+01:00",
+    "endsAt": "2026-12-26T11:00:00+01:00",
+    "venue": "Ribersborgsstranden",
+    "category": "Natur",
+    "categories": [
+      "Natur",
+      "Fritid"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759ba8d4/1774089186931/Bla%E2%95%A0%C3%AAsandRibbanVilda%20Malmo%E2%95%A0%C3%AAErikHirschfeld_eve.jpg",
+    "imageAlt": "Vinterfåglar på Ribersborgsstranden",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591f0d&title=Vinterf%C3%A5glar-p%C3%A5-Ribersborgsstranden",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-bf49a6d4582a",
@@ -5958,7 +6022,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59778f3",
+    "id": "malmo-stad-5-7e4bdcf31a182891259174d",
     "title": "Anpassat Lovöppet",
     "startsAt": "2027-01-05",
     "endsAt": "2027-03-23",
@@ -5970,8 +6034,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f68ec/1788276584810/L%C3%A4gerRed2.jpg",
     "imageAlt": "Anpassat Lovöppet",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e59778f3&title=Anpassat-Lov%C3%B6ppet",
-    "verifiedAt": "2026-10-28"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259174d&title=Anpassat-Lov%C3%B6ppet",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-6c6847d44eef",
@@ -5989,7 +6053,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9a258",
+    "id": "malmo-stad-5-7e4bdcf31a182891259142d",
     "title": "Skrivarkurs för unga författare | 10-15 år",
     "startsAt": "2027-01-07T13:00:00+01:00",
     "endsAt": "2027-01-07T16:00:00+01:00",
@@ -6002,8 +6066,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64bec/1791882921847/skrivarkursVT27.png",
     "imageAlt": "Skrivarkurs för unga författare | 10-15 år",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9a258&title=Skrivarkurs-f%C3%B6r-unga-f%C3%B6rfattare-%7C-10-15-%C3%A5r",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a182891259142d&title=Skrivarkurs-f%C3%B6r-unga-f%C3%B6rfattare-%7C-10-15-%C3%A5r",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-c178823bef08",
@@ -6021,7 +6085,7 @@
     "verifiedAt": "2026-10-27"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e59774c3",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591835",
     "title": "Skapa egna ljudlandskap tillsammans med We Are Not Robots.",
     "startsAt": "2027-01-08T10:00:00+01:00",
     "endsAt": "2027-01-08T12:00:00+01:00",
@@ -6034,8 +6098,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f654b/1788261234906/we%20are%20not%20robots%20jan%202027.jpg",
     "imageAlt": "Skapa egna ljudlandskap tillsammans med We Are Not Robots.",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e59774c3&title=Skapa-egna-ljudlandskap-tillsammans-med-We-Are-Not-Robots.",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591835&title=Skapa-egna-ljudlandskap-tillsammans-med-We-Are-Not-Robots.",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-5028c730d7d2",
@@ -6081,7 +6145,7 @@
     "imageAlt": "Kevin Bridges - Here If You Need Me - European Tour 2026/27",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/kevin-bridges",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-01-17T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "530 kr"
@@ -6129,7 +6193,7 @@
     "imageAlt": "Stephen Lynch | The Me Tour",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/stephen-lynch-the-me-tour",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-01-23T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "425 kr"
@@ -6147,7 +6211,7 @@
     "imageAlt": "Melody Club",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/melody-club",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-01-23T21:00:00+01:00",
     "district": "Slagthuset",
     "price": "430 kr"
@@ -6186,7 +6250,7 @@
     "imageAlt": "Disney on Ice - Discover the Magic",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/disney-on-ice_sv?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "den-svenska-bjornstammen-2027-01-29",
@@ -6201,10 +6265,26 @@
     "imageAlt": "Den Svenska Björnstammen",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/den-svenska-bjornstammen",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-01-29T21:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 380 kr"
+  },
+  {
+    "id": "malmo-stad-5-7e4bdcf31a1828912592145",
+    "title": "Hällas",
+    "startsAt": "2027-01-30T00:00:00+01:00",
+    "endsAt": "2027-01-30T23:59:00+01:00",
+    "venue": "Slagthuset",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62e86/1790756260932/H%C3%A4llas2027_Malm%C3%B6Stad_700x394.jpg",
+    "imageAlt": "Hällas",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://slagthuset.se/events/hallas",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "konsert-show-hits-historier-64-66-2027-01-30",
@@ -6250,7 +6330,7 @@
     "imageAlt": "Hits & Historier 64-66",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://tickets.nortic.se/ticket/event/87426",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-1945fb5aa760",
@@ -6280,7 +6360,7 @@
     "imageAlt": "Lords of the Sound | The Music of Hans Zimmer",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/the-music-of-hans-zimmer",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-01T19:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 740 kr"
@@ -6313,7 +6393,7 @@
     "imageAlt": "Ser jag tjock ut i den här..? Pappa ljuger också",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/ser-jag-tjock-ut",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "425 kr"
   },
@@ -6332,7 +6412,7 @@
     "imageAlt": "”Ser jag tjock ut i den här..?” - Malmö",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://secure.tickster.com/sv/kkj3u4lczw519vx/seating?gfsids=4879344",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "rock-sensation-the-contract-2027-02-05-5885b6e7",
@@ -6347,7 +6427,7 @@
     "imageAlt": "Rock Sensation – The Contract",
     "sourceName": "Malmö Arena",
     "sourceUrl": "https://www.ticketmaster.se/artist/rock-sensation-biljetter/1285483?venueid=1625&language=sv-se",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-05T20:00:00+01:00"
   },
   {
@@ -6364,7 +6444,7 @@
     "imageAlt": "Den lysande världen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmostadsteater.se/den-lysande-varlden",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-hopp",
@@ -6393,7 +6473,7 @@
     "imageAlt": "Kulturcentralen",
     "sourceName": "Expressteatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hopp",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-arena-20c63e7ef897",
@@ -6423,7 +6503,7 @@
     "imageAlt": "Imminence + August Burns Red",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/imminence",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-06T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "485 kr"
@@ -6441,13 +6521,13 @@
     "imageAlt": "Torbjörn Averås Skorup",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/torbjorn-averas-skorup",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-06T21:30:00+01:00",
     "district": "Slagthuset",
     "price": "495 kr"
   },
   {
-    "id": "malmo-stad-5-4968b1201a03e2e5977101d",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591705",
     "title": "Månadskonsert med kulturskolan i Röda rummet",
     "startsAt": "2027-02-09",
     "endsAt": "2027-05-11",
@@ -6459,8 +6539,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f61062/1788786625535/DSC_4264kalender.jpg",
     "imageAlt": "Månadskonsert med kulturskolan i Röda rummet",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.4968b1201a03e2e5977101d&title=M%C3%A5nadskonsert-med-kulturskolan-i-R%C3%B6da-rummet",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591705&title=M%C3%A5nadskonsert-med-kulturskolan-i-R%C3%B6da-rummet",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9b986",
@@ -6477,7 +6557,7 @@
     "imageAlt": "UF-Mässan Malmö",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://ungforetagsamhet.se/skane/uf-massan-malmo",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "alexx-alexxander-2027-02-10",
@@ -6492,7 +6572,7 @@
     "imageAlt": "Alexx Alexxander",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/alexx-alexxander",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-10T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "från 595 kr"
@@ -6510,7 +6590,7 @@
     "imageAlt": "Kim Wilde",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/kim-wilde-2027",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-10T21:00:00+01:00",
     "district": "Slagthuset",
     "price": "635 kr"
@@ -6528,7 +6608,7 @@
     "imageAlt": "Ane Brun + Riley O’Flynn",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/ane-brun",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-11T19:30:00+01:00",
     "district": "Slagthuset",
     "price": "från 640 kr"
@@ -6579,7 +6659,7 @@
     "imageAlt": "Night of Famous Musicals",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/night-of-famous-musicals_sv?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "moriska-616ab9004b64",
@@ -6610,7 +6690,7 @@
     "imageAlt": "The Halo Effect + Lacuna Coil, Omnium Gatherum",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/the-halo-effect",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-18T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "590 kr"
@@ -6629,7 +6709,7 @@
     "imageAlt": "Melodifestivalen 2027 – deltävling 3",
     "sourceName": "Malmö Arena",
     "sourceUrl": "https://www.malmoarena.com/evenemang/melodifestivalen-2027?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "karleksbrev-en-teaterforestallning-om-karlek-2027-02-19",
@@ -6644,7 +6724,7 @@
     "imageAlt": "Kärleksbrev | En teaterföreställning om kärlek",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/karleksbrev-19feb",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-02-19T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "från 495 kr"
@@ -6787,7 +6867,7 @@
     "imageAlt": "Gud förbannat – Nu får det bära eller brista | En humorföreställning med Leif & Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://secure.tickster.com/mjabnyce3ll3j1v",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "slagthuset-7949",
@@ -6884,7 +6964,7 @@
     "imageAlt": "Lisa Ekdahl",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/lisa-ekdahl",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-03-07T20:30:00+01:00",
     "district": "Slagthuset",
     "price": "640 kr"
@@ -6917,7 +6997,7 @@
     "imageAlt": "Kamelot + Cyhra",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/kamelot",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-03-11T18:15:00+01:00",
     "district": "Slagthuset",
     "price": "530 kr"
@@ -7019,7 +7099,7 @@
     "imageAlt": "Leva och låta bli att dö",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmolive.se/program/leva-och-lata-bli-att-do",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "purpendicular-feat-ian-paice-2027-03-14",
@@ -7034,7 +7114,7 @@
     "imageAlt": "Purpendicular feat. Ian Paice",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/purpendicular-feat-ian-paice",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-03-14T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "495 kr"
@@ -7130,7 +7210,7 @@
     "imageAlt": "The Grand Dance",
     "sourceName": "Skånes Dansteater, Malmö Opera",
     "sourceUrl": "https://www.skanesdansteater.se/grand-dance",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "slagthuset-8022",
@@ -7162,7 +7242,7 @@
     "imageAlt": "Hör Här! (försöker göra) Livepodd",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/hor-har-livepodd",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-03-21T20:00:00+01:00",
     "district": "Slagthuset",
     "price": "495 kr"
@@ -7212,26 +7292,10 @@
     "imageAlt": "Copenhagen Drummers",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/copenhagen-drummers-2027",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-04-10T21:30:00+02:00",
     "district": "Slagthuset",
     "price": "530 kr"
-  },
-  {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf97d10",
-    "title": "Hällas",
-    "startsAt": "2027-04-14T20:00:00+02:00",
-    "endsAt": "2027-04-14T20:00:00+02:00",
-    "venue": "Slagthuset",
-    "category": "Musik",
-    "categories": [
-      "Musik"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62e86/1790756260932/H%C3%A4llas2027_Malm%C3%B6Stad_700x394.jpg",
-    "imageAlt": "Hällas",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://slagthuset.se/events/hallas",
-    "verifiedAt": "2026-10-27"
   },
   {
     "id": "from-a-jack-to-a-king-2027-04-16",
@@ -7246,7 +7310,7 @@
     "imageAlt": "From A Jack To A King",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/from-a-jack-to-a-king",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-04-16T19:30:00+02:00",
     "district": "Slagthuset",
     "price": "530 kr"
@@ -7264,7 +7328,7 @@
     "imageAlt": "En Jäkla Massa Schlager",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/en-jakla-massa-schlager-2027",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-04-17T21:30:00+02:00",
     "district": "Slagthuset",
     "price": "från 745 kr"
@@ -7331,7 +7395,7 @@
     "imageAlt": "Bryan Adams - Roll with the punches",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.malmoarena.com/evenemang/bryan-adams-roll-with-the-punches?hsLang=sv",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "bianca-del-rio-it-gets-bitter-2027-05-02",
@@ -7346,7 +7410,7 @@
     "imageAlt": "Bianca Del Rio – It Gets Bitter",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/bianca-del-rio",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "district": "Slagthuset",
     "price": "530 kr"
   },
@@ -7363,7 +7427,7 @@
     "imageAlt": "SAGA",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/saga",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-05-02T22:00:00+02:00",
     "district": "Slagthuset",
     "price": "595 kr"
@@ -7382,7 +7446,7 @@
     "imageAlt": "The Orb",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/the-orb-mlm/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "george-michael-xperience-2027-05-05",
@@ -7397,7 +7461,7 @@
     "imageAlt": "George Michael Xperience",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/george-michael-xperience",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-05-05T21:30:00+02:00",
     "district": "Slagthuset",
     "price": "534 kr"
@@ -7415,7 +7479,7 @@
     "imageAlt": "Lukas Graham",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/lukas-graham",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-05-05T22:00:00+02:00",
     "district": "Slagthuset",
     "price": "640 kr"
@@ -7450,7 +7514,7 @@
     "imageAlt": "K-Pop Superstars",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/k-pop-superstars",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-05-09T19:00:00+02:00",
     "district": "Slagthuset",
     "price": "485 kr"
@@ -7485,10 +7549,10 @@
     "imageAlt": "Rumours of Fleetwood Mac",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/rumours-of-fleetwood-mac-50th-anniversary-2027-mlm/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf9886b",
+    "id": "malmo-stad-5-7e4bdcf31a1828912591635",
     "title": "Kulturskolans anpassade sommarläger",
     "startsAt": "2027-06-14",
     "endsAt": "2027-06-16",
@@ -7502,8 +7566,8 @@
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63392/1790867154571/sommarl%C3%A4ger.jpg",
     "imageAlt": "Kulturskolans anpassade sommarläger",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.e99dd2f1a08fc27cf9886b&title=Kulturskolans-anpassade-sommarl%C3%A4ger",
-    "verifiedAt": "2026-10-27"
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591635&title=Kulturskolans-anpassade-sommarl%C3%A4ger",
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "sunset-boulevard-2027-09-10",
@@ -7536,7 +7600,7 @@
     "imageAlt": "The Mission",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/the-mission-mlm/",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-10-29"
   },
   {
     "id": "brit-floyd-2027-10-08-ca94b096",
@@ -7551,7 +7615,7 @@
     "imageAlt": "Brit Floyd",
     "sourceName": "Malmö Arena",
     "sourceUrl": "https://www.ticketmaster.se/event/1255113262",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-10-29",
     "endsAt": "2027-10-08T19:30:00+02:00"
   }
 ]
