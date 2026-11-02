@@ -123,21 +123,24 @@ function dateOnlyFromEpoch(timestamp: number) {
 
 function toCategory(value: string): EventCategory {
   const normalized = value.toLocaleLowerCase('sv-SE')
-  if (normalized.includes('barn')) return 'Familj'
-  if (normalized.includes('sport')) return 'Sport'
-  if (normalized.includes('humor')) return 'Humor'
-  if (normalized.includes('dans')) return 'Dans'
-  if (normalized.includes('mat') || normalized.includes('dryck') || normalized.includes('smak') || normalized.includes('after work')) return 'Mat & dryck'
-  if (normalized.includes('konst') || normalized.includes('design') || normalized.includes('utställning')) return 'Konst'
-  if (normalized.includes('festival')) return 'Festival'
-  if (normalized.includes('marknad') || normalized.includes('mässa')) return 'Marknad'
-  if (normalized.includes('musik') || normalized.includes('konsert') || normalized.includes('klubb')) return 'Musik'
-  if (normalized.includes('litteratur') || normalized.includes('läsning')) return 'Litteratur'
-  if (normalized.includes('workshop') || normalized.includes('skapande')) return 'Workshop'
-  if (normalized.includes('natur') || normalized.includes('friluft') || normalized.includes('djur')) return 'Natur'
-  if (normalized.includes('fritid') || normalized.includes('guid') || normalized.includes('visning')) return 'Fritid'
-  if (normalized.includes('quiz') || normalized.includes('frågesport')) return 'Quiz'
-  if (normalized.includes('teater') || normalized.includes('opera') || normalized.includes('film') || normalized.includes('föredrag') || normalized.includes('samtal') || normalized.includes('show') || normalized.includes('performance') || normalized.includes('lärande') || normalized.includes('allsång') || normalized.includes('scen') || normalized.includes('picknick')) return 'Scen'
+  const hasTerm = (terms: string) => new RegExp(`(?:^|[^\\p{L}])(?:${terms})(?=$|[^\\p{L}])`, 'u').test(normalized)
+  if (/dansföreställ|dansforestall/.test(normalized)) return 'Dans'
+  if (/tangokväll|tangokvall/.test(normalized)) return 'Dans'
+  if (hasTerm('sport')) return 'Sport'
+  if (hasTerm('humor|komedi|stand[- ]?up')) return 'Humor'
+  if (hasTerm('dans|dance|lindyhop')) return 'Dans'
+  if (hasTerm('mat|dryck|smak|smaktur|ölprovning|after work')) return 'Mat & dryck'
+  if (hasTerm('konst|design|utställning|utstallning')) return 'Konst'
+  if (hasTerm('festival')) return 'Festival'
+  if (hasTerm('marknad|mässa|massa')) return 'Marknad'
+  if (hasTerm('musik|konsert|klubb|jazz|klezmer|musiker') || /musikalis(?:k|ka|kt)/.test(normalized)) return 'Musik'
+  if (hasTerm('litteratur|läsning|lasning|reading|bokcirkel|bokklubb')) return 'Litteratur'
+  if (hasTerm('workshop|skapande')) return 'Workshop'
+  if (hasTerm('natur|friluft|djur|svamp')) return 'Natur'
+  if (hasTerm('fritid|guidad tur|guidad tur|visning|wellness|wellness')) return 'Fritid'
+  if (hasTerm('quiz|frågesport|fragesport')) return 'Quiz'
+  if (/scenföreställ|scenforestall/.test(normalized) || hasTerm('teater|opera|film|föredrag|foredrag|samtal|show|performance|lärande|larande|allsång|allsang|scen|picknick|föreställning|forestallning|musikal|dockteater')) return 'Scen'
+  if (hasTerm('barn|familj|ungdom')) return 'Familj'
   return 'Övrigt'
 }
 
@@ -276,9 +279,10 @@ async function fetchKulturcentralenEvents(today: string, lastStartDate: string) 
     const startsOn = detailDate ?? candidate.startsAt
     const timeText = parseLabeledValue($, 'Tid :').match(/\b([01]?\d|2[0-3]):[0-5]\d\b/)?.[0]
     const imagePath = $('img[src*="/bilder/preset/event-page/"]').first().attr('src')
-    const rawCategories = $('a[href*="/kalendarium/"]').map((_index, link) => cleanText($(link).text())).get()
     const detailOrganizer = $('a[href*="/arrangor/"]').map((_index, link) => cleanText($(link).text())).get().find((name) => name && name !== 'Arrangörer')
-    const mappedCategories = [...new Set(rawCategories.map(toCategory))]
+    const description = $('p').map((_index, paragraph) => cleanText($(paragraph).text())).get().find((text) => text.length > 50 && !/cookies|personuppgifter/i.test(text)) ?? ''
+    const titleCategory = toCategory(title)
+    const category = titleCategory === 'Övrigt' ? toCategory(description) : titleCategory
     const venue = locationText.split(',')[0].trim()
     const event: EventRecord = {
       id: `kulturcentralen-${slug(candidate.eventUrl)}`,
@@ -286,8 +290,8 @@ async function fetchKulturcentralenEvents(today: string, lastStartDate: string) 
       startsAt: timeText ? stockholmIsoDateTime(startsOn, timeText) : startsOn,
       ...(candidate.endsAt ? { endsAt: candidate.endsAt } : {}),
       venue,
-      category: mappedCategories[0] ?? toCategory(candidate.title),
-      categories: mappedCategories.length ? mappedCategories : [toCategory(candidate.title)],
+      category,
+      categories: [category],
       ...(parseLabeledValue($, 'Priser :').match(/\d+\s*kr/i)?.[0] ? { price: parseLabeledValue($, 'Priser :').match(/\d+\s*kr/i)?.[0] } : {}),
       imageUrl: imagePath ? new URL(imagePath, candidate.eventUrl).href : 'https://kulturcentralen.nu/bilder/white.png',
       imageAlt: title,
@@ -884,10 +888,21 @@ async function main() {
     return previousEvents.filter(result.source.matchesPrevious)
   })
   const previousById = new Map(previousEvents.map((event) => [event.id, event]))
+  const kulturcentralenResult = sourceResults.find((result) => result.source.name === 'Kulturcentralen')
+  const freshKulturcentralenUrls = new Set(
+    kulturcentralenResult && 'events' in kulturcentralenResult
+      ? kulturcentralenResult.events.map((event) => normalizeUrl(event.sourceUrl))
+      : [],
+  )
   const uniqueEvents = [...new Map([...retainedEvents, ...fetchedEvents].map((event) => [event.id, event])).values()]
     .map((event) => {
       const previous = previousById.get(event.id)
-      return previous && sameEventData(previous, event) ? { ...event, verifiedAt: previous.verifiedAt } : event
+      const currentEvent = previous && sameEventData(previous, event) ? { ...event, verifiedAt: previous.verifiedAt } : event
+      if (currentEvent.sourceUrl.includes('kulturcentralen.nu') && !freshKulturcentralenUrls.has(normalizeUrl(currentEvent.sourceUrl))) {
+        const category = toCategory(currentEvent.title)
+        return { ...currentEvent, category, categories: [category] }
+      }
+      return currentEvent
     })
   if (uniqueEvents.length < minimumUpcomingEvents) {
     throw new Error(`Only ${uniqueEvents.length} valid upcoming events found; refusing to replace the current dataset`)

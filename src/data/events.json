@@ -172,9 +172,9 @@
     "startsAt": "2026-11-02",
     "endsAt": "2026-12-19",
     "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e075c/1782293812558/EMP_MST_PrimaFacie_9802.jpg",
     "imageAlt": "Prima Facie",
@@ -188,9 +188,9 @@
     "startsAt": "2026-11-02",
     "endsAt": "2026-11-11",
     "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a61/1786607427221/STADSTEATERN-SOMMARKV%C3%84LLAR21669%201%20(2).jpg",
     "imageAlt": "Sommarkvällar på jorden",
@@ -233,35 +233,19 @@
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a182891259128c",
-    "title": "Samtal om existentiella frågor",
-    "startsAt": "2026-11-02T13:00:00+01:00",
+    "title": "Utställning med Otobong Nkanga",
+    "startsAt": "2026-11-02",
     "endsAt": "2026-11-26",
-    "venue": "Masten 2",
-    "category": "Scen",
+    "venue": "Malmö Konsthall",
+    "category": "Konst",
     "categories": [
-      "Scen"
+      "Konst"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63d1d/1791381520806/Palliativa.png",
-    "imageAlt": "Samtal om existentiella frågor",
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e01134/1782976924851/Otobong_Nkanga_Social_Consequences_V_The_Harvest_2022_web_crop.jpg",
+    "imageAlt": "Utställning med Otobong Nkanga",
     "sourceName": "Malmö stad",
-    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591455&title=Samtal-om-existentiella-fr%C3%A5gor-",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591bf5&title=Utst%C3%A4llning-med-Otobong-Nkanga",
     "verifiedAt": "2026-11-02"
-  },
-  {
-    "id": "malmo-stad-5-7e4bdcf31a18289125914fd",
-    "title": "Öppet samtal om existentiella frågor",
-    "startsAt": "2026-11-02T14:15:00+01:00",
-    "endsAt": "2026-11-02T14:15:00+01:00",
-    "venue": "Masten 2",
-    "category": "Scen",
-    "categories": [
-      "Scen"
-    ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63146/1790843195934/ima234760.jpg",
-    "imageAlt": "Öppet samtal om existentiella frågor",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://www.palliativaveckan.se/evenemangslista/#evenemang-17410",
-    "verifiedAt": "2026-10-29"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a18289125919c5",
@@ -335,9 +319,9 @@
     "startsAt": "2026-11-03T18:00:00+01:00",
     "endsAt": "2026-11-03T18:00:00+01:00",
     "venue": "Jubileumsaulan, Skånes universitetssjukhus",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6583e/1792587120367/Diabetes_FINAL_Liggande%20lores.png",
     "imageAlt": "Forskningens dag: Diabetes - från vetenskap till vardag",
@@ -350,9 +334,9 @@
     "title": "LÍVIA MATTOS",
     "startsAt": "2026-11-03T19:30:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Mat & dryck",
+    "category": "Övrigt",
     "categories": [
-      "Mat & dryck"
+      "Övrigt"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "Konsert: Lívia Mattos",
@@ -367,20 +351,9 @@
     "title": "Huun-Huur-Tu (RU)",
     "startsAt": "2026-11-03T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "340 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/huhu26.jpg",
@@ -426,20 +399,9 @@
     "title": "Shtoltse lider",
     "startsAt": "2026-11-04T19:30:00+01:00",
     "venue": "Cafe Dulcita",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "200 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Ro_kig._Cred_Josef_Persson.web..jpg",
@@ -453,20 +415,9 @@
     "title": "Nacka Forum",
     "startsAt": "2026-11-04T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/nacka26.jpg",
@@ -513,20 +464,9 @@
     "startsAt": "2026-11-05T10:00:00+01:00",
     "endsAt": "2026-11-11",
     "venue": "Moomsteatern",
-    "category": "Övrigt",
+    "category": "Scen",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Scen"
     ],
     "price": "100 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/frankensteinmooms.jpg",
@@ -556,20 +496,9 @@
     "title": "de clair",
     "startsAt": "2026-11-05T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "240 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/declair.jpg",
@@ -628,24 +557,29 @@
     "district": "Folkets Park"
   },
   {
+    "id": "malmo-live-3b257ee58b7e",
+    "title": "Fly Me to the Moon – en hyllning till Frank Sinatra",
+    "startsAt": "2026-11-06",
+    "endsAt": "2026-11-07",
+    "venue": "Malmö Live Konserthus",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://malmolive.se/sites/default/files/2026/07/MLK_Fly-me-to-the-moon_Konsertlistning_920x640.jpg",
+    "imageAlt": "Fly Me to the Moon – en hyllning till Frank Sinatra",
+    "sourceName": "Malmö Live",
+    "sourceUrl": "https://malmolive.se/program/fly-me-to-the-moon-en-hyllning-till-frank-sinatra",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-sauna-yoga-ritual-c",
     "title": "SAUNA YOGA RITUAL",
     "startsAt": "2026-11-06T08:30:00+01:00",
     "venue": "Sibbarps kallbadhus",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "280 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/6nov.jpg",
@@ -693,20 +627,9 @@
     "title": "Ekdahl/Bagge Big Band",
     "startsAt": "2026-11-06T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Dans",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Dans"
     ],
     "price": "280 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/ekdahlbagge.jpg",
@@ -721,20 +644,9 @@
     "startsAt": "2026-11-06T21:00:00+01:00",
     "endsAt": "2026-11-07",
     "venue": "in-discourse Studio",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "295 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/IMG_3904-2.jpg",
@@ -779,9 +691,9 @@
     "startsAt": "2026-11-07",
     "endsAt": "2027-01-30T17:00:00+01:00",
     "venue": "Hipp (Malmö stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst",
+      "Scen",
       "Familj"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e03a62/1786607494695/STATSTEATERN%20SKYMNINGSLANDET19557%201%20(1).jpg",
@@ -814,47 +726,25 @@
     "startsAt": "2026-11-07T11:00:00+01:00",
     "endsAt": "2026-12-19",
     "venue": "Travelshop",
-    "category": "Övrigt",
+    "category": "Mat & dryck",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Mat & dryck"
     ],
     "price": "750 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/smakturen.jpg",
     "imageAlt": "Smaktur, Malmö (promenad, cykel, buss)",
     "sourceName": "Travelshop AB",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/smaktur-malmo-promenad-cykel-buss",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-languageoffungi",
     "title": "Language of Fungi",
     "startsAt": "2026-11-07T11:00:00+01:00",
     "venue": "Barnens Scen",
-    "category": "Övrigt",
+    "category": "Dans",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Dans"
     ],
     "price": "75 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/ueu-6aa3e513_fungi.jpg",
@@ -900,27 +790,16 @@
     "startsAt": "2026-11-07T16:30:00+01:00",
     "endsAt": "2026-12-19",
     "venue": "Malmo Brewing co & Taproom",
-    "category": "Övrigt",
+    "category": "Mat & dryck",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Mat & dryck"
     ],
     "price": "300 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/malmobrewingny.jpg",
     "imageAlt": "Bryggerivandring med ölprovning",
     "sourceName": "Malmo Brewing co & Taproom",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/bryggerivandring-med-olprovning",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-b286ab46dd5c",
@@ -958,9 +837,9 @@
     "title": "Kardborreshowen | Per Andersson",
     "startsAt": "2026-11-07T19:30:00+01:00",
     "venue": "Slagthusets Teater",
-    "category": "Scen",
+    "category": "Övrigt",
     "categories": [
-      "Scen"
+      "Övrigt"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/03/PerAKardborreshow2026_hemsida_2000x1000px-750x375.jpg",
     "imageAlt": "Kardborreshowen | Per Andersson",
@@ -976,20 +855,9 @@
     "title": "Hermeto’s Mothership (BR)",
     "startsAt": "2026-11-07T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "360 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/hermetos.jpg",
@@ -1006,7 +874,6 @@
     "category": "Humor",
     "categories": [
       "Humor",
-      "Konst",
       "Scen"
     ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/mecn_20260819_091119.jpg",
@@ -1101,20 +968,9 @@
     "title": "Tangokväll med Orq Andariega",
     "startsAt": "2026-11-08T18:15:00+01:00",
     "venue": "Tangokompaniets studio",
-    "category": "Övrigt",
+    "category": "Dans",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Dans"
     ],
     "price": "190 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Andariega_pa_FB.jpeg",
@@ -1172,6 +1028,23 @@
     "verifiedAt": "2026-10-29"
   },
   {
+    "id": "malmo-stad-5-313f84e51a18283ec4911f6",
+    "title": "Stads up!",
+    "startsAt": "2026-11-09",
+    "endsAt": "2026-11-30",
+    "venue": "Hipp (Malmö stadsteater)",
+    "category": "Scen",
+    "categories": [
+      "Scen",
+      "Fritid"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb74e8/1793624866691/Stads_up_0.jpg%20(1).jpg",
+    "imageAlt": "Stads up!",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://www.malmostadsteater.se/stads",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9a2e6",
     "title": "Lokal mötesplats: Jonna Bornemark - hur kan vi vrida världen",
     "startsAt": "2026-11-09T13:00:00+01:00",
@@ -1210,9 +1083,9 @@
     "startsAt": "2026-11-09T19:30:00+01:00",
     "endsAt": "2026-11-09T19:30:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f624ad/1789717268924/Arja.jpg",
     "imageAlt": "Doc Lounge: Galapremiär dokumentären Sjung för mig Arja!",
@@ -1393,18 +1266,7 @@
     "venue": "Samlingsplats: Kina Center",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "475 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/DSC_0145.jpg",
@@ -1420,25 +1282,14 @@
     "venue": "Malmö Saluhall",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "0 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Eventbild_release.jpeg",
     "imageAlt": "MALMÖ SALUHALL BOKRELEASE - SMAKA PÅ BOKEN - FRI ENTRÉ",
     "sourceName": "Malmö Saluhall",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/bokreleasetdigigenomboken",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-dalum",
@@ -1447,18 +1298,7 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "220 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/DalUm_beskuren.jpeg",
@@ -1489,20 +1329,9 @@
     "title": "Scott Kinsey Group (US)",
     "startsAt": "2026-11-11T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Scott-Kinsey-kc-2026-by-Arthur-Gevorgyan_1636115.jpg",
@@ -1532,20 +1361,9 @@
     "title": "Oslipat med Carl Stanley",
     "startsAt": "2026-11-11T20:00:00+01:00",
     "venue": "Babel",
-    "category": "Övrigt",
+    "category": "Humor",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Humor"
     ],
     "price": "220 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/261111_fb.jpg",
@@ -1561,25 +1379,14 @@
     "venue": "Inkonst",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "195 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/arihoening.jpg",
     "imageAlt": "Ari Hoenig Trio featuring Tom Ollendorff and Viktor Nyberg",
     "sourceName": "Jazz i Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/ari-hoenig-trio-featuring-tom",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf99b6c",
@@ -1621,25 +1428,14 @@
     "venue": "Samling: busshållsplats Bennets Väg",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "499 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/rosen1a.jpg",
     "imageAlt": "Smakpromenad genom Rosengård!",
     "sourceName": "The Masala Box i Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/smakpromenad-genom-rosengard",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a1828912591c4d",
@@ -1678,27 +1474,16 @@
     "title": "När alfabetets bokstäver ville skapa världen",
     "startsAt": "2026-11-12T18:00:00+01:00",
     "venue": "Barnens Scen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "220 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/JKM_3_main_digital.jpg",
     "imageAlt": "När alfabetets bokstäver ville skapa världen",
     "sourceName": "Judisk Kultur i Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/nar-alfabetets-bokstaver-ville-skapa",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-5749826b1857",
@@ -1715,35 +1500,24 @@
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/blandad-sas-impro-12-november-2026/",
     "verifiedAt": "2026-11-02",
-    "district": "Folkets Park",
-    "endsAt": "2026-11-12T19:30:00+01:00"
+    "endsAt": "2026-11-12T19:30:00+01:00",
+    "district": "Folkets Park"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-johannalinneajakobsson-upptckvictoria",
     "title": "Johanna Linnea Jakobsson - Upptäck Victoria!",
     "startsAt": "2026-11-12T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "120 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/johannalinnea.jpg",
     "imageAlt": "Johanna Linnea Jakobsson - Upptäck Victoria!",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/johannalinneajakobsson-upptckvictoria",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "jubileums-aw-for-malmo-saluhall-10-ar-2026-11-13",
@@ -1835,9 +1609,9 @@
     "startsAt": "2026-11-13",
     "endsAt": "2026-11-15T20:00:00+01:00",
     "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0781/1782294511631/poster_unrecognized_landcape_no%20text%20(1).jpg",
     "imageAlt": "Unrecognized",
@@ -1854,14 +1628,14 @@
     "category": "Övrigt",
     "categories": [
       "Övrigt",
-      "Litteratur",
+      "Scen",
       "Natur"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb731d/1793361283504/StudioMalmo%CC%8811.jpg",
     "imageAlt": "Studio firar 10 år!",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://altitudemeetings.trippus.com/event/2938a4ce-20b0-444c-f85c-08df1944c855/home",
-    "verifiedAt": "2026-10-31"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-malmsaluhall10rjubileums-aw",
@@ -1870,25 +1644,14 @@
     "venue": "Malmö Saluhall",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "349 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/eventbild_jubileums_AW.jpeg",
     "imageAlt": "MALMÖ SALUHALL 10-ÅRSJUBILEUMS-AW, FREDAG, FRI ENTRÉ, MÖJLIGHET ATT KÖPA SMAKBILJETT",
     "sourceName": "Malmö Saluhall",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/malmsaluhall10rjubileums-aw",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-sagan-om-det-roda-applet-f",
@@ -1897,18 +1660,7 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "100 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/12_-_Sagan_om_det_roda_applet.jpg",
@@ -1940,20 +1692,9 @@
     "title": "Kresten Osgood Quintet (DK)",
     "startsAt": "2026-11-13T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/kresten-osgood_kc-Credit_-Hreinn-Gudlaugsson-_kopia_.jpg",
@@ -1970,19 +1711,7 @@
     "venue": "Studio Potato",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Festival",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "250 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/king2king.jpg",
@@ -1996,20 +1725,9 @@
     "title": "Moiré",
     "startsAt": "2026-11-13T20:00:00+01:00",
     "venue": "Karavan Scen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "150 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/MoireImage.jpg",
@@ -2058,9 +1776,9 @@
     "title": "COMMON GROUND JAZZ CLUB: LYDIA CRONBERG",
     "startsAt": "2026-11-14",
     "venue": "Moriska Paviljongen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt"
+      "Musik"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "Jazzklubb: Common Ground Jazz Club - Lydia Cronberg",
@@ -2091,9 +1809,8 @@
     "startsAt": "2026-11-14",
     "endsAt": "2026-11-29T00:59:00+01:00",
     "venue": "Malmö AmatörteaterForum",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst",
       "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f658c7/1792670710524/DetStorstaAventyret_Thea_2_700x394.jpg",
@@ -2109,25 +1826,14 @@
     "venue": "Sibbarps kallbadhus",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "149 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/saunasaturday.jpg",
     "imageAlt": "Hej Tide x Sibbarp Kallbadhus",
     "sourceName": "Sibbarps kallbadhus",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hej-tide-x-sibbarp-kallbadhus",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a1828912592115",
@@ -2135,9 +1841,9 @@
     "startsAt": "2026-11-14T10:00:00+01:00",
     "endsAt": "2026-11-14",
     "venue": "Stadsarkivet",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64eac/1791984916053/magnet-webb.png",
     "imageAlt": "Arkivens dag och invigning av våra nyrenoverade lokaler",
@@ -2154,7 +1860,6 @@
     "category": "Övrigt",
     "categories": [
       "Övrigt",
-      "Mat & dryck",
       "Fritid",
       "Musik"
     ],
@@ -2171,18 +1876,7 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "100 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/frackasteny.jpg",
@@ -2212,20 +1906,9 @@
     "startsAt": "2026-11-14T17:00:00+01:00",
     "endsAt": "2026-11-28",
     "venue": "MAF Scen 3",
-    "category": "Övrigt",
+    "category": "Marknad",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Marknad"
     ],
     "price": "120 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/1DetSorstaAventyret_NY3_KC.png",
@@ -2241,25 +1924,14 @@
     "venue": "Malmö Saluhall",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "599 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/eventbild_o_some_jubileum.jpeg",
     "imageAlt": "MALMÖ SALUHALL 10-ÅRSJUBILEUMFEST, LÖRDAG, ENDAST FÖRKÖPT BILJETT",
     "sourceName": "Malmö Saluhall",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/malmsaluhall10rjubileumfrnruintillmatdestination",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "inga-dumma-fragor-robin-paulsson-tomas-kaminski-2026-11-14",
@@ -2349,34 +2021,23 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "100 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Affisch-Hatten.jpg",
     "imageAlt": "Jag vill ha min hatt med Obanteatern",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/jag-vill-ha-min-hatt-med-obanteatern-8",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "rollspelsklubben-skrack-2026-11-15",
     "title": "Rollspelsklubben SKRÄCK!",
     "startsAt": "2026-11-15T16:00:00+01:00",
     "venue": "Slagthusets Teater",
-    "category": "Musik",
+    "category": "Övrigt",
     "categories": [
-      "Musik"
+      "Övrigt"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/06/2000x1000-750x375.jpg",
     "imageAlt": "Rollspelsklubben SKRÄCK!",
@@ -2392,20 +2053,9 @@
     "title": "Från varsin sida sundet",
     "startsAt": "2026-11-15T17:00:00+01:00",
     "venue": "St Johannes Kyrka",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "200 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/the-oresund-bridge-in-malmo-sweden_ver_4.jpg",
@@ -2514,13 +2164,29 @@
     "verifiedAt": "2026-10-29"
   },
   {
+    "id": "julig-kransbindning-med-bubbel-wrap-2026-11-18-a953ae7c",
+    "title": "Julig kransbindning med bubbel & wrap",
+    "startsAt": "2026-11-18",
+    "venue": "Malmö Arena Hotel",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/29_20261102_144019.png",
+    "imageAlt": "Julig kransbindning med bubbel & wrap",
+    "sourceName": "Malmö Arena Hotel",
+    "sourceUrl": "https://malmoarenahotel.com/erbjudande/julig-kransbindning-med-bubbel-och-wrap/",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf99bfa",
     "title": "The Great Ball at Satan's av Kira Nova (LT)",
     "startsAt": "2026-11-18",
     "endsAt": "2026-12-13T20:00:00+01:00",
     "venue": "Lilith Performance Studio",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
+      "Scen",
       "Konst"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64591/1791541773602/KIRA%20PRESSBILD%20Liggande%20liten%20(kopia).jpg",
@@ -2555,25 +2221,14 @@
     "venue": "Samlingsplats: huvudentrén Malmö Saluhall",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "495 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/0I2A8620.jpg",
     "imageAlt": "Matkaravan – Säsongskaravan i Saluhallen",
     "sourceName": "Matkaravan",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/matkaravan-sasongskaravan-i-saluhallen",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-variete-victoria-55",
@@ -2581,20 +2236,9 @@
     "startsAt": "2026-11-18T19:30:00+01:00",
     "endsAt": "2026-11-21",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Humor",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Humor"
     ],
     "price": "360 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/variete2026.jpg",
@@ -2655,20 +2299,9 @@
     "title": "TARABBAND",
     "startsAt": "2026-11-19T19:00:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "350 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/261119_Tarabband_fotoFredrikGille_webb.jpg",
@@ -2736,7 +2369,7 @@
     "category": "Workshop",
     "categories": [
       "Workshop",
-      "Litteratur",
+      "Scen",
       "Fritid"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f655a5/1792480210811/Offline%20Sessions.png",
@@ -2831,20 +2464,9 @@
     "title": "Höna hittar hem",
     "startsAt": "2026-11-21T14:00:00+01:00",
     "venue": "Barnens Scen",
-    "category": "Övrigt",
+    "category": "Natur",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Natur"
     ],
     "price": "80 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/hona_itt.jpg",
@@ -2862,25 +2484,14 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "80 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/sagan2.jpg",
     "imageAlt": "Sagan om Vanten",
     "sourceName": "Barnens Scen",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/sagan-om-vanten-5",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a18289125913ad",
@@ -2891,7 +2502,7 @@
     "category": "Musik",
     "categories": [
       "Musik",
-      "Konst",
+      "Scen",
       "Litteratur"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6866/1788273053017/COLOURBOX2836959.jpg",
@@ -2905,27 +2516,16 @@
     "title": "Poesi och piano. Skivsläpp av Solitue- ensamhet, poesi och piano. Gittes visor på tre språk.",
     "startsAt": "2026-11-21T19:00:00+01:00",
     "venue": "Barnens Scen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "200 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Barnens_Scen_4_.jpg",
     "imageAlt": "Poesi och piano. Skivsläpp av Solitue- ensamhet, poesi och piano. Gittes visor på tre språk.",
     "sourceName": "Gitte Pålsson musik- och scenproduktion",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/hstkvllmedpoesipianovisorochskivslpp",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "arvingarna-klart-det-ska-bli-jul-igen-2026-11-21",
@@ -3000,20 +2600,9 @@
     "title": "Sagan om Alfina",
     "startsAt": "2026-11-22T14:00:00+01:00",
     "venue": "Barnens Scen",
-    "category": "Övrigt",
+    "category": "Mat & dryck",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Mat & dryck"
     ],
     "price": "60 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/bild_4_Alfina.png",
@@ -3081,8 +2670,7 @@
     "venue": "Stadsarkivet",
     "category": "Scen",
     "categories": [
-      "Scen",
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64d51/1791960971537/Bild1%202.jpg",
     "imageAlt": "Magasinsvisning: Spår av resandefolket i arkiven",
@@ -3095,27 +2683,16 @@
     "title": "Mattias Risbergs Mining International",
     "startsAt": "2026-11-23T19:00:00+01:00",
     "venue": "Inkonst",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "195 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/miningmattias.jpg",
     "imageAlt": "Mattias Risbergs Mining International",
     "sourceName": "Jazz i Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/mattias-risbergs-mining-international",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9271",
@@ -3123,9 +2700,9 @@
     "startsAt": "2026-11-23T19:30:00+01:00",
     "endsAt": "2026-11-23T19:30:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f61b90/1789459230463/7.png",
     "imageAlt": "Doc Lounge: dokumentärfilmen Cambodian Beer Dreams",
@@ -3192,7 +2769,7 @@
     "category": "Fritid",
     "categories": [
       "Fritid",
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f655bf/1792480364625/Offline%20Sessions.png",
     "imageAlt": "Offline Sessions",
@@ -3222,27 +2799,16 @@
     "startsAt": "2026-11-25T19:00:00+01:00",
     "endsAt": "2026-11-26",
     "venue": "Barnens scen",
-    "category": "Övrigt",
+    "category": "Scen",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Scen"
     ],
     "price": "200 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/KC_En_Julsaga.jpg",
     "imageAlt": "EN JULSAGA",
     "sourceName": "K.A.O.S",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/en-julsaga-c",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "molly-hammar-2026-11-25",
@@ -3311,6 +2877,22 @@
     "verifiedAt": "2026-11-02"
   },
   {
+    "id": "folk-mat-standup-aw-standup-2026-11-26-85948c72",
+    "title": "Folk Mat & Standup (AW & standup)",
+    "startsAt": "2026-11-26",
+    "venue": "Folk Mat & Möten",
+    "category": "Humor",
+    "categories": [
+      "Humor",
+      "Mat & dryck"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/matnatten2018_fotoalexanderolivera-1-1024x684_20261102_151505.jpg",
+    "imageAlt": "Folk Mat & Standup (AW & standup)",
+    "sourceName": "Folk Mat & Möten",
+    "sourceUrl": "https://weiq.app/folkmatmoten/folkmatostandup",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-7e4bdcf31a1828912591c9d",
     "title": "Jag är också en människa – män i fängelse",
     "startsAt": "2026-11-26T18:00:00+01:00",
@@ -3332,20 +2914,9 @@
     "title": "Iva Nova (RU)",
     "startsAt": "2026-11-26T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "280 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/ivanova2026.jpg",
@@ -3478,20 +3049,9 @@
     "title": "Carl-Johan Vallgren",
     "startsAt": "2026-11-27T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "440 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/jw0-6a1949e6_CJ-VALLGREN-kulturcentralen-ren-2.jpg",
@@ -3620,20 +3180,9 @@
     "title": "Allsång – 100 års hits!",
     "startsAt": "2026-11-28T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Scen",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Scen"
     ],
     "price": "360 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/alls%C3%A5ng2026h%C3%B6st.jpg",
@@ -3743,9 +3292,9 @@
     "title": "Brandsta City Släckers | Familjekonsert",
     "startsAt": "2026-11-29T16:00:00+01:00",
     "venue": "Slagthusets Teater",
-    "category": "Musik",
+    "category": "Övrigt",
     "categories": [
-      "Musik"
+      "Övrigt"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/Brandsta2026_Slagthuset_2000x1000-750x375.jpg",
     "imageAlt": "Brandsta City Släckers | Familjekonsert",
@@ -3773,20 +3322,38 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "malmo-stad-5-7e4bdcf31a1828912591e25",
+    "title": "Boktipset | 7–12 år",
+    "startsAt": "2026-11-30",
+    "endsAt": "2026-12-14",
+    "venue": "Rosengårdsbiblioteket",
+    "category": "Litteratur",
+    "categories": [
+      "Litteratur",
+      "Scen",
+      "Familj"
+    ],
+    "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e01afa/1783511726512/Boktipset%202%20webb.jpg",
+    "imageAlt": "Boktipset | 7–12 år",
+    "sourceName": "Malmö stad",
+    "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591e25&title=Boktipset-%7C-7%E2%80%9312-%C3%A5r",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-7e4bdcf31a1828912591905",
     "title": "DocSenior visar dokumentären Första blatten på månen",
     "startsAt": "2026-11-30T12:45:00+01:00",
     "endsAt": "2026-11-30T12:45:00+01:00",
     "venue": "Teater Augusten",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f6213a/1789544733365/2.png",
     "imageAlt": "DocSenior visar dokumentären Första blatten på månen",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://www.doclounge.se/projects/doc-augusten-connecting-through-documentaries",
-    "verifiedAt": "2026-10-29"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "the-harlem-spirit-of-gospel-2026-11-30",
@@ -3892,27 +3459,16 @@
     "title": "The Hebbe Family: En strålande jul",
     "startsAt": "2026-12-02T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Dans",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Dans"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/hebbefam26.jpg",
     "imageAlt": "The Hebbe Family: En strålande jul",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/thehebbefamilyenstrlandejul",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-3272b2d6a09a",
@@ -3969,20 +3525,9 @@
     "startsAt": "2026-12-03T19:00:00+01:00",
     "endsAt": "2026-12-18",
     "venue": "Travers Malmö (Lokstallarna)",
-    "category": "Övrigt",
+    "category": "Mat & dryck",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Mat & dryck"
     ],
     "price": "1395 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/oslipatjulbord.jpg",
@@ -4011,20 +3556,9 @@
     "title": "Shalosh (ISR)",
     "startsAt": "2026-12-03T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "280 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/shalosh26.jpg",
@@ -4069,6 +3603,21 @@
     "verifiedAt": "2026-10-29"
   },
   {
+    "id": "goodnight-texas-2026-12-04-77d99254",
+    "title": "Goodnight, Texas",
+    "startsAt": "2026-12-04",
+    "venue": "Medley",
+    "category": "Musik",
+    "categories": [
+      "Musik"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_(3)_20261102_161726.jpg",
+    "imageAlt": "Goodnight, Texas",
+    "sourceName": "Medley",
+    "sourceUrl": "https://kulturbolaget.se/konserter/2026/goodnight-texas/",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "gastforestallning-syllables-of-recorded-time-2026-12-04",
     "title": "Gästföreställning: Syllables of Recorded Time",
     "startsAt": "2026-12-04",
@@ -4100,6 +3649,22 @@
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/ben-folds",
     "verifiedAt": "2026-10-27"
+  },
+  {
+    "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-mack-med-bl-a-elvira-gullberg",
+    "title": "MACK - JULHUMOR på Södertull med bl.a Elvira Gullberg",
+    "startsAt": "2026-12-04T19:30:00+01:00",
+    "venue": "Södertull",
+    "category": "Övrigt",
+    "categories": [
+      "Övrigt"
+    ],
+    "price": "150 kr",
+    "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/mackjul.jpg",
+    "imageAlt": "MACK - JULHUMOR på Södertull med bl.a Elvira Gullberg",
+    "sourceName": "MACK",
+    "sourceUrl": "https://kulturcentralen.nu/evenemang/mack-med-bl-a-elvira-gullberg",
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-25b72d94196ed940c1119aab",
@@ -4272,18 +3837,7 @@
     "venue": "Barnens Scen",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "60 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/pressbild_PS_2.jpeg",
@@ -4316,15 +3870,15 @@
     "startsAt": "2026-12-06T16:00:00+01:00",
     "venue": "Moriska Paviljongen",
     "district": "Folkets Park",
-    "category": "Musik",
+    "category": "Övrigt",
     "categories": [
-      "Musik"
+      "Övrigt"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "VOCALLIFE KÖRKONSERT",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/vocallife-korkonsert-6-dec-2026/",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "doc-lounge-hotspot-2026-12-07",
@@ -4366,9 +3920,9 @@
     "startsAt": "2026-12-07T19:30:00+01:00",
     "endsAt": "2026-12-07T19:30:00+01:00",
     "venue": "Moriska Paviljongen",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f624c7/1789717371008/HotSpot.jpg",
     "imageAlt": "Doc Lounge Hotspot, nya skånska dokumentärer",
@@ -4382,9 +3936,9 @@
     "startsAt": "2026-12-08",
     "endsAt": "2027-02-13T20:00:00+01:00",
     "venue": "Hipp (Malmö stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62634/1789992945287/TEATERN%20-%20LEMPKIN%20LAUTERPACHT0892%20(1).jpg",
     "imageAlt": "Lemkin och Lauterpacht – ett samtal i Lviv",
@@ -4415,16 +3969,15 @@
     "startsAt": "2026-12-08T15:00:00+01:00",
     "endsAt": "2026-12-08T17:00:00+01:00",
     "venue": "Limhamnsbiblioteket",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur",
       "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.5c04e8591a182960eb72b7/1793349878065/Finaste%20av%20finland%20DocLoungeSenior.jpg.png",
     "imageAlt": "DocSenior - Det finaste av Finland",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.313f84e51a18283ec49fc9&title=DocSenior---Det-finaste-av-Finland-",
-    "verifiedAt": "2026-10-30"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "nazareth-2026-12-08-01ca3729",
@@ -4476,6 +4029,22 @@
     "verifiedAt": "2026-10-27"
   },
   {
+    "id": "folk-mat-jul-med-standup-julbord-standup-2026-12-09-2119ca79",
+    "title": "Folk Mat & Jul med Standup (Julbord & standup)",
+    "startsAt": "2026-12-09",
+    "venue": "Folk Mat & Möten",
+    "category": "Humor",
+    "categories": [
+      "Humor",
+      "Mat & dryck"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/matnatten2018_fotoalexanderolivera-1-1024x684_20261102_151702.jpg",
+    "imageAlt": "Folk Mat & Jul med Standup (Julbord & standup)",
+    "sourceName": "Folk Mat & Möten",
+    "sourceUrl": "https://weiq.app/folkmatmoten/folk-mat-o-jul-med-standup",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-7e4bdcf31a1828912591aa5",
     "title": "Minnescafé: Julpang i bygget!",
     "startsAt": "2026-12-09T14:00:00+01:00",
@@ -4515,27 +4084,16 @@
     "startsAt": "2026-12-09T19:30:00+01:00",
     "endsAt": "2026-12-10",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "360 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/minonskejul.jpg",
     "imageAlt": "Helena Josefsson: Min önskejul",
     "sourceName": "Victoriateatern",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/helenajosefssonminnskejul",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-d999306b6e1f",
@@ -4575,9 +4133,8 @@
     "startsAt": "2026-12-10T16:00:00+01:00",
     "endsAt": "2026-12-10T17:00:00+01:00",
     "venue": "Kulturhyllan",
-    "category": "Litteratur",
+    "category": "Scen",
     "categories": [
-      "Litteratur",
       "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64f04/1791985506292/URVAL_241025_hypnobirthing0953.jpg",
@@ -4621,6 +4178,22 @@
     "verifiedAt": "2026-11-02"
   },
   {
+    "id": "stamningsfull-lucialunch-med-besok-av-malmo-lucia-2026-12-11-def4942c",
+    "title": "Stämningsfull lucialunch med besök av Malmö Lucia",
+    "startsAt": "2026-12-11",
+    "venue": "Restaurang Nilssons på Malmö Arena Hotel",
+    "category": "Musik",
+    "categories": [
+      "Musik",
+      "Mat & dryck"
+    ],
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/547361252_1375348097925955_9161183143114553841_n_20261102_144823.jpg",
+    "imageAlt": "Stämningsfull lucialunch med besök av Malmö Lucia",
+    "sourceName": "Restaurang Nilssons på Malmö Arena Hotel",
+    "sourceUrl": "https://malmoarenahotel.com/erbjudande/lucialunch-i-nilssons/",
+    "verifiedAt": "2026-11-02"
+  },
+  {
     "id": "malmo-stad-5-e99dd2f1a08fc27cf9520",
     "title": "Molntriptyk",
     "startsAt": "2026-12-11",
@@ -4644,10 +4217,11 @@
     "startsAt": "2026-12-11",
     "endsAt": "2026-12-13",
     "venue": "Malmö Arena",
-    "category": "Musik",
+    "category": "Scen",
     "categories": [
-      "Musik",
-      "Familj"
+      "Scen",
+      "Familj",
+      "Musik"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759babe0/1774341442052/Tomten-2026_360x270.jpg",
     "imageAlt": "Tomten är far till alla barnen",
@@ -4663,25 +4237,14 @@
     "venue": "MAF",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "120 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/soitgoes.jpg",
     "imageAlt": "So It Goes.",
     "sourceName": "On Stage Skåne",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/soitgoes",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "thorbj-rn-risager-the-black-tornado-2026-12-11",
@@ -4707,20 +4270,9 @@
     "startsAt": "2026-12-11T19:30:00+01:00",
     "endsAt": "2026-12-12",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "440 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/julenenligttimo2026.jpg",
@@ -4749,9 +4301,9 @@
     "title": "COMMON GROUND JAZZ CLUB: ALMAZ YEBIO",
     "startsAt": "2026-12-12",
     "venue": "Moriska Paviljongen",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt"
+      "Musik"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "Jazzklubb: Common Ground Jazz Club - Almaz Yebio",
@@ -4766,9 +4318,9 @@
     "startsAt": "2026-12-12",
     "endsAt": "2027-02-27T19:00:00+01:00",
     "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e0782/1782294532952/STADSTEATERN%20-%20BRECHT%20TILL%20FOLKET22540.jpg",
     "imageAlt": "Brecht till folket",
@@ -4815,25 +4367,14 @@
     "venue": "S:t Pauli Kyrka",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "80 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Lucia2_Foto_William_Paladino.jpg",
     "imageAlt": "Luciakonsert - S:t Pauli kyrka",
     "sourceName": "S:t Pauli kyrka",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/luciakonsert-s-t-pauli-kyrka",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "christmas-night-med-tommy-nilsson-jessica-andersson-lasse-kroner-annika-wickihalder-2026-12-12-80a1e671",
@@ -4893,18 +4434,7 @@
     "venue": "S:t Johannes Kyrka",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "150 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Lucia-13-dec.jpg",
@@ -4920,18 +4450,7 @@
     "venue": "S:t Matteus kyrka",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "50 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Luciamatteus.jpg",
@@ -4961,20 +4480,9 @@
     "title": "Nynningen",
     "startsAt": "2026-12-16T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "380 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/nynningen-list.jpg",
@@ -5004,9 +4512,9 @@
     "title": "Thomas Järvheden | Sveriges roligaste julkonsert",
     "startsAt": "2026-12-17T19:30:00+01:00",
     "venue": "Slagthusets Teater",
-    "category": "Musik",
+    "category": "Övrigt",
     "categories": [
-      "Musik"
+      "Övrigt"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/05/ThomasJarvheden2026_Slagthuset_2000x1000-750x375.jpg",
     "imageAlt": "Thomas Järvheden | Sveriges roligaste julkonsert",
@@ -5022,20 +4530,9 @@
     "title": "Ronnie Åström Trio",
     "startsAt": "2026-12-17T19:30:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/ronnie2026.jpg",
@@ -5067,35 +4564,24 @@
     "startsAt": "2026-12-18T18:00:00+01:00",
     "venue": "Moriska Paviljongen",
     "district": "Folkets Park",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt"
+      "Musik"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "THE JAZZ ROOM",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/the-jazz-room-by-fever-18-dec-2026/",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-vegakrenlinneahenriksson",
     "title": "Vegakören & Linnea Henriksson",
     "startsAt": "2026-12-18T19:30:00+01:00",
     "venue": "S:t Johannes Kyrka",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "250 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/linnea-500x500.jpg",
@@ -5109,20 +4595,9 @@
     "title": "Helt Off (Victoria dansar!)",
     "startsAt": "2026-12-18T21:00:00+01:00",
     "venue": "Victoriateatern",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Musik"
     ],
     "price": "300 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/heltoff2026.jpg",
@@ -5202,25 +4677,14 @@
     "venue": "S:t Johannes Kyrka",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "150 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/GospelRoseChoirLogoWhite_cropped2.png",
     "imageAlt": "A NIGHT OF CHRISTMAS JOY – LET YOUR SOUL SING",
     "sourceName": "Gospel Rose Choir",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/a-night-of-christmas-joy-let-your",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "labero-a-magic-night-2026-12-19",
@@ -5280,25 +4744,14 @@
     "venue": "parkeringen vid Kallbadhuset",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "10 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/BlasandErikHirschfeld_kc.jpg",
     "imageAlt": "Vinterfåglar på Ribersborgsstranden",
     "sourceName": "Malmö stad - Vilda Malmö",
     "sourceUrl": "https://kulturcentralen.nu/evenemang/vinterfglarpribersborgsstranden",
-    "verifiedAt": "2026-11-01"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a1828912591f0d",
@@ -5309,13 +4762,13 @@
     "category": "Natur",
     "categories": [
       "Natur",
-      "Fritid"
+      "Övrigt"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.7f31d06519adafb759ba8d4/1774089186931/Bla%E2%95%A0%C3%AAsandRibbanVilda%20Malmo%E2%95%A0%C3%AAErikHirschfeld_eve.jpg",
     "imageAlt": "Vinterfåglar på Ribersborgsstranden",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591f0d&title=Vinterf%C3%A5glar-p%C3%A5-Ribersborgsstranden",
-    "verifiedAt": "2026-10-29"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-arena-bf49a6d4582a",
@@ -5347,6 +4800,22 @@
     "sourceUrl": "https://moriskapaviljongen.se/program/soullinedance28dec2026/",
     "verifiedAt": "2026-10-27",
     "district": "Folkets Park"
+  },
+  {
+    "id": "malmo-live-518d3e7477d8",
+    "title": "Nyårsgala 2026",
+    "startsAt": "2026-12-30",
+    "endsAt": "2026-12-31",
+    "venue": "Malmö Live Konserthus",
+    "category": "Scen",
+    "categories": [
+      "Scen"
+    ],
+    "imageUrl": "https://malmolive.se/sites/default/files/2026/03/Nyarsgala_MSO_26-27_Webbilder_920%20x%20640_12.jpg",
+    "imageAlt": "Nyårsgala 2026",
+    "sourceName": "Malmö Live",
+    "sourceUrl": "https://malmolive.se/program/nyarsgala-2026",
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-arena-f52d171bc9d3",
@@ -5612,11 +5081,11 @@
     "startsAt": "2027-01-29T18:30:00+01:00",
     "endsAt": "2027-01-31T16:00:00+01:00",
     "venue": "Malmö Arena",
-    "category": "Musik",
+    "category": "Scen",
     "categories": [
-      "Musik",
       "Scen",
-      "Familj"
+      "Familj",
+      "Musik"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f64bf0/1791883803343/DOI27%20-%20Malmo%E2%95%A0%C3%AA%20700x394.jpg",
     "imageAlt": "Disney on Ice - Discover the Magic",
@@ -5809,7 +5278,8 @@
     "venue": "Malmö Arena",
     "category": "Musik",
     "categories": [
-      "Musik"
+      "Musik",
+      "Scen"
     ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/05.02.2027_malmo%cc%88_arena_malmo%cc%88_sweden_1080x1080_20261005_152657.jpg",
     "imageAlt": "Rock Sensation – The Contract",
@@ -5824,9 +5294,9 @@
     "startsAt": "2027-02-06",
     "endsAt": "2027-04-22T20:00:00+02:00",
     "venue": "Intiman (Malmö Stadsteater)",
-    "category": "Konst",
+    "category": "Scen",
     "categories": [
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f62633/1789992765306/TEATERN%20-%20DEN%20LYSANDE%20V%C3%84RLDEN0339%20(2).jpg",
     "imageAlt": "Den lysande världen",
@@ -5840,20 +5310,9 @@
     "startsAt": "2027-02-06T14:00:00+01:00",
     "endsAt": "2027-02-13",
     "venue": "Expressteatern",
-    "category": "Övrigt",
+    "category": "Natur",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Natur"
     ],
     "price": "100 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/Hopp_A3_utan_text.jpg",
@@ -6040,6 +5499,7 @@
     "category": "Musik",
     "categories": [
       "Musik",
+      "Scen",
       "Familj"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.216d03bc19ed4df09e02e5/1782120123049/nofm_biljettbilder_1250x1250.jpg",
@@ -6054,15 +5514,15 @@
     "startsAt": "2027-02-14T16:00:00+01:00",
     "venue": "Moriska Paviljongen",
     "district": "Folkets Park",
-    "category": "Övrigt",
+    "category": "Musik",
     "categories": [
-      "Övrigt"
+      "Musik"
     ],
     "imageUrl": "https://moriskapaviljongen.se/wp-content/uploads/2017/06/moriskan-standard.png",
     "imageAlt": "THE JAZZ ROOM",
     "sourceName": "Moriska Paviljongen",
     "sourceUrl": "https://moriskapaviljongen.se/program/the-jazz-room-by-fever-14-feb-2027/",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "the-halo-effect-lacuna-coil-omnium-gatherum-2027-02-18",
@@ -6103,9 +5563,9 @@
     "title": "Kärleksbrev | En teaterföreställning om kärlek",
     "startsAt": "2027-02-19T19:00:00+01:00",
     "venue": "Slagthusets Teater",
-    "category": "Scen",
+    "category": "Övrigt",
     "categories": [
-      "Scen"
+      "Övrigt"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/09/Karleksbrev2027_Slagthuset_2000x1000-750x375.jpg",
     "imageAlt": "Kärleksbrev | En teaterföreställning om kärlek",
@@ -6248,7 +5708,7 @@
     "category": "Humor",
     "categories": [
       "Humor",
-      "Konst"
+      "Scen"
     ],
     "imageUrl": "https://www.visitmalmo.se/Upload/Article/billy_20261026_165847.png",
     "imageAlt": "Gud förbannat – Nu får det bära eller brista | En humorföreställning med Leif & Billy",
@@ -6262,16 +5722,16 @@
     "startsAt": "2027-03-04T20:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-och-billy-3mars",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "slagthuset-7952",
@@ -6279,16 +5739,16 @@
     "startsAt": "2027-03-05T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-5mars-matine",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-8c286f35acae",
@@ -6312,16 +5772,16 @@
     "startsAt": "2027-03-06T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-6mars-matine",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-arena-11b2eb0b0876",
@@ -6410,16 +5870,16 @@
     "startsAt": "2027-03-11T20:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-11mars",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "slagthuset-7962",
@@ -6427,16 +5887,16 @@
     "startsAt": "2027-03-12T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-12mars-matine",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "moriska-6a76eb1baa70",
@@ -6460,16 +5920,16 @@
     "startsAt": "2027-03-13T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-13mars-matine",
-    "verifiedAt": "2026-10-27"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "malmo-stad-5-4968b1201a03e2e59772d7d",
@@ -6526,16 +5986,16 @@
     "startsAt": "2027-03-18T20:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-18mars",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "slagthuset-8015",
@@ -6543,16 +6003,16 @@
     "startsAt": "2027-03-19T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-19mars-matine",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "kulturcentralen-https-kulturcentralen-nu-evenemang-adambenezramichaeloliveraisrcu",
@@ -6561,19 +6021,7 @@
     "venue": "Victoriateatern",
     "category": "Övrigt",
     "categories": [
-      "Övrigt",
-      "Scen",
-      "Dans",
-      "Konst",
-      "Musik",
-      "Litteratur",
-      "Familj",
-      "Festival",
-      "Fritid",
-      "Natur",
-      "Mat & dryck",
-      "Humor",
-      "Workshop"
+      "Övrigt"
     ],
     "price": "320 kr",
     "imageUrl": "https://kulturcentralen.nu/bilder/preset/event-page/adamben2027.jpg",
@@ -6604,16 +6052,16 @@
     "startsAt": "2027-03-20T17:00:00+01:00",
     "venue": "Slagthusets Teater",
     "district": "Slagthuset",
-    "category": "Humor",
+    "category": "Övrigt",
     "categories": [
-      "Humor"
+      "Övrigt"
     ],
     "price": "från 795 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/LeifBilly2027_Slagthuset_2000x1000-750x375.png",
     "imageAlt": "Gud förbannat &#8211; Nu får det bära eller brista | En humorföreställning med Leif &#038; Billy",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/leif-billy-20mars-matine",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "hor-har-forsoker-gora-livepodd-2027-03-21",
@@ -6658,11 +6106,11 @@
     "categories": [
       "Musik"
     ],
-    "imageUrl": "https://kulturbolaget.se/wp-content/uploads/2026/10/YoussouAngelique2027_WEBB_v2-1200x600.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_20261102_161002.jpg",
     "imageAlt": "Angélique Kidjo & Youssou N’Dour",
-    "sourceName": "Kulturbolaget",
+    "sourceName": "Malmö Live",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/angelique-kidjo-youssou-ndour/",
-    "verifiedAt": "2026-10-31"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "livepodd-sa-vad-hander-live-2027-04-03",
@@ -6721,9 +6169,9 @@
     "title": "En Jäkla Massa Schlager",
     "startsAt": "2027-04-17T19:30:00+02:00",
     "venue": "Slagthusets Teater",
-    "category": "Övrigt",
+    "category": "Marknad",
     "categories": [
-      "Övrigt"
+      "Marknad"
     ],
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/09/EJMS2027_Slagthuset_2000x1000-750x375.jpg",
     "imageAlt": "En Jäkla Massa Schlager",
@@ -6905,17 +6353,17 @@
     "title": "Björn Rosenström",
     "startsAt": "2027-05-08T19:30:00+02:00",
     "venue": "Slagthusets Teater",
-    "district": "Slagthuset",
     "category": "Övrigt",
     "categories": [
       "Övrigt"
     ],
-    "price": "595 kr",
     "imageUrl": "https://wp.slagthuset.se/wp-content/uploads/2026/10/BjornRosenstrom2027_Slagthuset_2000x1000-750x375.jpg",
     "imageAlt": "Björn Rosenström",
     "sourceName": "Slagthuset",
     "sourceUrl": "https://slagthuset.se/events/bjorn-rosenstrom-2027",
-    "verifiedAt": "2026-10-28"
+    "verifiedAt": "2026-11-02",
+    "district": "Slagthuset",
+    "price": "595 kr"
   },
   {
     "id": "k-pop-superstars-2027-05-09",
@@ -6955,17 +6403,17 @@
     "id": "malmo-stad-5-e99dd2f1a08fc27cf98e96",
     "title": "Rumours of Fleetwood Mac",
     "startsAt": "2027-05-28T21:30:00+02:00",
-    "endsAt": "2027-05-28T21:30:00+02:00",
     "venue": "Malmö Live",
     "category": "Musik",
     "categories": [
       "Musik"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f638ce/1791208658620/RFM_2024_WEBB-460x350.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_(2)_20261102_161513.jpg",
     "imageAlt": "Rumours of Fleetwood Mac",
-    "sourceName": "Malmö stad",
+    "sourceName": "Malmö Live",
     "sourceUrl": "https://kulturbolaget.se/konserter/2026/rumours-of-fleetwood-mac-50th-anniversary-2027-mlm/",
-    "verifiedAt": "2026-11-02"
+    "verifiedAt": "2026-11-02",
+    "endsAt": "2027-05-28T21:30:00+02:00"
   },
   {
     "id": "malmo-stad-5-7e4bdcf31a1828912591635",
@@ -6976,14 +6424,14 @@
     "category": "Musik",
     "categories": [
       "Musik",
-      "Konst",
+      "Scen",
       "Fritid"
     ],
     "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63392/1790867154571/sommarl%C3%A4ger.jpg",
     "imageAlt": "Kulturskolans anpassade sommarläger",
     "sourceName": "Malmö stad",
     "sourceUrl": "https://malmo.se/Uppleva-och-gora/Evenemang/Evenemang-i-Malmo/Evenemangssida.html?id=5.7e4bdcf31a1828912591635&title=Kulturskolans-anpassade-sommarl%C3%A4ger",
-    "verifiedAt": "2026-10-29"
+    "verifiedAt": "2026-11-02"
   },
   {
     "id": "sunset-boulevard-2027-09-10",
@@ -7018,20 +6466,20 @@
     "verifiedAt": "2026-10-31"
   },
   {
-    "id": "malmo-stad-5-e99dd2f1a08fc27cf98e8e",
+    "id": "the-mission-2027-10-04-18052d37",
     "title": "The Mission",
-    "startsAt": "2027-10-04T22:00:00+02:00",
-    "endsAt": "2027-10-04T22:00:00+02:00",
+    "startsAt": "2027-10-04T20:00:00+02:00",
     "venue": "Plan B",
     "category": "Musik",
     "categories": [
       "Musik"
     ],
-    "imageUrl": "https://devenemang.malmo.se/images/200.43d197e1a03e3119f63885/1791207888628/TheMisson_jpg.jpg",
+    "imageUrl": "https://www.visitmalmo.se/Upload/Article/2_(1)_20261102_161254.jpg",
     "imageAlt": "The Mission",
-    "sourceName": "Malmö stad",
-    "sourceUrl": "https://kulturbolaget.se/konserter/2026/the-mission-mlm/",
-    "verifiedAt": "2026-11-02"
+    "sourceName": "Plan B",
+    "sourceUrl": "https://nortic.se/ticket/show/358007",
+    "verifiedAt": "2026-11-02",
+    "endsAt": "2027-10-04T22:00:00+02:00"
   },
   {
     "id": "brit-floyd-2027-10-08-ca94b096",

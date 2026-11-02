@@ -112,7 +112,7 @@ function App() {
   const categoryScroller = useRef<HTMLDivElement>(null)
   const [categoryScroll, setCategoryScroll] = useState({ left: false, right: false })
   const [query, setQuery] = useState('')
-  const [category, setCategory] = useState<'Alla' | EventCategory>('Alla')
+  const [selectedCategories, setSelectedCategories] = useState<EventCategory[]>([])
   const [dateFilter, setDateFilter] = useState<DateFilter>('all')
   const [todayKey] = useState(() => dateKey(new Date()))
   const currentYear = todayKey.slice(0, 4)
@@ -171,7 +171,7 @@ function App() {
       || (dateFilter === 'weekend' && startsOn <= weekendRange[1] && endsOn >= weekendRange[0])
 
     return searchText.includes(query.toLocaleLowerCase('sv-SE'))
-      && (category === 'Alla' || (event.categories ?? [event.category]).includes(category))
+      && (selectedCategories.length === 0 || selectedCategories.every((selected) => (event.categories ?? [event.category]).includes(selected)))
       && matchesDate
       && (!savedOnly || savedIds.includes(event.id))
   })
@@ -184,7 +184,7 @@ function App() {
 
   function clearFilters() {
     setQuery('')
-    setCategory('Alla')
+    setSelectedCategories([])
     setDateFilter('all')
     setSavedOnly(false)
   }
@@ -259,11 +259,19 @@ function App() {
             <div className="category-viewport" ref={categoryScroller} role="group" aria-label="Filtrera efter kategori">
               {categories.map((item) => (
                 <button
-                  className={`category-chip ${category === item ? 'is-selected' : ''}`}
+                  className={`category-chip ${(item === 'Alla' ? selectedCategories.length === 0 : selectedCategories.includes(item)) ? 'is-selected' : ''}`}
                   key={item}
                   type="button"
-                  aria-pressed={category === item}
-                  onClick={() => setCategory(item)}
+                  aria-pressed={item === 'Alla' ? selectedCategories.length === 0 : selectedCategories.includes(item)}
+                  onClick={() => {
+                    if (item === 'Alla') {
+                      setSelectedCategories([])
+                      return
+                    }
+                    setSelectedCategories((current) => current.includes(item)
+                      ? current.filter((selected) => selected !== item)
+                      : [...current, item])
+                  }}
                 >
                   {item}
                 </button>
